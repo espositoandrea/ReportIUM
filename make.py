@@ -64,6 +64,7 @@ def clean():
 
 @target
 def documentazione():
+    print("Building documentation")
     os.chdir('documentazione')
     build_latex('ReportIUM')
     os.chdir('..')
@@ -136,7 +137,7 @@ def grab_pdf():
 def dist():
     all()
     for file in grab_pdf():
-        shutil.move(file, 'out/')
+        shutil.move(file, os.path.join('out/', os.path.basename(file)))
 
 
 if __name__ == "__main__":
