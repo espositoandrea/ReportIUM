@@ -1,1 +1,15 @@
 Locazione,Problema,Euristica violata,Possibile soluzione,Gravità
+Home page,I bottoni presenti nella sezione “Servizi” non sono realmente bottoni ma link,Visibilità dello stato del sistema,"Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo",4
+Home page,"Nella sezione “Servizi”, alcuni bottoni sono in realtà dei link doppi, ovvero aventi target differenti in base alla zona cliccata.",Visibilità dello stato del sistema,Suddividere i due link in due bottoni differenti,5
+Pagina “Bandi di concorso”,Il link per accedere ai bandi precedenti al 28/11/2019 fa uscire l’utente dal sito senza alcun avvertimento,Riconoscimento piuttosto di memorizzazione,Variare l’icona del link o introdurre un messaggio pop-up che avvisi l’utente,3
+Home page,La sezione “Notizie” (ritenute fondamentale) non è raggiungibile senza fare scrolling,Visibilità dello stato del sistema,Riduzione della dimensione del banner del sito o spostamento della sezione notizie in una sidebar,3
+Pagina “Amministrazione e uffici”,I bottoni non sono realmente bottoni ma link,Visibilità dello stato del sistema,"Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo",4
+Pagina “Contatti”,I bottoni non sono realmente bottoni ma link,Visibilità dello stato del sistema,"Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo",4
+Pagina “Contatti”,Lo stile dei “bottoni” non è coerente con quello delle altre pagine,Coerenza e standard,Variare lo stile dei “bottoni” in “Contatti” per uniformarlo a quello delle altre pagine,3
+Pagina “News”,"Il bottone “Visualizza altri articoli” suggerisce la pressione del tasto “shift” per visualizzare tutti gli articoli, ma è comunque richiesto un click con il mouseda parte dell’utente",Allineamento tra il mondo del sistema e quello reale,Variare la label del bottone affinché suggerisca anche il click,2
+\textit{Nessuna locazione},La sezione “Tasse e tributi locali” non è raggiungibile senza utilizzare la funzione di ricerca,-,Riprogettare la pagina “Aree tematiche” per includere i link mancanti,5
+Pagina “Vivere Taranto”,I bottoni non sono realmente bottoni ma link,Visibilità dello stato del sistema,"Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo",4
+"Pagina “Teatro, cinema e sale congressi”",I bottoni non sono realmente bottoni ma link,Visibilità dello stato del sistema,"Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo",4
+Home page,"Le icone legate ad alcuni bottoni sono poco chiare (per esempio, l’icona del bottone “Statuto e Regolamenti dell'Ente”",Allineamento tra il mondo del sistema e quello reale,Variare le icone poco chiare,2
+Home page,"L’icona del bottone “Amministrazione Trasparente” è una lente d’ingrandimento, associata alla funzione di ricerca)",Coerenza e standard ,Variare l’icona del bottone “Amministrazione trasparente”,3
+Home page,Nella sezione “Aree tematiche” vi è un uso di diversi colori che non aggiungono alcuna informazione aggiuntiva,Design estetico e minimalista,Ridurre l’uso inutile di colori aggiuntivi,1

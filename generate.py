@@ -2,6 +2,7 @@ import argparse
 import pandas as pd
 import os
 import datetime
+import re
 from babel.dates import format_date, format_datetime, format_time
 
 
@@ -35,24 +36,45 @@ def get_data_from_file(file_name):
 
     return data
 
+
 def latex_table_from_data(data, author):
+    def process_string(string):
+        string = re.sub(r"['‘](.*?)['’]", r"`\1'", string)
+        string = re.sub(r'["“](.*?)["”]', r"``\1''", string)
+        string = string.replace('’', "'")
+        return string
+
     table = list()
     for index, row in data.iterrows():
         table += list('\t' + str(index + 1) + ' & ')
-        table += list(' & '.join([str(l[1]) for l in row.iteritems()]) + ' \\\\\n')
+        table += list(' & '.join([process_string(str(l[1]))
+                                  for l in row.iteritems()]) + ' \\\\\n')
         # table += '&'.join()
 
     table[-3:] = "\\\\*"
     table = ''.join(table)
-    latex = f'''\\begin{{longtable}}[c]{{@{{}}m{{1cm}}llllm{{2cm}}@{{}}}}
+    latex = f'''\\rowcolors{{2}}{{white}}{{gray!25}}
+\\begin{{tabularx}}{{\\textwidth}}{{@{{}}
+		>{{\\centering\\arraybackslash\\hsize=.25\\hsize\\linewidth=\\hsize}}X
+		X
+		>{{\\hsize=1.5\\hsize\\linewidth=\\hsize}}X
+		X
+		>{{\\hsize=1.5\\hsize\\linewidth=\\hsize}}X
+		>{{\\centering\\arraybackslash\\hsize=.5\\hsize\\linewidth=\\hsize}}X
+		@{{}}
+	}}
 \t\\caption{{Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da {author}.}}
 \t\\label{{tab:val-euristica-{author.replace(' ', '')}}}\\\\
 \t\\toprule
 \tN.ro & Locazione & Problema & Euristica violata & Possibile soluzione & Grado di severità\\footnotemark \\\\* \\midrule
+\t\\endfirsthead
+\t\\toprule
+\\rowcolor{{white}}
+\tN.ro & Locazione & Problema & Euristica violata & Possibile soluzione & Grado di severità \\\\* \\midrule
 \t\\endhead
 {table}
 \t\\bottomrule
-\end{{longtable}}
+\\end{{tabularx}}
 \\footnotetext{{Scala $\left [1, 5 \\right ]$, dove $1$ indica un problema lieve e $5$ un problema grave}}'''
     return latex
 
@@ -60,20 +82,23 @@ def latex_table_from_data(data, author):
 def fill_template(author, data, input_file_name):
     with open(os.path.join(os.path.dirname(__file__), 'valutazione-euristica/_master/main.tex'), "r") as f:
         content = f.read()
-    
+
     content = content.replace('~~AUTHOR~~', author)
-    content = content.replace('~~DATE~~', format_date(datetime.datetime.now(), format='long', locale='it'))
+    content = content.replace('~~DATE~~', format_date(
+        datetime.datetime.now(), format='long', locale='it'))
 
     base_name = os.path.splitext(os.path.split(input_file_name)[-1])[0]
-    with open(os.path.join(os.path.dirname(__file__), 'valutazione-euristica/',base_name,base_name + '.tex'), "w") as f:
+    with open(os.path.join(os.path.dirname(__file__), 'valutazione-euristica/', base_name, base_name + '.tex'), "w") as f:
         f.write(content)
 
-    with open(os.path.join(os.path.dirname(__file__), 'valutazione-euristica/',base_name,'table.tex'), "w") as f:
+    with open(os.path.join(os.path.dirname(__file__), 'valutazione-euristica/', base_name, 'table.tex'), "w") as f:
         f.write(latex_table_from_data(data, author))
+
 
 def run_externally(inputfile, author):
     data = get_data_from_file(inputfile)
     fill_template(author, data, inputfile)
+
 
 def main():
     args = setup_args()
