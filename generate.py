@@ -71,6 +71,9 @@ def fill_template(author, data, input_file_name):
     with open(os.path.join(os.path.dirname(__file__), 'valutazione-euristica/',base_name,'table.tex'), "w") as f:
         f.write(latex_table_from_data(data, author))
 
+def run_externally(inputfile, author):
+    data = get_data_from_file(inputfile)
+    fill_template(author, data, inputfile)
 
 def main():
     args = setup_args()
