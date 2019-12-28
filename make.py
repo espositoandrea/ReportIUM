@@ -31,7 +31,7 @@ def build_latex(texfile):
     pdflatex = ['pdflatex', '-interaction=batchmode', f'{texfile}.tex']
     biber = ['biber', texfile]
 
-    for command in progressbar.progressbar([pdflatex, biber, pdflatex, pdflatex], redirect_stderr=True, widgets=__progressbar_widgets):
+    for command in progressbar.progressbar([pdflatex, biber, pdflatex, pdflatex], redirect_stdout=True, redirect_stderr=True, widgets=__progressbar_widgets):
         try:
             subprocess.run(command, check=True,
                            stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
@@ -143,8 +143,9 @@ if __name__ == "__main__":
     if len(sys.argv) <= 1:
         all()
     else:
-        try:
-            __TARGETS__[sys.argv[1]]()
-        except KeyError:
-            print(
-                f"{colorama.Fore.RED}ERROR: The specified target could not be found.{colorama.Style.RESET_ALL}")
+        for target in sys.argv[1:]:
+            try:
+                __TARGETS__[target]()
+            except KeyError:
+                print(
+                    f"{colorama.Fore.RED}ERROR: The specified target ('{target}') could not be found.{colorama.Style.RESET_ALL}")

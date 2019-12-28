@@ -1,10 +1,23 @@
-\begin{longtable}[c]{@{}m{1cm}llllm{2cm}@{}}
+\rowcolors{2}{white}{gray!25}
+\begin{tabularx}{\textwidth}{@{}
+		>{\centering\arraybackslash\hsize=.25\hsize\linewidth=\hsize}X
+		X
+		>{\hsize=1.5\hsize\linewidth=\hsize}X
+		X
+		>{\hsize=1.5\hsize\linewidth=\hsize}X
+		>{\centering\arraybackslash\hsize=.5\hsize\linewidth=\hsize}X
+		@{}
+	}
 	\caption{Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da Davide De Salvo.}
 	\label{tab:val-euristica-DavideDeSalvo}\\
 	\toprule
 	N.ro & Locazione & Problema & Euristica violata & Possibile soluzione & Grado di severità\footnotemark \\* \midrule
+	\endfirsthead
+	\toprule
+\rowcolor{white}
+	N.ro & Locazione & Problema & Euristica violata & Possibile soluzione & Grado di severità \\* \midrule
 	\endhead
 \\*
 	\bottomrule
-\end{longtable}
+\end{tabularx}
 \footnotetext{Scala $\left [1, 5 \right ]$, dove $1$ indica un problema lieve e $5$ un problema grave}
