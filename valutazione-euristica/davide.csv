@@ -1,10 +1,10 @@
 Locazione,Problema,Euristica violata,Possibile soluzione,Gravit√†
-Home page,I link sono all'interno di aree che li fanno sembrare dei bottoni ma le aree non sono cliccabili,Visibilit‡ dello stato del sistema,Rendere i bottoni cliccabili e non il testo,4 
-Home page,L'etichetta utilizzata per il link non Ë unica ma Ë divisa in due link che potrebbero portare a pensare al raggiungimento di due pagine diverse come destinazione,Visibilit‡ dello stato del sistema,Rendere unico il link,4
-Home page, Link inutili che non portano a nulla, Visibilit‡ dello stato del sistema, Togliere il link,5
-Pagina bandi di concorso e la pagina modulistica dei procedimenti, Le breadcrumb sono ben evidenziate ma sbagliate,Controllo da parte dell'utente e sua liber‡,Togliere servizi dalla breadcrumb o suddividere e organizzare meglio le pagine,3
+Home page,I link sono all'interno di aree che li fanno sembrare dei bottoni ma le aree non sono cliccabili,Visibilit√† dello stato del sistema,Rendere i bottoni cliccabili e non il testo,4 
+Home page,L'etichetta utilizzata per il link non √® unica ma √® divisa in due link che potrebbero portare a pensare al raggiungimento di due pagine diverse come destinazione,Visibilit√† dello stato del sistema,Rendere unico il link,4
+Home page, Link inutili che non portano a nulla, Visibilit√† dello stato del sistema, Togliere il link,5
+Pagina bandi di concorso e la pagina modulistica dei procedimenti, Le breadcrumb sono ben evidenziate ma sbagliate,Controllo da parte dell'utente e sua libert√†,Togliere servizi dalla breadcrumb o suddividere e organizzare meglio le pagine,3
 Pagina bandi di concorso, Cliccando su concorsi precedenti vado su una pagina con un layout completamente diverso dal resto del sito,Coerenza e standard, Usare lo stesso stile per tutte le pagine, 4
-Su molte pagine del sito,L'URL non Ë coerente rispetto ai nomi delle pagine che vengono cliccate,Visibilit‡ dello stato del sistema,Rendere l'URL coerente,5
-Nessuna locazione, La pagina per leggere il regolamento della Tari e per il suo pagamento non Ë raggiungibile tramite link ma solo tramite ricerca,Visibilit‡ dello stato del sistema,Aggiungere un link per collegare il percorso,5
+Su molte pagine del sito,L'URL non √® coerente rispetto ai nomi delle pagine che vengono cliccate,Visibilit√† dello stato del sistema,Rendere l'URL coerente,5
+Nessuna locazione, La pagina per leggere il regolamento della Tari e per il suo pagamento non √® raggiungibile tramite link ma solo tramite ricerca,Visibilit√† dello stato del sistema,Aggiungere un link per collegare il percorso,5
 Home page,Etichette nella navbar non appropriate,Allineamento tra il mondo del sistema e quello reale,Dare ai link etichette appropriate,4
-Pagina vivere taranto,I link sono all'interno di aree che li fanno sembrare dei bottoni ma le aree non sono cliccabili,Visibilit‡ dello stato del sistema,Rendere i bottoni cliccabili e non il testo,4 
+Pagina vivere taranto,I link sono all'interno di aree che li fanno sembrare dei bottoni ma le aree non sono cliccabili,Visibilit√† dello stato del sistema,Rendere i bottoni cliccabili e non il testo,4
