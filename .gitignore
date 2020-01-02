@@ -1,3 +1,7 @@
+# Remove all PDF files that are not in the 'out/' folder.
+*.pdf
+!out/*.pdf
+
 
 # Created by https://www.gitignore.io/api/tex,latex,visualstudiocode,python
 # Edit at https://www.gitignore.io/?templates=tex,latex,visualstudiocode,python
