@@ -1,0 +1,6 @@
+[[tab-val-euristica-GrazianoMontanaro]]
+.Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da Graziano Montanaro.
+[cols="6*^.^", options="header"]
+|===
+| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
+|===

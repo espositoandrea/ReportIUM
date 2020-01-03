@@ -1,0 +1,23 @@
+[preface#preface]
+== Prefazione
+
+Il presente documento illustra lo studio di usabilità condotto dal team
+"`__F.S.C -- Five Students of Computer Science__`" seguendo le istruzioni della
+Prof.ssa Rosa Lanzilotti, docente del corso di "`__Interazione Uomo Macchina__`"
+del terzo anno del Corso di Laurea in Informatica e Comunicazione Digitale (sede
+di Taranto dell'Università degli Studi di Bari "`A. Moro`").
+
+In particolare, lo studio verte sulla valutazione dell'usabilità del sito
+internet del comune di Taranto (http://www.comune.taranto.it/) al fine di
+analizzarne le criticità e progettare delle possibili soluzioni atte a
+migliorarne l'esperienza d'uso.
+
+In particolare, nello svolgimento della valutazione si utilizzeranno due
+tecniche:
+
+* Valutazione euristica
+* Valutazione con tecnica _thinking aloud_
+
+La valutazione con tecnica thinking aloud richiederà, inoltre, il coinvolgimento
+di sei utenti, opportunamente selezionati in base a criteri di profilazione
+specifici in modo che siano rappresentativi della possibile utenza del sito.

@@ -1,0 +1,22 @@
+[[tab-val-euristica-AlessandroAnnese]]
+.Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da Alessandro Annese.
+[cols="6*^.^", options="header"]
+|===
+| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
+| 1 | Home Page | I bottoni presenti nella sezione "`Servizi`" sono in realtà contenitori di link. | Visibilità dello stato del sistema | Rendere il bottone cliccabile (con i relativi cambi di stato) rimuovendone il link | 4 
+| 2 | Home Page | La sezione "`In primo piano`", che mostra una carrellata delle ultime news del comune, è mostrata in modo integrale effettuando lo scroll della pagina. | Visibilità dello stato del sistema | Spostare la sezione in una parte più alta della pagina affiancandola, ad esempio, al carosello di immagini. | 5 
+| 3 | Home Page | Nella sezione "`Servizi`" alcuni bottoni hanno, al loro interno, dei link doppi che puntano a due pagine differenti. | Visibilità dello stato del sistema | Dividere i link in due bottoni differenti | 5 
+| 4 | Home Page | Nella sezione ""`Servizi`" alcuni bottoni hanno, al loro interno, dei link doppi che danno l`"impressione di puntare a due pagine differenti quando, in realtà, puntano alla stessa pagina. | Visibilità dello stato del sistema | Unificare i due link | 4 
+| 5 | Home Page | Nella sezione ""`Servizi`" il link "`Amministrazione trasparente`" punta ad un sito esterno senza avvisare l`"utente | Riconoscere piuttosto che ricordare | Introdurre un pop-up di avviso | 4 
+| 6 | Home Page | Nella sezione ""`Aree tematiche`" sono presenti dei contenitori con, al loro interno, immagini e link. Alcune immagini sono anch`"esse dei link che non vengono evidenziati e che puntano a pagine non coerenti. | Visibilità dello stato del sistema | Rimuovere il collegamento dalle immagini oppure creare ulteriori contenitori che usino tali collegamenti | 5 
+| 7 | _Tutte le pagine_ | In alto a destra, all'"```"header, sono presenti dei link (sottoforma di icone) che non puntano a nulla. | Visibilità dello stato del sistema |  Modificare il tono delle icone che non puntano ad alcuna pagina o rimuoverle del tutto | 2 
+| 8 | Vivere Taranto | Sono presenti dei bottoni (non cliccabili) con, al loro interno, dei link. | Visibilità dello stato del sistema | Rimuovere i link e rendere i bottoni cliccabili | 4 
+| 9 | Vivere Taranto | Sono presenti dei bottoni che hanno tutti la stessa icona. | Visibilità dello stato del sistema | Modificare le icone presenti con altre più coerenti | 5 
+| 10 | Home Page | Dopo la sezione "`Aree Tematiche`" è presente una sezione (senza nome) che contiene dei link sotto forma di immagine che, a primo impatto, non sembrano link. | Visibilità dello stato del sistema | Evidenziare meglio la sezione introducendo dei bottoni al posto delle immagini | 3 
+| 11 | Amministrazione e uffici | I bottoni presenti nella pagina sono in realtà contenitori di link. | Visibilità dello stato del sistema | Rendere il bottone cliccabile (con i realtivi cambi di stato) rimuovendone il link | 4 
+| 12 | Contatta il comune | I bottoni presenti nella pagina sono in realtà contenitori di link. | Visibilità dello stato del sistema | Rendere il bottone cliccabile (con i realtivi cambi di stato) rimuovendone il link | 4 
+| 13 | Contatta il comune | Lo stile dei bottoni è diverso rispetto a quelli presenti nel sito. | Coerenza e standard | Rendere uniforme lo stile dei bottoni | 5 
+| 14 | Home Page | Alcune icone presenti nei bottoni della sezione "`Servizi`" non sono chiare. | Corrispondenza fra il mondo reale e il sistema | Modificare le icone tenendo conto dell'elemento che dovranno rappresentare | 2 
+| 15 | _Tutte le pagine_ | Le breadcrumbs danno la possibilità all'utente di poter navigare alla stessa pagina in cui si trova. | Libertà e controllo da parte degli utenti | Rimuovere il link dell'ultima breadcrumb lasciandone solo il testo | 2 
+| 16 | _Tutte le pagine_ | Se l'utente naviga in una pagina tramite una delle sezioni presenti nella Home Page, le breadcrumbs mostrano un percorso errato e non navigabile. | Libertà e controllo da parte degli utenti | Rendere il testo delle breadcrumbs completamente cliccabile e con la tracciabilità corretta del percorso fatto dall'utente. | 5 
+|===

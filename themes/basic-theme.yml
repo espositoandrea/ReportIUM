@@ -1,0 +1,17 @@
+extends: default
+
+page:
+  margin: [2.5cm, 2.5cm, 2.5cm, 2.5cm]
+  margin-inner: 3cm
+  margin-outer: 2.5cm
+
+abstract_first_line_font_style: normal
+
+toc:
+  indent: 0
+  h1:
+    font-style: bold_italic
+    font-size: $base-font-size * 1.75
+  h2:
+    font-style: bold
+    font-size: $base-font-size * 1.5
