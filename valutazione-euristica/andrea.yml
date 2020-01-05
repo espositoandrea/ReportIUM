@@ -1,86 +1,72 @@
 data: "28 dicembre 2019"
 problemi:
-  -
-      locazione: Home page
-      problema: I bottoni presenti nella sezione “Servizi” non sono realmente bottoni ma link
-      euristica: Visibilità dello stato del sistema
-      soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
-      gravita: 4
-  -
-      locazione: Home page
-      problema: Nella sezione “Servizi”, alcuni bottoni sono in realtà dei link doppi, ovvero aventi target differenti in base alla zona cliccata.
-      euristica: Visibilità dello stato del sistema
-      soluzione: Suddividere i due link in due bottoni differenti
-      gravita: 5
-  -
-      locazione: Pagina “Bandi di concorso”
-      problema: Il link per accedere ai bandi precedenti al 28/11/2019 fa uscire l’utente dal sito senza alcun avvertimento
-      euristica: Riconoscimento piuttosto di memorizzazione
-      soluzione: Variare l’icona del link o introdurre un messaggio pop-up che avvisi l’utente
-      gravita: 3
-  -
-      locazione: Home page
-      problema: La sezione “Notizie” (ritenute fondamentale) non è raggiungibile senza fare scrolling
-      euristica: Visibilità dello stato del sistema
-      soluzione: Riduzione della dimensione del banner del sito o spostamento della sezione notizie in una sidebar
-      gravita: 3
-  -
-      locazione: Pagina “Amministrazione e uffici”
-      problema: I bottoni non sono realmente bottoni ma link
-      euristica: Visibilità dello stato del sistema
-      soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
-      gravita: 4
-  -
-      locazione: Pagina “Contatti”
-      problema: I bottoni non sono realmente bottoni ma link
-      euristica: Visibilità dello stato del sistema
-      soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
-      gravita: 4
-  -
-      locazione: Pagina “Contatti”
-      problema: Lo stile dei “bottoni” non è coerente con quello delle altre pagine
-      euristica: Coerenza e standard
-      soluzione: Variare lo stile dei “bottoni” in “Contatti” per uniformarlo a quello delle altre pagine
-      gravita: 3
-  -
-      locazione: Pagina “News”
-      problema: Il bottone “Visualizza altri articoli” suggerisce la pressione del tasto “shift” per visualizzare tutti gli articoli, ma è comunque richiesto un click con il mouseda parte dell’utente
-      euristica: Allineamento tra il mondo del sistema e quello reale
-      soluzione: Variare la label del bottone affinché suggerisca anche il click
-      gravita: 2
-  -
-      locazione: _Nessuna locazione_
-      problema: La sezione “Tasse e tributi locali” non è raggiungibile senza utilizzare la funzione di ricerca
-      euristica: "-"
-      soluzione: Riprogettare la pagina “Aree tematiche” per includere i link mancanti
-      gravita: 5
-  -
-      locazione: Pagina “Vivere Taranto”
-      problema: I bottoni non sono realmente bottoni ma link
-      euristica: Visibilità dello stato del sistema
-      soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
-      gravita: 4
-  -
-      locazione: Pagina “Teatro, cinema e sale congressi”
-      problema: I bottoni non sono realmente bottoni ma link
-      euristica: Visibilità dello stato del sistema
-      soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
-      gravita: 4
-  -
-      locazione: Home page
-      problema: 'Le icone legate ad alcuni bottoni sono poco chiare (per esempio, l’icona del bottone “Statuto e Regolamenti dell''Ente”'
-      euristica: Allineamento tra il mondo del sistema e quello reale
-      soluzione: Variare le icone poco chiare
-      gravita: 2
-  -
-      locazione: Home page
-      problema: L’icona del bottone “Amministrazione Trasparente” è una lente d’ingrandimento, associata alla funzione di ricerca)
-      euristica: Coerenza e standard 
-      soluzione: Variare l’icona del bottone “Amministrazione trasparente”
-      gravita: 3
-  -
-      locazione: Home page
-      problema: Nella sezione “Aree tematiche” vi è un uso di diversi colori che non aggiungono alcuna informazione aggiuntiva
-      euristica: Design estetico e minimalista
-      soluzione: Ridurre l’uso inutile di colori aggiuntivi
-      gravita: 1
+  - locazione: Home page
+    problema: I bottoni presenti nella sezione “Servizi” non sono realmente bottoni ma link
+    euristica: Visibilità dello stato del sistema
+    soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
+    gravita: 4
+  - locazione: Home page
+    problema: Nella sezione “Servizi”, alcuni bottoni sono in realtà dei link doppi, ovvero aventi target differenti in base alla zona cliccata.
+    euristica: Visibilità dello stato del sistema
+    soluzione: Suddividere i due link in due bottoni differenti
+    gravita: 5
+  - locazione: Pagina “Bandi di concorso”
+    problema: Il link per accedere ai bandi precedenti al 28/11/2019 fa uscire l’utente dal sito senza alcun avvertimento
+    euristica: Riconoscimento piuttosto di memorizzazione
+    soluzione: Variare l’icona del link o introdurre un messaggio pop-up che avvisi l’utente
+    gravita: 3
+  - locazione: Home page
+    problema: La sezione “Notizie” (ritenute fondamentale) non è raggiungibile senza fare scrolling
+    euristica: Visibilità dello stato del sistema
+    soluzione: Riduzione della dimensione del banner del sito o spostamento della sezione notizie in una sidebar
+    gravita: 3
+  - locazione: Pagina “Amministrazione e uffici”
+    problema: I bottoni non sono realmente bottoni ma link
+    euristica: Visibilità dello stato del sistema
+    soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
+    gravita: 4
+  - locazione: Pagina “Contatti”
+    problema: I bottoni non sono realmente bottoni ma link
+    euristica: Visibilità dello stato del sistema
+    soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
+    gravita: 4
+  - locazione: Pagina “Contatti”
+    problema: Lo stile dei “bottoni” non è coerente con quello delle altre pagine
+    euristica: Coerenza e standard
+    soluzione: Variare lo stile dei “bottoni” in “Contatti” per uniformarlo a quello delle altre pagine
+    gravita: 3
+  - locazione: Pagina “News”
+    problema: Il bottone “Visualizza altri articoli” suggerisce la pressione del tasto “shift” per visualizzare tutti gli articoli, ma è comunque richiesto un click con il mouseda parte dell’utente
+    euristica: Allineamento tra il mondo del sistema e quello reale
+    soluzione: Variare la label del bottone affinché suggerisca anche il click
+    gravita: 2
+  - locazione: _Nessuna locazione_
+    problema: La sezione “Tasse e tributi locali” non è raggiungibile senza utilizzare la funzione di ricerca
+    euristica: "-"
+    soluzione: Riprogettare la pagina “Aree tematiche” per includere i link mancanti
+    gravita: 5
+  - locazione: Pagina “Vivere Taranto”
+    problema: I bottoni non sono realmente bottoni ma link
+    euristica: Visibilità dello stato del sistema
+    soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
+    gravita: 4
+  - locazione: Pagina “Teatro, cinema e sale congressi”
+    problema: I bottoni non sono realmente bottoni ma link
+    euristica: Visibilità dello stato del sistema
+    soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
+    gravita: 4
+  - locazione: Home page
+    problema: "Le icone legate ad alcuni bottoni sono poco chiare (per esempio, l’icona del bottone “Statuto e Regolamenti dell'Ente”"
+    euristica: Allineamento tra il mondo del sistema e quello reale
+    soluzione: Variare le icone poco chiare
+    gravita: 2
+  - locazione: Home page
+    problema: L’icona del bottone “Amministrazione Trasparente” è una lente d’ingrandimento, associata alla funzione di ricerca)
+    euristica: Coerenza e standard
+    soluzione: Variare l’icona del bottone “Amministrazione trasparente”
+    gravita: 3
+  - locazione: Home page
+    problema: Nella sezione “Aree tematiche” vi è un uso di diversi colori che non aggiungono alcuna informazione aggiuntiva
+    euristica: Design estetico e minimalista
+    soluzione: Ridurre l’uso inutile di colori aggiuntivi
+    gravita: 1

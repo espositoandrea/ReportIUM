@@ -1,62 +1,52 @@
 data: "3 gennaio 2020"
 problemi:
-  -
-      locazione: Home page
-      problema: 'I link sono all''interno di aree che li fanno sembrare dei bottoni ma le aree non sono cliccabili'
-      euristica: Visibilità dello stato del sistema
-      soluzione: Rendere i bottoni cliccabili e non il testo
-      gravita: 4 
-  -
-      locazione: Home page
-      problema: 'L''etichetta utilizzata per il link non è unica ma è divisa in due link che potrebbero portare a pensare al raggiungimento di due pagine diverse come destinazione'
-      euristica: Visibilità dello stato del sistema
-      soluzione: Rendere unico il link
-      gravita: 4
-  -
-      locazione: Home page
-      problema:  Link inutili che non portano a nulla
-      euristica:  Visibilità dello stato del sistema
-      soluzione:  Togliere il link
-      gravita: 5
-  -
-      locazione: Pagina bandi di concorso e la pagina modulistica dei procedimenti
-      problema:  Le breadcrumb sono ben evidenziate ma sbagliate
-      euristica: 'Controllo da parte dell''utente e sua libertà'
-      soluzione: Togliere servizi dalla breadcrumb o suddividere e organizzare meglio le pagine
-      gravita: 3
-  -
-      locazione: Pagina bandi di concorso
-      problema:  Cliccando su concorsi precedenti vado su una pagina con un layout completamente diverso dal resto del sito
-      euristica: Coerenza e standard
-      soluzione:  Usare lo stesso stile per tutte le pagine
-      gravita:  4
-  -
-      locazione: Su molte pagine del sito
-      problema: 'L''URL non è coerente rispetto ai nomi delle pagine che vengono cliccate'
-      euristica: Visibilità dello stato del sistema
-      soluzione: 'Rendere l''URL coerente'
-      gravita: 5
-  -
-      locazione: Nessuna locazione
-      problema:  La pagina per leggere il regolamento della Tari e per il suo pagamento non è raggiungibile tramite link ma solo tramite ricerca
-      euristica: Visibilità dello stato del sistema
-      soluzione: Aggiungere un link per collegare il percorso
-      gravita: 5
-  -
-      locazione: Home page
-      problema: Etichette nella navbar non appropriate
-      euristica: Allineamento tra il mondo del sistema e quello reale
-      soluzione: Dare ai link etichette appropriate
-      gravita: 4
-  -
-      locazione: Pagina vivere taranto
-      problema: 'I link sono all''interno di aree che li fanno sembrare dei bottoni ma le aree non sono cliccabili'
-      euristica: Visibilità dello stato del sistema
-      soluzione: Rendere i bottoni cliccabili e non il testo
-      gravita: 4
-  -
-      locazione: Nessuna locazione
-      problema:  La pagina per visualizzare gli orari degli uffici non è raggiungibile tramite link ma solo tramite ricerca
-      euristica: Visibilità dello stato del sistema
-      soluzione: Aggiungere un link per collegare il percorso
-      gravita: 5
+  - locazione: Home page
+    problema: "I link sono all'interno di aree che li fanno sembrare dei bottoni ma le aree non sono cliccabili"
+    euristica: Visibilità dello stato del sistema
+    soluzione: Rendere i bottoni cliccabili e non il testo
+    gravita: 4
+  - locazione: Home page
+    problema: "L'etichetta utilizzata per il link non è unica ma è divisa in due link che potrebbero portare a pensare al raggiungimento di due pagine diverse come destinazione"
+    euristica: Visibilità dello stato del sistema
+    soluzione: Rendere unico il link
+    gravita: 4
+  - locazione: Home page
+    problema: Link inutili che non portano a nulla
+    euristica: Visibilità dello stato del sistema
+    soluzione: Togliere il link
+    gravita: 5
+  - locazione: Pagina bandi di concorso e la pagina modulistica dei procedimenti
+    problema: Le breadcrumb sono ben evidenziate ma sbagliate
+    euristica: "Controllo da parte dell'utente e sua libertà"
+    soluzione: Togliere servizi dalla breadcrumb o suddividere e organizzare meglio le pagine
+    gravita: 3
+  - locazione: Pagina bandi di concorso
+    problema: Cliccando su concorsi precedenti vado su una pagina con un layout completamente diverso dal resto del sito
+    euristica: Coerenza e standard
+    soluzione: Usare lo stesso stile per tutte le pagine
+    gravita: 4
+  - locazione: Su molte pagine del sito
+    problema: "L'URL non è coerente rispetto ai nomi delle pagine che vengono cliccate"
+    euristica: Visibilità dello stato del sistema
+    soluzione: "Rendere l'URL coerente"
+    gravita: 5
+  - locazione: Nessuna locazione
+    problema: La pagina per leggere il regolamento della Tari e per il suo pagamento non è raggiungibile tramite link ma solo tramite ricerca
+    euristica: Visibilità dello stato del sistema
+    soluzione: Aggiungere un link per collegare il percorso
+    gravita: 5
+  - locazione: Home page
+    problema: Etichette nella navbar non appropriate
+    euristica: Allineamento tra il mondo del sistema e quello reale
+    soluzione: Dare ai link etichette appropriate
+    gravita: 4
+  - locazione: Pagina vivere taranto
+    problema: "I link sono all'interno di aree che li fanno sembrare dei bottoni ma le aree non sono cliccabili"
+    euristica: Visibilità dello stato del sistema
+    soluzione: Rendere i bottoni cliccabili e non il testo
+    gravita: 4
+  - locazione: Nessuna locazione
+    problema: La pagina per visualizzare gli orari degli uffici non è raggiungibile tramite link ma solo tramite ricerca
+    euristica: Visibilità dello stato del sistema
+    soluzione: Aggiungere un link per collegare il percorso
+    gravita: 5
