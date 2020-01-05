@@ -1,6 +1,6 @@
 = Valutazione Euristica
 Alessandro Annese
-v1.0.0,4 gennaio 2020: Stesura della tabella di valutazione
+v1.0.0,5 gennaio 2020: Stesura della tabella di valutazione
 :toc: left
 :doctype: article
 :sectnums:

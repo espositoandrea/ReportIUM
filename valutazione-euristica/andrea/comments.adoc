@@ -1,3 +1,9 @@
+* Si è inteso un task come "`non completato`" se questo non è stato completato
+  dopo circa novanta minuti di ricerca.
+
+* Si è intesa una pagina come "`non raggiungibile`" se questa non è stata
+  trovata entro circa novanta minuti. 
+
 * Benché non sia strettamente legato all'usabilità del sito, un problema
   da evidenziare è che la connessione avviene (di default) mediante
   protocollo `HTTP` (non `HTTPS`), esponendo l'utente a

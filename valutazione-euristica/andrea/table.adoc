@@ -14,7 +14,7 @@
 | 9 | _Nessuna locazione_ | La sezione "`Tasse e tributi locali`" non è raggiungibile senza utilizzare la funzione di ricerca | - | Riprogettare la pagina "`Aree tematiche`" per includere i link mancanti | 5 
 | 10 | Pagina "`Vivere Taranto`" | I bottoni non sono realmente bottoni ma link | Visibilità dello stato del sistema | Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo | 4 
 | 11 | Pagina "`Teatro, cinema e sale congressi`" | I bottoni non sono realmente bottoni ma link | Visibilità dello stato del sistema | Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo | 4 
-| 12 | Home page | Le icone legate ad alcuni bottoni sono poco chiare (per esempio, l'icona del bottone ""`Statuto e Regolamenti dell`"Ente`" | Allineamento tra il mondo del sistema e quello reale | Variare le icone poco chiare | 2 
+| 12 | Home page | Le icone legate ad alcuni bottoni sono poco chiare (per esempio, l'icona del bottone "`Statuto e Regolamenti dell'Ente`" | Allineamento tra il mondo del sistema e quello reale | Variare le icone poco chiare | 2 
 | 13 | Home page | L'icona del bottone "`Amministrazione Trasparente`" è una lente d'ingrandimento, associata alla funzione di ricerca) | Coerenza e standard  | Variare l'icona del bottone "`Amministrazione trasparente`" | 3 
 | 14 | Home page | Nella sezione "`Aree tematiche`" vi è un uso di diversi colori che non aggiungono alcuna informazione aggiuntiva | Design estetico e minimalista | Ridurre l'uso inutile di colori aggiuntivi | 1 
 |===

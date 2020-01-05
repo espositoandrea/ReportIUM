@@ -3,4 +3,11 @@
 [cols="6*^.^", options="header"]
 |===
 | N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
+| 1 | Home page | Ciò che sembra un bottone non è cliccabile |  è cliccabile solo il testo al suo interno | Visibilità dello stato del sistema | Rendere cliccabile il bottone | 4 
+| 2 | Pagina bandi di concorso | Cliccando su di essa vengo reindirizzato ad una pagina esterna che perde di coerenza con il resto del sito | Consistenza e standard | Mantenere coerente la pagina |  evitando un reindirizzamento esterno | 4 
+| 3 | Home page | Pagina Contatta il comune e Vivere Taranto | Le card non sono cliccabili |  solo il testo al loro interno lo è | Visibilità dello stato del sistema | Rendere cliccabili le card | 4 
+| 4 | Pagina Avvisi | Cliccando su di essa vengo reindirizzato ad una pagina esterna che perde di coerenza col resto del sito | Consistenza e standard | Mantenere coerente la pagina | 4 
+| 5 | Nessuna locazione | La pagina per il pagamento della tassa TARI non è raggiungibile se non attraverso ricerca | Visibilità dello stato del sistema | Inserire il link per tale percorso | 5 
+| 6 | Pagina Bandi di concorso | Le breadcrumb non sono corrette |  non essendoci una pagina dedicata a Servizi che rende di fatto il percorso non cliccabile | Controllo da parte dell'utente e sua libertà | Correggere le breadcrumb | 4 
+| 7 | Nessuna locazione | Non è possibile trovare gli orari di apertura delle sedi se non tramite ricerca | Visibilità dello stato del sistema | Inserire il link per tale percorso | 5 
 |===

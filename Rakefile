@@ -26,9 +26,9 @@ def generate_euristic(input, author = "FSC -- Five Students of Computer Science"
   File.write File.join(File.dirname(__FILE__), "./valutazione-euristica/", base_name, base_name + ".adoc"), template
 
   process_string = ->(string) do
-    string.gsub!(/['‘](.*?)['’]/, "'`\1`'")
+    string.gsub!(/\s['‘](.*?)['’]/, "'`\1`'")
     string.gsub!(/["“](.*?)["”]/, '"`\1`"')
-    string.gsub!(/[``](.*?)['']/, '"`\1`"')
+    string.gsub!(/``(.*?)''/, '"`\1`"')
     string.gsub!("’", "'")
     return string
   end
