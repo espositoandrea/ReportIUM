@@ -1,2 +1,69 @@
 [#gli-obiettivi]
 == Gli obiettivi
+
+L'obiettivo delle attività documentate di seguito è quello di valutare
+l'usabilità del sito web del Comune di Taranto, al fine di identificarne
+eventuali criticità e di proporre soluzioni atte a migliorarne l'esperienza
+d'uso degli utenti finali. A tale scopo saranno dunque utilizzate metodologie
+che mettono a disposizione principi e procedure per la valutazione
+dell'usabilità in un ambiente controllato.
+
+=== Le motivazioni
+
+[quote, Definizione di usabilità nell'ISO 9241, https://www.w3.org/2002/Talks/0104-usabilityprocess/slide3-0.html]
+_____
+La misura con cui un prodotto può essere utilizzato da utenti specifici per il
+raggiungimento di obiettivi specifici con efficacia, efficienza e soddisfazione
+in uno specifico contesto d'uso.
+
+Efficacia:: la precisione e completezza con la quale specifici utenti possono
+raggiungere specifici obiettivi in ambienti specifici.
+
+Efficienza:: La quantità di risorse spese in relazione alla precisione e alla
+completezza degli obiettivi raggiunti.
+
+Soddisfazione:: Il _comfort_ e l'accettabilità del lavoro del sistema per i suoi
+utenti e le altre persone coinvolte nel suo utilizzo.
+_____
+
+Il tema dell'usabilità del software riveste una particolare importanza nel
+contesto attuale: la facilità e il grado di soddisfazione percepiti nell'uso di
+un sistema software possono dunque pregiudicarne il successo e la diffusione.
+Considerati, dunque. i costi relativi alle attività di progettazione e
+realizzazione di un prodotto software è necessario calibrarne opportunamente le
+caratteristiche e le funzionalità affinché queste possano soddisfare le esigenze
+degli utenti a cui è destinato.
+
+Nello specifico caso del progetto in questione, saranno utilizzate metodologie
+specifiche volte alla valutazione dell'usabilità del sito web del Comune di
+Taranto, disponibile all'indirizzo
+http://www.comune.taranto.it/[www.comune.taranto.it].
+
+La valutazione dell'usabilità del sito sarà dunque finalizzata a individuarne le
+eventuali criticità calibrando, quindi, le corrispondenti attività di
+riprogettazione.
+
+=== La valutazione
+
+Gli studi documentati di seguito consentiranno la formulazione di valutazioni
+relative ad aspetti correlati al tema dell'usabilità, quali:
+
+* L'efficacia, ossia l'accuratezza e la completezza con cui specifiche tipologie
+  di utenti possono raggiungere specifici obiettivi.
+
+* L'efficienza, corrispondente alla quantità di risorse spese in rapporto
+  all'accuratezza e alla completezza degli obiettivi raggiunti.
+
+* La soddisfazione, ossia il _comfort_ e l'accettabilità del sistema di lavoro
+  per i suoi utenti e le altre persone influenzate dal suo utilizzo.
+
+* La facilità di apprendimento, per cui si prevede che l'utente raggiunga buone
+  prestazioni in tempi brevi.
+
+* La facilità di memorizzazione, per cui l'utente deve poter interagire con
+  un'interfaccia anche dopo un periodo di lungo inutilizzo, senza essere costretto
+  ad impararne nuovamente il funzionamento.
+
+* La sicurezza e robustezza rispetto all'errore, per cui si prevede che
+  l'impatto dell'errore sull'utilizzo del sistema sia inversamente proporzionale
+  alla probabilità che questo si verifichi.

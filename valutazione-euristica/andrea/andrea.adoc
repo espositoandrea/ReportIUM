@@ -3,6 +3,7 @@ Andrea Esposito
 v1.0.0,28 dicembre 2019: Stesura della tabella di valutazione
 :toc: left
 :doctype: article
+:title-page:
 :sectnums:
 :partnums:
 :sectnumsdepth: 5

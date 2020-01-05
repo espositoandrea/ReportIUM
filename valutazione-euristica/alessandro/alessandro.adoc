@@ -3,6 +3,7 @@ Alessandro Annese
 v1.0.0,3 gennaio 2020: Stesura della tabella di valutazione
 :toc: left
 :doctype: article
+:title-page:
 :sectnums:
 :partnums:
 :sectnumsdepth: 5

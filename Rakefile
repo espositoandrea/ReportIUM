@@ -37,8 +37,8 @@ def generate_euristic(input, author = "FSC -- Five Students of Computer Science"
   File.write File.join(File.dirname(__FILE__), "./valutazione-euristica/", base_name, "table.adoc"), table
 end
 
-def convert_asciidoc(input_file)
-  Asciidoctor.convert_file input_file, backend: "pdf", safe: :unsafe, to_dir: "out/", attributes: { "lang" => "it", "pdf-theme" => "basic", "pdf-themesdir" => "./themes" }, mkdirs: true
+def convert_asciidoc(input_file, theme = "basic")
+  Asciidoctor.convert_file input_file, backend: "pdf", safe: :unsafe, to_dir: "out/", attributes: { "lang" => "it", "pdf-theme" => theme, "pdf-themesdir" => "./themes" }, mkdirs: true
 end
 
 task :default => [:documentazione, :euristica]
@@ -46,38 +46,38 @@ task :default => [:documentazione, :euristica]
 desc "Genera il report completo"
 task :documentazione do
   puts "Building documentation"
-  convert_asciidoc "documentazione/ReportIUM.adoc"
+  convert_asciidoc "documentazione/ReportIUM.adoc", "book"
 end
 
 namespace :euristica do
   desc "Genera la tabella di valutazione euristica di Andrea"
   task :andrea do
     generate_euristic "valutazione-euristica/andrea.yml", "Andrea Esposito"
-    convert_asciidoc "valutazione-euristica/andrea/andrea.adoc"
+    convert_asciidoc "valutazione-euristica/andrea/andrea.adoc", "article"
   end
 
   desc "Genera la tabella di valutazione euristica di Alessandro"
   task :alessandro do
     generate_euristic "valutazione-euristica/alessandro.yml", "Alessandro Annese"
-    convert_asciidoc "valutazione-euristica/alessandro/alessandro.adoc"
+    convert_asciidoc "valutazione-euristica/alessandro/alessandro.adoc", "article"
   end
 
   desc "Genera la tabella di valutazione euristica di Davide"
   task :davide do
     generate_euristic "valutazione-euristica/davide.yml", "Davide De Salvo"
-    convert_asciidoc "valutazione-euristica/davide/davide.adoc"
+    convert_asciidoc "valutazione-euristica/davide/davide.adoc", "article"
   end
 
   desc "Genera la tabella di valutazione euristica di Graziano"
   task :graziano do
     generate_euristic "valutazione-euristica/graziano.yml", "Graziano Montanaro"
-    convert_asciidoc "valutazione-euristica/graziano/graziano.adoc"
+    convert_asciidoc "valutazione-euristica/graziano/graziano.adoc", "article"
   end
 
   desc "Genera la tabella di valutazione euristica di Regina"
   task :regina do
     generate_euristic "valutazione-euristica/regina.yml", "Regina Zaccaria"
-    convert_asciidoc "valutazione-euristica/regina/regina.adoc"
+    convert_asciidoc "valutazione-euristica/regina/regina.adoc", "article"
   end
 end
 

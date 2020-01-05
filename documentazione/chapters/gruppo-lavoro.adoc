@@ -1,2 +1,28 @@
 [#il-gruppo-di-lavoro]
 == Il gruppo di lavoro
+
+Il gruppo di lavoro responsabile delle attività di valutazione documentate nel
+presente documento è il gruppo "`FSC`" del corso di Interazione Uomo-Macchina
+dell'Anno Accademico 2019/20.
+
+=== I membri del gruppo di lavoro
+
+Nella tabella <<tab-gruppo-lavoro>> si riportano alcuni dati dei valutatori
+appartenenti al gruppo di valutazione.
+
+.Il gruppo di lavoro "`FSC`"
+[#tab-gruppo-lavoro]
+[cols="<1,<1", options="header"]
+|===
+|Nome|Cognome
+|{firstname_2}|{lastname_2}
+|{firstname_3}|{lastname_3}
+|{firstname}|{lastname}
+|{firstname_4}|{lastname_4}
+|{firstname_5}|{lastname_5}
+|===
+
+=== Ruoli
+
+Lo svolgimento delle attività previste dalle metodologie precedentemente citate
+prevede l'assunzione di ruoli specifici [...]

@@ -1,0 +1,4 @@
+extends: basic
+heading:
+  h1:
+    font-color: #ff0000

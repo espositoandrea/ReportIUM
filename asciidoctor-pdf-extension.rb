@@ -45,38 +45,6 @@ module AsciidoctorPdfExtensions
         move_down 460
       end
       layout_heading title, size: @theme.base_font_size
-    elsif sect_id.include? "chapter" # chapters
-      #puts 'Processing ' + sect_id + '...'
-      # use Akkurat font for all custom headings
-      font "Akkurat" do
-        if node.document.attr? "media", "prepress"
-          move_down 120
-        else
-          move_down 180
-        end
-        if @ppbook
-          layout_heading "PART", align: :right, size: 100, style: :normal
-        else
-          layout_heading "PART", align: :right, size: 100, color: [91, 54, 8, 13], style: :normal
-        end
-        move_up 40
-
-        part_number = "ONE"
-        if sect_id.include? "chapter-2"
-          part_number = "TWO"
-        elsif sect_id.include? "chapter-3"
-          part_number = "THREE"
-        end
-        if @ppbook
-          layout_heading part_number, align: :right, size: 100, style: :bold
-          layout_heading title, align: :right, style: :normal, size: 30
-        else
-          layout_heading part_number, align: :right, size: 100, color: [42, 1, 83, 1], style: :bold
-          layout_heading title, align: :right, color: [42, 1, 83, 1], style: :normal, size: 30
-        end
-      end
-
-      bounds.move_past_bottom
     else
       super # delegate to default implementation
     end
