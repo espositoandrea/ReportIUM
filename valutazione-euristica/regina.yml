@@ -1,0 +1,86 @@
+data: "3 gennaio 2020"
+problemi:
+  -
+      locazione: Home
+      problema: Se il cursone punta a un evento il tooltip che compare andando a scorrere verso il basso si sovrappone alla navbar
+      euristica: Visibilità dello stato di sistema
+      soluzione: Ridurre la durata della comparsa del tooltip
+      gravita: 3
+  -
+      locazione: Sezione Servizi
+      problema: 'Presenza di bottoni che in realtà hanno degli hyperlink all''interno'
+      euristica: Visibilità dello stato del sistema
+      soluzione: 'Rimuovere l''hyperlink e rendere il bottone cliccabile'
+      gravita: 5
+  -
+      locazione: Sezione Servizi
+      problema: Presenza di hyperlink che sembrano essere due ma in realtà è uno solo
+      euristica: Visibilità dello stato del sistema
+      soluzione: 'Rimuovere l''hyperlink e rendere il bottone cliccabile'
+      gravita: 5
+  -
+      locazione: Pagina Bandi di concorso
+      problema: Presenza di un hyperlink che riporta alla pagina relativa ai bandi del precendete sito provocando disorientamento
+      euristica: Visibilità dello stato del sistema
+      soluzione: 'Introdurre la pagina nell''attuale sito web mantendo l''attuale layout'
+      gravita: 5
+  -
+      locazione: Sezione Amministrazione e Uffici
+      problema: 'Mancanza di un link che permetta di accedere alle informazioni relative agli orari e agli uffici L''unico modo raggiunbile è attraverso ricerca o mappa del sito'
+      euristica: 'Aiutare l''utente nel riconoscere, diagnostiare e rimediare agli errori'
+      soluzione: 'Implementare un link che permetta l''indirizzamento diretto alla pagina in questione'
+      gravita: 5
+  -
+      locazione: Pagina Il direttore generale
+      problema: Presenza di un hyperlink che in realtà non lo è
+      euristica: Visibilità dello stato del sistema
+      soluzione: 'Rimuovere l''hyperlink'
+      gravita: 4
+  -
+      locazione: Pagina Il direttore generale
+      problema: Presenza di un menù che indica la posizione attuale nel sistema che è discordante con il breadcrumb
+      euristica: Coerenza e standard
+      soluzione: Correggere o rimuovere il menù
+      gravita: 5
+  -
+      locazione: Home
+      problema: Presenza di un link che riporta alla home quando in realtà fa rifermento alle news
+      euristica: Visibilità dello stato del sistema
+      soluzione: 'Rimuovere l''hyperlink'
+      gravita: 3
+  -
+      locazione: Sezione Area riservata
+      problema: Qualsiasi link presente porta a pagine non riconosciute
+      euristica: 'Controllo da parte dell''utente e sua libertà'
+      soluzione: Integrare le pagine oppure rimuoverle del tutto fino a intero completamento del sito
+      gravita: 5
+  -
+      locazione: Home
+      problema: Presenza di banner che in realtà sono servizi del sistema e quindi non riconoscibile
+      euristica: Allineamento tra il mondo del sistema e quello reale
+      soluzione: Rendere questi servizi visibili e più riconoscibili
+      gravita: 5
+  -
+      locazione: Pagina PagoPa
+      problema: Si ha un disorientamento in quanto passando alla home al portale di pagamento non è coerente con il sistema realizzato
+      euristica: Visibilità dello stato del sistema
+      soluzione: Rendere uniforme anche il portare al layout attuale del sistema
+      gravita: 5
+  -
+      locazione: Sezione Vivere Taranto
+      problema: La label di questa sezione non è conforme al contenuto di informazioni e collegamenti che contiene
+      euristica: Allineamento tra il mondo del sistema e quello reale
+      soluzione: 'Cambiare il nome dell''etichetta con ad esempio "Attrazioni"'
+      gravita: 3
+  -
+      locazione: Qualsiasi
+      problema: Quando si naviga le sezioni principali da cui si è passati nelle breadcrumbs non sono cliccabili
+      euristica: 'Controllo da parte dell''utente e sua libertà'
+      soluzione: Rendere cliccabile la sezione dal quale si è passati se non si è sulla stessa
+      gravita: 3
+  -
+      locazione: Qualsiasi
+      problema: Quando si naviga la pagina in cui ci si trova è cliccabile nelle breadcrumbs
+      euristica: 'Controllo da parte dell''utente e sua libertà'
+      soluzione: Rendere non cliccabile la pagina in cui ci si trova nelle breadcrumbs
+      gravita: 3

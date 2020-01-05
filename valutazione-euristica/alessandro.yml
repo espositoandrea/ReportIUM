@@ -1,0 +1,98 @@
+data: "3 gennaio 2020"
+problemi:
+  -
+      locazione: Home Page
+      problema: I bottoni presenti nella sezione “Servizi” sono in realtà contenitori di link.
+      euristica: Visibilità dello stato del sistema
+      soluzione: Rendere il bottone cliccabile (con i relativi cambi di stato) rimuovendone il link
+      gravita: 4
+  -
+      locazione: Home Page
+      problema: La sezione “In primo piano”, che mostra una carrellata delle ultime news del comune, è mostrata in modo integrale effettuando lo scroll della pagina.
+      euristica: Visibilità dello stato del sistema
+      soluzione: Spostare la sezione in una parte più alta della pagina affiancandola, ad esempio, al carosello di immagini.
+      gravita: 5
+  -
+      locazione: Home Page
+      problema: Nella sezione “Servizi” alcuni bottoni hanno, al loro interno, dei link doppi che puntano a due pagine differenti.
+      euristica: Visibilità dello stato del sistema
+      soluzione: Dividere i link in due bottoni differenti
+      gravita: 5
+  -
+      locazione: Home Page
+      problema: 'Nella sezione “Servizi” alcuni bottoni hanno, al loro interno, dei link doppi che danno l''impressione di puntare a due pagine differenti quando, in realtà, puntano alla stessa pagina.'
+      euristica: Visibilità dello stato del sistema
+      soluzione: Unificare i due link
+      gravita: 4
+  -
+      locazione: Home Page
+      problema: 'Nella sezione “Servizi” il link “Amministrazione trasparente” punta ad un sito esterno senza avvisare l''utente'
+      euristica: Riconoscere piuttosto che ricordare
+      soluzione: Introdurre un pop-up di avviso
+      gravita: 4
+  -
+      locazione: Home Page
+      problema: 'Nella sezione “Aree tematiche” sono presenti dei contenitori con, al loro interno, immagini e link. Alcune immagini sono anch''esse dei link che non vengono evidenziati e che puntano a pagine non coerenti.'
+      euristica: Visibilità dello stato del sistema
+      soluzione: Rimuovere il collegamento dalle immagini oppure creare ulteriori contenitori che usino tali collegamenti
+      gravita: 5
+  -
+      locazione: _Tutte le pagine_
+      problema: 'In alto a destra, all''interno dell''header, sono presenti dei link (sottoforma di icone) che non puntano a nulla.'
+      euristica: Visibilità dello stato del sistema
+      soluzione:  Modificare il tono delle icone che non puntano ad alcuna pagina o rimuoverle del tutto
+      gravita: 2
+  -
+      locazione: Vivere Taranto
+      problema: Sono presenti dei bottoni (non cliccabili) con, al loro interno, dei link.
+      euristica: Visibilità dello stato del sistema
+      soluzione: Rimuovere i link e rendere i bottoni cliccabili
+      gravita: 4
+  -
+      locazione: Vivere Taranto
+      problema: Sono presenti dei bottoni che hanno tutti la stessa icona.
+      euristica: Visibilità dello stato del sistema
+      soluzione: Modificare le icone presenti con altre più coerenti
+      gravita: 5
+  -
+      locazione: Home Page
+      problema: Dopo la sezione “Aree Tematiche” è presente una sezione (senza nome) che contiene dei link sotto forma di immagine che, a primo impatto, non sembrano link.
+      euristica: Visibilità dello stato del sistema
+      soluzione: Evidenziare meglio la sezione introducendo dei bottoni al posto delle immagini
+      gravita: 3
+  -
+      locazione: Amministrazione e uffici
+      problema: I bottoni presenti nella pagina sono in realtà contenitori di link.
+      euristica: Visibilità dello stato del sistema
+      soluzione: Rendere il bottone cliccabile (con i realtivi cambi di stato) rimuovendone il link
+      gravita: 4
+  -
+      locazione: Contatta il comune
+      problema: I bottoni presenti nella pagina sono in realtà contenitori di link.
+      euristica: Visibilità dello stato del sistema
+      soluzione: Rendere il bottone cliccabile (con i realtivi cambi di stato) rimuovendone il link
+      gravita: 4
+  -
+      locazione: Contatta il comune
+      problema: Lo stile dei bottoni è diverso rispetto a quelli presenti nel sito.
+      euristica: Coerenza e standard
+      soluzione: Rendere uniforme lo stile dei bottoni
+      gravita: 5
+  -
+      locazione: Home Page
+      problema: Alcune icone presenti nei bottoni della sezione “Servizi” non sono chiare.
+      euristica: Corrispondenza fra il mondo reale e il sistema
+      soluzione: 'Modificare le icone tenendo conto dell''elemento che dovranno rappresentare'
+      gravita: 2
+  -
+      locazione: _Tutte le pagine_
+      problema: 'Le breadcrumbs danno la possibilità all''utente di poter navigare alla stessa pagina in cui si trova.'
+      euristica: Libertà e controllo da parte degli utenti
+      soluzione: 'Rimuovere il link dell''ultima breadcrumb lasciandone solo il testo'
+      gravita: 2
+  -
+      locazione: _Tutte le pagine_
+      problema: 'Se l''utente naviga in una pagina tramite una delle sezioni presenti nella Home Page, le breadcrumbs mostrano un percorso errato e non navigabile.'
+      euristica: Libertà e controllo da parte degli utenti
+      soluzione: 'Rendere il testo delle breadcrumbs completamente cliccabile e con la tracciabilità corretta del percorso fatto dall''utente.'
+      gravita: 5

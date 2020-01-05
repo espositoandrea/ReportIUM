@@ -1,31 +1,21 @@
 require "asciidoctor"
-require "csv"
+require "yaml"
 require "date"
 require "ruby-progressbar"
 require_relative "./asciidoctor-pdf-extension"
 
 def generate_euristic(input, author = "FSC -- Five Students of Computer Science")
-  data = CSV.parse File.read input, headers: true
+  data = YAML.load_file input
   template = File.read File.join(File.dirname(__FILE__), "./valutazione-euristica/_master/main.adoc")
 
-  get_current_date = -> do
-    date = Time.now
-    months = [
-      "gennaio", "febbraio", "marzo",
-      "aprile", "maggio", "giugno",
-      "luglio", "agosto", "settembre",
-      "ottobre", "novembre", "dicembre",
-    ]
-    return "#{date.day} #{months[date.mon - 1]} #{date.year}"
-  end
-
   template.sub! /~~AUTHOR~~/, author
-  template.sub! /~~DATE~~/, get_current_date.call
+  template.sub! /~~DATE~~/, data["data"]
 
   base_name = File.basename(input, File.extname(input))
   File.write File.join(File.dirname(__FILE__), "./valutazione-euristica/", base_name, base_name + ".adoc"), template
 
   process_string = ->(string) do
+    string = string[1].to_s
     string.gsub!(/\s['‘](.*?)['’]/, "'`\1`'")
     string.gsub!(/["“](.*?)["”]/, '"`\1`"')
     string.gsub!(/``(.*?)''/, '"`\1`"')
@@ -37,7 +27,7 @@ def generate_euristic(input, author = "FSC -- Five Students of Computer Science"
   table += ".Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da #{author}.\n"
   table += "[cols=\"6*^.^\", options=\"header\"]\n|===\n"
   table += "| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]\n"
-  data.drop(1).each_with_index do |row, i|
+  data["problemi"].each_with_index do |row, i|
     table += "| #{i + 1} "
     row.each { |column| table += "| #{process_string.call column} " }
     table += "\n"
@@ -62,31 +52,31 @@ end
 namespace :euristica do
   desc "Genera la tabella di valutazione euristica di Andrea"
   task :andrea do
-    generate_euristic "valutazione-euristica/andrea.csv", "Andrea Esposito"
+    generate_euristic "valutazione-euristica/andrea.yml", "Andrea Esposito"
     convert_asciidoc "valutazione-euristica/andrea/andrea.adoc"
   end
 
   desc "Genera la tabella di valutazione euristica di Alessandro"
   task :alessandro do
-    generate_euristic "valutazione-euristica/alessandro.csv", "Alessandro Annese"
+    generate_euristic "valutazione-euristica/alessandro.yml", "Alessandro Annese"
     convert_asciidoc "valutazione-euristica/alessandro/alessandro.adoc"
   end
 
   desc "Genera la tabella di valutazione euristica di Davide"
   task :davide do
-    generate_euristic "valutazione-euristica/davide.csv", "Davide De Salvo"
+    generate_euristic "valutazione-euristica/davide.yml", "Davide De Salvo"
     convert_asciidoc "valutazione-euristica/davide/davide.adoc"
   end
 
   desc "Genera la tabella di valutazione euristica di Graziano"
   task :graziano do
-    generate_euristic "valutazione-euristica/graziano.csv", "Graziano Montanaro"
+    generate_euristic "valutazione-euristica/graziano.yml", "Graziano Montanaro"
     convert_asciidoc "valutazione-euristica/graziano/graziano.adoc"
   end
 
   desc "Genera la tabella di valutazione euristica di Regina"
   task :regina do
-    generate_euristic "valutazione-euristica/regina.csv", "Regina Zaccaria"
+    generate_euristic "valutazione-euristica/regina.yml", "Regina Zaccaria"
     convert_asciidoc "valutazione-euristica/regina/regina.adoc"
   end
 end

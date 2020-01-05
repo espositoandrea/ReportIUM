@@ -1,0 +1,44 @@
+data: "4 gennaio 2020"
+problemi:
+  -
+      locazione: Home page
+      problema: Ciò che sembra un bottone non è cliccabile, è cliccabile solo il testo al suo interno
+      euristica: Visibilità dello stato del sistema
+      soluzione: Rendere cliccabile il bottone
+      gravita: 4
+  -
+      locazione: Pagina bandi di concorso
+      problema: Cliccando su di essa vengo reindirizzato ad una pagina esterna che perde di coerenza con il resto del sito
+      euristica: Consistenza e standard
+      soluzione: Mantenere coerente la pagina, evitando un reindirizzamento esterno
+      gravita: 4
+  -
+      locazione: Home page, Pagina Contatta il comune e Vivere Taranto
+      problema: Le card non sono cliccabili, solo il testo al loro interno lo è
+      euristica: Visibilità dello stato del sistema
+      soluzione: Rendere cliccabili le card
+      gravita: 4
+  -
+      locazione: Pagina Avvisi
+      problema: Cliccando su di essa vengo reindirizzato ad una pagina esterna che perde di coerenza col resto del sito
+      euristica: Consistenza e standard
+      soluzione: Mantenere coerente la pagina
+      gravita: 4
+  -
+      locazione: Nessuna locazione
+      problema: La pagina per il pagamento della tassa TARI non è raggiungibile se non attraverso ricerca
+      euristica: Visibilità dello stato del sistema
+      soluzione: Inserire il link per tale percorso
+      gravita: 5
+  -
+      locazione: Pagina Bandi di concorso
+      problema: Le breadcrumb non sono corrette, non essendoci una pagina dedicata a Servizi che rende di fatto il percorso non cliccabile
+      euristica: 'Controllo da parte dell''utente e sua libertà'
+      soluzione: Correggere le breadcrumb
+      gravita: 4
+  -
+      locazione: Nessuna locazione
+      problema: Non è possibile trovare gli orari di apertura delle sedi se non tramite ricerca
+      euristica: Visibilità dello stato del sistema
+      soluzione: Inserire il link per tale percorso
+      gravita: 5
