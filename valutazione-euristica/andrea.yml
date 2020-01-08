@@ -36,7 +36,7 @@ problemi:
     soluzione: Variare lo stile dei “bottoni” in “Contatti” per uniformarlo a quello delle altre pagine
     gravita: 3
   - locazione: Pagina “News”
-    problema: Il bottone “Visualizza altri articoli” suggerisce la pressione del tasto “shift” per visualizzare tutti gli articoli, ma è comunque richiesto un click con il mouseda parte dell’utente
+    problema: Il bottone “Visualizza altri articoli” suggerisce la pressione del tasto “shift” per visualizzare tutti gli articoli, ma è comunque richiesto un click con il mouse da parte dell’utente
     euristica: Allineamento tra il mondo del sistema e quello reale
     soluzione: Variare la label del bottone affinché suggerisca anche il click
     gravita: 2
@@ -56,12 +56,12 @@ problemi:
     soluzione: Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo
     gravita: 4
   - locazione: Home page
-    problema: "Le icone legate ad alcuni bottoni sono poco chiare (per esempio, l’icona del bottone “Statuto e Regolamenti dell'Ente”"
+    problema: "Le icone legate ad alcuni bottoni sono poco chiare (per esempio, l’icona del bottone “Statuto e Regolamenti dell'Ente”)"
     euristica: Allineamento tra il mondo del sistema e quello reale
     soluzione: Variare le icone poco chiare
     gravita: 2
   - locazione: Home page
-    problema: L’icona del bottone “Amministrazione Trasparente” è una lente d’ingrandimento, associata alla funzione di ricerca)
+    problema: L’icona del bottone “Amministrazione Trasparente” è una lente d’ingrandimento, associata alla funzione di ricerca
     euristica: Coerenza e standard
     soluzione: Variare l’icona del bottone “Amministrazione trasparente”
     gravita: 3
