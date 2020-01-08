@@ -16,7 +16,7 @@ def generate_euristic(input, author = "FSC -- Five Students of Computer Science"
 
   process_string = ->(string) do
     string = string[1].to_s
-    string.gsub!(/\s['‘](.*?)['’]/, "'`\1`'")
+    string.gsub!(/([^a-zA-Z])['‘](.*?)['’]/, '\1\'`\2`\'')
     string.gsub!(/["“](.*?)["”]/, '"`\1`"')
     string.gsub!(/``(.*?)''/, '"`\1`"')
     string.gsub!("’", "'")
@@ -79,6 +79,12 @@ namespace :euristica do
     generate_euristic "valutazione-euristica/regina.yml", "Regina Zaccaria"
     convert_asciidoc "valutazione-euristica/regina/regina.adoc", "article"
   end
+
+  desc "Genera la tabella di valutazione complessiva"
+  task :complessiva do
+    generate_euristic "valutazione-euristica/complessiva.yml"
+    convert_asciidoc "valutazione-euristica/complessiva/complessiva.adoc", "article"
+  end
 end
 
 desc "Genera tutte le tabelle di valutazione euristica"
@@ -97,4 +103,7 @@ task :euristica do
 
   puts "Building 'Regina'"
   Rake::Task["euristica:regina"].execute
+
+  puts "Building 'Complessiva'"
+  Rake::Task["euristica:complessiva"].execute
 end

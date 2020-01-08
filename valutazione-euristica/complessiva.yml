@@ -1,0 +1,146 @@
+data: "8 gennaio 2020"
+problemi:
+  - locazione: _Diverse pagine_
+    problema: Alcuni bottoni non sono realmente bottoni ma link
+    euristica: Visibilità dello stato del sistema
+    soluzione: Rendere il bottone cliccabile rimuovendo l'hyperlink contenuto al suo interno
+    gravita: 4
+  - locazione: Home page
+    problema: La sezione "In primo piano" (che mostra una carrellata delle ultime notizie, sezione ritenuta fondamentale) non è raggiungibile senza effettuare un scroll
+    euristica: Visibilità dello stato del sistema
+    soluzione: Ridurre la dimensione del banner e della navbar del sito _o_ spostare la sezione in una sidebar _o_ più in alto nella pagina (per esempio, affiancandola al carosello di immagini)
+    gravita: 4
+  - locazione: Home page
+    problema: Effettuando uno scroll dopo aver attivato il tooltip del calendario, effettuando uno scroll della pagina verso il basso, questo si sovrappone alla navbar. Lo stesso problema si verifica con gli indicatori del carosello di notizie (sezioni "In primo piano" e "In evidenza")
+    euristica: Visibilità dello stato del sistema
+    soluzione: Ridurre la durata del tooltip o impostare esplicitamente un ordine degli elementi sull'asse `Z`
+    gravita: 2
+  - locazione: Home page
+    problema: Nei bottoni presenti nella sezione "Servizi" alcuni hyperlink si comportano graficamente come "link doppi" (ovvero due link separati che puntano a pagine differenti) quando, in realtà, puntano alla stessa pagina
+    euristica: Visibilità dello stato del sistema
+    soluzione: Correggere il comportamento visivo dell'hyperlink
+    gravita: 5
+  - locazione: Home page
+    problema: Nella sezione "Servizi", alcuni bottoni sono in realtà dei link doppi, ovvero aventi target differenti in base alla zona cliccata.
+    euristica: Visibilità dello stato del sistema
+    soluzione: Suddividere i due link in due bottoni differenti
+    gravita: 5
+  - locazione: Pagina "Bandi di concorso", pagina "Avvisi"
+    problema: Il link per accedere alle comunicazioni precedenti al 28/11/2019 (o al 02/12/2019) fa uscire l'utente dal sito senza alcun avvertimento
+    euristica: Riconoscimento piuttosto di memorizzazione
+    soluzione: Variare l'icona del link o introdurre un messaggio pop-up che avvisi l'utente
+    gravita: 4
+  - locazione: Home page
+    problema: Nella sezione "Servizi" il link "Amministrazione trasparente" punta a un sito esterno senza avvertire l'utente
+    euristica: Riconoscimento piuttosto di memorizzazione
+    soluzione: Introdurre un pop-up di avviso
+    gravita: 4
+  - locazione: Home page
+    problema: Nella sezione "Aree tematiche" alcune card ('cultura ed eventi' e 'lavori pubblici e innovazione') contengono immagini cliccabili che portano l'utente a pagine non coerenti con il testo mostrato nelle card
+    euristica: Visibilità dello stato del sistema
+    soluzione: Rimuovere il collegamento delle immagini _o_ creare ulteriori card che utilizzino i collegamenti aggiuntivi
+    gravita: 5
+  - locazione: _Barra di navigazione_
+    problema: I link social ad Instagram, Whatsapp e YouTube non hanno un link target reale
+    euristica: Visibilità dello stato del sistema
+    soluzione: Modificare il tono delle icone disattivando i link _o_ rimuoverle del tutto
+    gravita: 2
+  - locazione: Pagina "Vivere Taranto"
+    problema: I bottoni hanno tutti la stessa icona (non facilmente riconoscibile)
+    euristica: Visibilità dello stato del sistema
+    soluzione: Modificare le icone presenti con altre più riconoscibili e coerenti
+    gravita: 4
+  - locazione: Home page
+    problema: Dopo la sezione "Aree tematiche" è presente una sezione (senza titolo) che contiene delle immagini cliccabili che a prima vista non sembrano esserlo
+    euristica: Visibilità dello stato del sistema
+    soluzione: Evidenziare meglio le sezioni (introducendo un titolo significativo) e rendere evidente la possibilità di cliccare le immagini
+    gravita: 3
+  - locazione: Pagina "Contatti"
+    problema: Lo stile dei "bottoni" non è coerente con quello delle altre pagine
+    euristica: Coerenza e standard
+    soluzione: Variare lo stile dei "bottoni" in "Contatti" per uniformarlo a quello delle altre pagine
+    gravita: 4
+  - locazione: Home page
+    problema: Alcune icone presenti nella sezione "Servizi" sono poco chiare (per esempio, la clessidra per i bandi di concorso)
+    euristica: Corrispondenza fra il mondo reale e il sistema
+    soluzione: Modificare le icone tenendo conto del link che dovrebbero rappresentare
+    gravita: 2
+  - locazione: _Tutte le pagine_
+    problema: Le breadcrumbs danno la possibilità all'utente di poter navigare alla stessa pagina in cui si trova.
+    euristica: Libertà e controllo da parte degli utenti
+    soluzione: Rimuovere il link dell'ultima breadcrumb lasciandone solo il testo
+    gravita: 2
+  - locazione: _Tutte le pagine_
+    problema: Se l'utente naviga in una pagina tramite una delle sezioni presenti nella Home Page, le breadcrumbs mostrano un percorso errato e non navigabile.
+    euristica: Libertà e controllo da parte degli utenti
+    soluzione: Rendere il testo delle breadcrumbs completamente cliccabile e con la tracciabilità corretta del percorso fatto dall'utente.
+    gravita: 5
+  - locazione: _Nessuna locazione_
+    problema: La pagina per visualizzare gli orari degli uffici non è raggiungibile tramite link ma solo tramite ricerca o mappa del sito
+    euristica: Visibilità dello stato del sistema
+    soluzione: Implementare un percorso di hyperlink che permettano di raggiungere direttamente la pagina
+    gravita: 5
+  - locazione: Pagina "Direttore generale"
+    problema: Il titolo della sidebar si comporta visivamente come un hyperlink pur non essendolo
+    euristica: Visibilità dello stato del sistema
+    soluzione: Correggere il comportamento grafico del titolo
+    gravita: 4
+  - locazione: Pagina "Direttore generale"
+    problema: Presenza di un menù che indica la posizione attuale nel sistema che è discordante con i breadcrumb
+    euristica: Coerenza e standard
+    soluzione: Correggere o rimuovere il menù
+    gravita: 5
+  - locazione: Home page
+    problema: I titoli delle sezioni si comportano come hyperlink privi di link target
+    euristica: Visibilità dello stato del sistema
+    soluzione: Rimuovere l'hyperlink
+    gravita: 3
+  - locazione: _Barra di navigazione_, pagina "Vivere Taranto"
+    problema: La label di questa sezione non è coerente con il contenuto di informazioni e collegamenti che contiene
+    euristica: Allineamento tra il mondo del sistema e quello reale
+    soluzione: Cambiare il testo dell'etichetta con ad esempio "Attrazioni"
+    gravita: 3
+  - locazione: '_Diverse pagine (esempio: "Ambiente e qualità della vita")'
+    problema: L'URL non è coerente rispetto ai nomi delle pagine che vengono visualizzate
+    euristica: Coerenza e standard, visibilità dello stato del sistema
+    soluzione: Rendere l'URL coerente
+    gravita: 4
+  - locazione: Pagina "News"
+    problema: Il bottone "Visualizza altri articoli" suggerisce la pressione del tasto "shift" per visualizzare tutti gli articoli, ma è comunque richiesto un click con il mouse da parte dell'utente
+    euristica: Allineamento tra il mondo del sistema e quello reale
+    soluzione: Variare la label del bottone affinché suggerisca anche il click
+    gravita: 2
+  - locazione: _Nessuna locazione_
+    problema: La sezione "Tasse e tributi locali" non è raggiungibile senza utilizzare la funzione di ricerca
+    euristica: "-"
+    soluzione: Riprogettare la pagina "Aree tematiche" per includere i link mancanti
+    gravita: 5
+  - locazione: Home page
+    problema: L'icona del bottone "Amministrazione Trasparente" è una lente d'ingrandimento, associata alla funzione di ricerca
+    euristica: Coerenza e standard
+    soluzione: Variare l'icona del bottone "Amministrazione trasparente"
+    gravita: 3
+  - locazione: Home page
+    problema: Nella sezione "Aree tematiche" vi è un uso di diversi colori che non aggiungono alcuna informazione aggiuntiva
+    euristica: Design estetico e minimalista
+    soluzione: Ridurre l'uso inutile di colori aggiuntivi
+    gravita: 1
+commenti:
+  - >-
+    Benché non sia strettamente legato all'usabilità del sito, un problema
+    da evidenziare è che la connessione avviene (di default) mediante
+    protocollo `HTTP` (non `HTTPS`), esponendo l'utente a
+    diversi rischi di sicurezza evitabili (il sito prevede l'eventuale
+    accesso a un'"area riservata" mediante password).
+  - >-
+    La pagina che permette il pagamento della TARI non è facilmente raggiungibile
+    senza conoscere precedentemente il nome del portale. I percorsi per
+    raggiungerlo sono "Home > PagoPa > LinkMate" o "Home > LinkMate". Tuttavia,
+    il nome del portale (LinkMate) non è conosciuto dagli utenti meno esperti e
+    rende quindi la pagina irrangiungibile.
+
+  - >-
+    Si sottolinea l'impossibilità di raggiungere la sezione legata ai tributi
+    senza l'utilizzo della funzione di ricerca. Si è notato che tale problema è
+    legato al non allineamento della pagina "Aree tematiche" (contenente vari
+    link/bottoni) alla reale lista delle aree tematiche.

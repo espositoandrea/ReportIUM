@@ -1,0 +1,16 @@
+* Si è inteso un task come "`non completato`" se questo non è stato completato
+  dopo circa novanta minuti di ricerca.
+
+* Si è intesa una pagina come "`non raggiungibile`" se questa non è stata
+  trovata entro circa novanta minuti. 
+
+* Benché non sia strettamente legato all'usabilità del sito, un problema
+  da evidenziare è che la connessione avviene (di default) mediante
+  protocollo `HTTP` (non `HTTPS`), esponendo l'utente a
+  diversi rischi di sicurezza evitabili (il sito prevede l'eventuale
+  accesso a un'"`area riservata`" mediante password).
+
+* Si sottolinea l'impossibilità di raggiungere la sezione legata ai tributi
+  senza l'utilizzo della funzione di ricerca. Si è notato che tale problema è
+  legato al non allineamento della pagina "`Aree tematiche`" (contenente vari
+  link/bottoni) alla reale lista delle aree tematiche.
