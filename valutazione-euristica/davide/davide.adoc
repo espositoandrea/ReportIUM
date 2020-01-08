@@ -1,15 +1,24 @@
 = Valutazione Euristica
 Davide De Salvo
 v1.0.0,3 gennaio 2020: Stesura della tabella di valutazione
+ifndef::backend-pdf[]
 :toc: left
+endif::[]
 :doctype: article
-:title-page:
 :sectnums:
 :partnums:
 :sectnumsdepth: 5
 :xrefstyle: short
 :media: prepress
 include::../../locale/attributes.adoc[]
+
+ifdef::backend-pdf[]
+[.text-center.lead]
+{author}
+
+[.text-center]
+{revdate}
+endif::[]
 
 == Tabella dei risultati
 

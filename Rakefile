@@ -8,18 +8,18 @@ def generate_euristic(input, author = "FSC -- Five Students of Computer Science"
   data = YAML.load_file input
   template = File.read File.join(File.dirname(__FILE__), "./valutazione-euristica/_master/main.adoc")
 
-  template.sub! /~~AUTHOR~~/, author
-  template.sub! /~~DATE~~/, data["data"]
+  template.gsub! /~~AUTHOR~~/, author
+  template.gsub! /~~DATE~~/, data["data"]
 
   base_name = File.basename(input, File.extname(input))
   File.write File.join(File.dirname(__FILE__), "./valutazione-euristica/", base_name, base_name + ".adoc"), template
 
   process_string = ->(string) do
-    string = string[1].to_s
-    string.gsub!(/([^a-zA-Z])['‘](.*?)['’]/, '\1\'`\2`\'')
-    string.gsub!(/["“](.*?)["”]/, '"`\1`"')
-    string.gsub!(/``(.*?)''/, '"`\1`"')
-    string.gsub!("’", "'")
+    string = string[1].to_s unless string.kind_of? String
+    string.gsub! /([^a-zA-Z])['‘](.*?)['’]/, '\1\'`\2`\''
+    string.gsub! /["“](.*?)["”]/, '"`\1`"'
+    string.gsub! /``(.*?)''/, '"`\1`"'
+    string.gsub! "’", "'"
     return string
   end
 
@@ -35,6 +35,12 @@ def generate_euristic(input, author = "FSC -- Five Students of Computer Science"
   table += "|===\n"
 
   File.write File.join(File.dirname(__FILE__), "./valutazione-euristica/", base_name, "table.adoc"), table
+
+  if data["commenti"]
+    comments = ""
+    data["commenti"].each { |comment| comments += "* #{process_string.call comment}\n" }
+    File.write File.join(File.dirname(__FILE__), "./valutazione-euristica/", base_name, "comments.adoc"), comments
+  end
 end
 
 def convert_asciidoc(input_file, theme = "basic")
