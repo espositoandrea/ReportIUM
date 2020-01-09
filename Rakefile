@@ -3,6 +3,7 @@ require "yaml"
 require "date"
 require "ruby-progressbar"
 require "roo"
+require "zip"
 require_relative "./asciidoctor-pdf-extension"
 
 def generate_euristic(input, author = "FSC -- Five Students of Computer Science")
@@ -111,7 +112,7 @@ namespace :parziale do
       nps = create_table_from_survey({ "Con quanta probabilità consiglieresti questo sito ad un amico o ad un conoscente?" => "#{row[7].value.to_i}/10" })
 
       sus = Hash.new
-      header[8..17].each_with_index {|question, index| sus[question] = "#{row[index + 8].value.to_i}/5"}
+      header[8..17].each_with_index { |question, index| sus[question] = "#{row[index + 8].value.to_i}/5" }
       File.write File.join(File.dirname(__FILE__), "./documentazione/chapters/tester-#{i}/nps.adoc"), nps
       File.write File.join(File.dirname(__FILE__), "./documentazione/chapters/tester-#{i}/sus.adoc"), create_table_from_survey(sus)
     end
@@ -137,4 +138,18 @@ task :euristica do
 
   puts "Building 'Complessiva'"
   Rake::Task["euristica:complessiva"].execute
+end
+
+namespace :dist do
+  desc "Crea ZIP per valutazione euristica"
+  task :euristica => ["euristica"] do
+    File.delete("euristica.zip") if File.exist?("euristica.zip")
+    Zip.on_exists_proc = true
+    Zip.continue_on_exists_proc = true
+    Zip::File.open("euristica.zip", Zip::File::CREATE) do |zipfile|
+      ["alessandro.pdf", "andrea.pdf", "complessiva.pdf", "davide.pdf", "graziano.pdf", "regina.pdf"].each do |filename|
+        zipfile.add filename, File.join(File.dirname(__FILE__), "out/", filename)
+      end
+    end
+  end
 end

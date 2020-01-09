@@ -9,3 +9,4 @@ gem 'asciidoctor'
 gem 'asciidoctor-pdf'
 gem 'ruby-progressbar'
 gem "roo", "~> 2.8.0"
+gem 'rubyzip'

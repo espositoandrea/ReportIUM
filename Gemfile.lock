@@ -67,6 +67,7 @@ DEPENDENCIES
   asciidoctor-pdf
   roo (~> 2.8.0)
   ruby-progressbar
+  rubyzip
 
 BUNDLED WITH
    2.1.1
