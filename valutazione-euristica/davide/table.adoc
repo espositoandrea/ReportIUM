@@ -1,6 +1,6 @@
-[[tab-val-euristica-DavideDeSalvo]]
+[[tab-valutazione-euristica-DavideDeSalvo]]
 .Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da Davide De Salvo.
-[cols="6*^.^", options="header"]
+[cols="^.^1h,^.^2,^.^3,^.^2,^.^3,^.^2", options="header"]
 |===
 | N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
 | 1 | Home page | I link sono all'interno di aree che li fanno sembrare dei bottoni ma le aree non sono cliccabili | Visibilità dello stato del sistema | Rendere i bottoni cliccabili e non il testo | 4 

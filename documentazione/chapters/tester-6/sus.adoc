@@ -1,0 +1,14 @@
+[cols="<.^10h,^.^1", options="header"]
+|===
+| Domanda | Voto
+| Penso che mi piacerebbe utilizzare questo sito frequentemente | 1/5
+| Ho trovato il sito inutilmente complesso | 5/5
+| Ho trovato il sito molto semplice da usare | 2/5
+| Penso che avrei bisogno del supporto di una persona già in grado di utilizzare il sito | 4/5
+| Ho trovato le varie funzionalità del sito bene integrate | 1/5
+| Ho trovato incoerenze tra le varie funzionalità del sito | 4/5
+| Penso che la maggior parte delle persone possano imparare ad utilizzare il sito facilmente | 1/5
+| Ho trovato il sito molto difficile da utilizzare | 4/5
+| Mi sono sentito a mio agio nell’utilizzare il sito | 1/5
+| Ho avuto bisogno di imparare molti processi prima di riuscire ad utilizzare al meglio il sito | 3/5
+|===

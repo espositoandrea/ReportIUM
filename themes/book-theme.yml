@@ -8,7 +8,7 @@ page:
 abstract_first_line_font_style: normal
 
 toc:
-  indent: 0
+  indent: 20
   h1:
     font-style: bold_italic
     font-size: $base-font-size * 1.75
