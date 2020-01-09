@@ -1,0 +1,44 @@
+== Valutazione euristica
+
+include::../../valutazione-euristica/complessiva/table.adoc[]
+
+== Metodologia thinking aloud
+
+La procedura del test descritta di seguito è stata seguita e rispettata durante
+tutti i test condotti. Gli utenti sono stati inizialmente introdotti al team di
+lavoro presente durante la sessione e agli obiettivi del test. Successivamente,
+dopo un breve questionario demografico conoscitivo, vengono introdotti alla
+metodologia del test e sono informati circa la necessità di registrare video e
+audio (per ridurre la possibilità di perdita di informazioni dovute a errori
+umani degli osservatori).  Viene quindi proposta una breve introduzione di
+quanto è richiesto, sottolineando che le attività non sono finalizzate alla
+valutazione del tester ma alla sola valutazione del sito e all'identificazione
+di eventuali problematiche legate a esso. Sono rese note alcune richieste
+ulteriori della valutazione, per cui:
+
+* Si vieta l'utilizzo della barra e degli strumenti di ricerca disponibili nella
+  pagina principale.
+* Si vieta l'utilizzo della mappa del sito web al fine di valutare la
+  raggiungibilità delle pagine.
+* Si richiede al tester di "`ragionare ad alta voce`" mentre utilizza il sito.
+
+Sono rese inoltre note alcune indicazioni circa le modalità di svolgimento del
+test, ovverosia:
+
+* Nel caso in cui si ritenga di aver raggiunto l'obiettivo lo si dovrà
+  comunicare al facilitatore.
+* Nel caso in cui si ritenga di non essere in grado di raggiungere l'obiettivo
+  lo si dovrà comunicare al facilitatore.
+* Il facilitatore non può esprimere valutazioni circa l'operato del tester
+* Il facilitatore non può fornire indicazioni circa le azioni da svolgere per il
+  raggiungimento dell'obiettivo, se non al fine di pilotare l'attenzione
+  dell'utente verso alcune pagine (al fine di valutarle) una volta che il test
+  del task risulta essere completato (a prescindere dalla riuscita).
+* Al termine di ogni task l'utente deve tornare alla home page del sito.
+
+Agli utenti è poi notificata la necessità di compilare un questionario al fine
+di esprimere una valutazione quantitativa dell'usabilità del sito web.
+
+include::tester-2/report.adoc[leveloffset=+2]
+
+include::tester-6/report.adoc[leveloffset=+2]

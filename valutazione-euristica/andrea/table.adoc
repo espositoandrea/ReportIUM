@@ -1,6 +1,6 @@
-[[tab-val-euristica-AndreaEsposito]]
+[[tab-valutazione-euristica-AndreaEsposito]]
 .Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da Andrea Esposito.
-[cols="6*^.^", options="header"]
+[cols="^.^1h,^.^2,^.^3,^.^2,^.^3,^.^2", options="header"]
 |===
 | N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
 | 1 | Home page | I bottoni presenti nella sezione "`Servizi`" non sono realmente bottoni ma link | Visibilità dello stato del sistema | Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo | 4 
@@ -11,7 +11,7 @@
 | 6 | Pagina "`Contatti`" | I bottoni non sono realmente bottoni ma link | Visibilità dello stato del sistema | Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo | 4 
 | 7 | Pagina "`Contatti`" | Lo stile dei "`bottoni`" non è coerente con quello delle altre pagine | Coerenza e standard | Variare lo stile dei "`bottoni`" in "`Contatti`" per uniformarlo a quello delle altre pagine | 3 
 | 8 | Pagina "`News`" | Il bottone "`Visualizza altri articoli`" suggerisce la pressione del tasto "`shift`" per visualizzare tutti gli articoli, ma è comunque richiesto un click con il mouse da parte dell'utente | Allineamento tra il mondo del sistema e quello reale | Variare la label del bottone affinché suggerisca anche il click | 2 
-| 9 | _Nessuna locazione_ | La sezione "`Tasse e tributi locali`" non è raggiungibile senza utilizzare la funzione di ricerca | - | Riprogettare la pagina "`Aree tematiche`" per includere i link mancanti | 5 
+| 9 | _Nessuna locazione_ | La sezione "`Tasse e tributi locali`" non è raggiungibile senza utilizzare la funzione di ricerca | --- | Riprogettare la pagina "`Aree tematiche`" per includere i link mancanti | 5 
 | 10 | Pagina "`Vivere Taranto`" | I bottoni non sono realmente bottoni ma link | Visibilità dello stato del sistema | Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo | 4 
 | 11 | Pagina "`Teatro, cinema e sale congressi`" | I bottoni non sono realmente bottoni ma link | Visibilità dello stato del sistema | Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo | 4 
 | 12 | Home page | Le icone legate ad alcuni bottoni sono poco chiare (per esempio, l'icona del bottone "`Statuto e Regolamenti dell'Ente`") | Allineamento tra il mondo del sistema e quello reale | Variare le icone poco chiare | 2 

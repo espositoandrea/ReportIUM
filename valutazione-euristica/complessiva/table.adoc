@@ -1,6 +1,6 @@
-[[tab-val-euristica-FSC--FiveStudentsofComputerScience]]
+[[tab-valutazione-euristica]]
 .Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da FSC -- Five Students of Computer Science.
-[cols="6*^.^", options="header"]
+[cols="^.^1h,^.^2,^.^3,^.^2,^.^3,^.^2", options="header"]
 |===
 | N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
 | 1 | _Diverse pagine_ | Alcuni bottoni non sono realmente bottoni ma link | Visibilità dello stato del sistema | Rendere il bottone cliccabile rimuovendo l'hyperlink contenuto al suo interno | 4 
@@ -25,7 +25,7 @@
 | 20 | _Barra di navigazione_, pagina "`Vivere Taranto`" | La label di questa sezione non è coerente con il contenuto di informazioni e collegamenti che contiene | Allineamento tra il mondo del sistema e quello reale | Cambiare il testo dell'etichetta con ad esempio "`Attrazioni`" | 3 
 | 21 | _Diverse pagine (esempio: "`Ambiente e qualità della vita`") | L'URL non è coerente rispetto ai nomi delle pagine che vengono visualizzate | Coerenza e standard, visibilità dello stato del sistema | Rendere l'URL coerente | 4 
 | 22 | Pagina "`News`" | Il bottone "`Visualizza altri articoli`" suggerisce la pressione del tasto "`shift`" per visualizzare tutti gli articoli, ma è comunque richiesto un click con il mouse da parte dell'utente | Allineamento tra il mondo del sistema e quello reale | Variare la label del bottone affinché suggerisca anche il click | 2 
-| 23 | _Nessuna locazione_ | La sezione "`Tasse e tributi locali`" non è raggiungibile senza utilizzare la funzione di ricerca | - | Riprogettare la pagina "`Aree tematiche`" per includere i link mancanti | 5 
+| 23 | _Nessuna locazione_ | La sezione "`Tasse e tributi locali`" non è raggiungibile senza utilizzare la funzione di ricerca | --- | Riprogettare la pagina "`Aree tematiche`" per includere i link mancanti | 5 
 | 24 | Home page | L'icona del bottone "`Amministrazione Trasparente`" è una lente d'ingrandimento, associata alla funzione di ricerca | Coerenza e standard | Variare l'icona del bottone "`Amministrazione trasparente`" | 3 
 | 25 | Home page | Nella sezione "`Aree tematiche`" vi è un uso di diversi colori che non aggiungono alcuna informazione aggiuntiva | Design estetico e minimalista | Ridurre l'uso inutile di colori aggiuntivi | 1 
 |===

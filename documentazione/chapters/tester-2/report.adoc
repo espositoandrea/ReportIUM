@@ -1,0 +1,105 @@
+= Tester 2: Vittorio Albano
+
+Facilitatore:: {author_5}
+Osservatore:: {author}
+
+Il tester è _Vittorio Albano_, un portiere di 45 anni presso la sede di Taranto
+dell'Università di Bari. Illustrate le finalità del test, viene sottoposto a
+Vittorio il questionario demografico per l'identificazione del partecipante. Da
+tale test emerge che l'utente ha familiarità con l'utilizzo di internet e
+utilizza raramente il sito web del Comune di Taranto.
+
+== Task 1
+
+Il facilitatore illustra il primo task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester. A partire dalla pagina
+principale del sito, l'utente osserva la navbar e tenta di entrare nell'area
+riservata. Successivamente da questa pagina clicca entra nella sezione
+"`amministrazione e uffici`", mostrando evidenti segni di frustrazione mentre
+entra nella stessa pagina dalla navbar (da cui non è evidente che ha cliccato la
+pagina già attiva). L'utente successivamente tenta di accedere alla pagina "`aree
+tematiche`" ma, non trovando un link comunica al facilitatore di non essere
+riuscito a completare l'obiettivo
+
+=== Analisi e considerazioni
+
+Una problematica risultata evidente durante l'esecuzione del task sta nel fatto
+che l'utente non effettua naturalmente l'operazione di scroll, ma solo dietro
+consiglio del facilitatore. Questo è in linea con le problematiche riscontrate
+durante la valutazione euristica: il problema 2 in <<tab-valutazione-euristica>>
+evidenzia infatti proprio il fatto che alcune sezioni importanti siano nascoste
+alla vista dell'utente e siano raggiungibili solo dopo operazioni di scroll.
+
+È inoltre fondamentale notare che durante l'intera fase di test l'utente cercava
+tutte le informazioni all'interno della barra di navigazione, che però non
+contiene un link che permetta di raggiungere la pagina desiderata.
+
+Esito del task:: Task fallito
+
+== Task 2
+
+Il facilitatore illustra il secondo task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester. Successivamente, il
+tester accede alla sezione "`Amministrazione e uffici`" e, dopo un po' di tempo
+e mostrando segni di frustrazione, suggerisce che si dovrebbe introdurre un link
+in tale pagina che permetta di accedere all'informazione che cerca.
+
+Dopo numerosi altri tentativi a vuoto e dopo essere uscito dal sito (accedendo
+al vecchio sito del comune), il tester comunica l'impossibilità di trovare
+l'informazione cercata.
+
+=== Analisi e considerazioni
+
+Durante l'esecuzione del task l'utente cercava continuamente le informazioni
+desiderate nella barra di navigazione che, però, risulta essere incompleta per
+raggiungere tale fine.
+
+Esito del task:: Task fallito
+
+== Task 3
+
+L'utente risulta essere completamente perso in quanto tenta di utilizzare la
+barra di navigazione per raggiungere lo scopo del task. Dopo diverso tempo
+l'utente, evidentemente perso e frustrato, decide di terminare l'esecuzione del
+task.
+
+=== Analisi e considerazioni
+
+Il problema più evidente durante l'esecuzione del task è quello indicato
+precedentemente dello scrolling: il tester non è naturalmente portato a
+ricercare le informazioni mediante scroll ma preferisce affidarsi alla barra di
+navigazione.
+
+Esito del task:: Task fallito
+
+== Task 4
+
+Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester.
+
+=== Analisi e considerazioni
+
+Esito del task:: Task fallito
+
+
+== Task 5
+
+=== Analisi e considerazioni
+
+Esito del task:: Task fallito
+
+== Task 6
+
+=== Analisi e considerazioni
+
+Esito del task:: Task fallito
+
+== Considerazioni finali espresse dal tester
+
+=== Rilevamento del Net Promoter Score
+
+include::nps.adoc[]
+
+=== Rilevamento del System Usability Scale
+
+include::sus.adoc[]

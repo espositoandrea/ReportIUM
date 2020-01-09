@@ -1,0 +1,5 @@
+[cols="<.^10h,^.^1", options="header"]
+|===
+| Domanda | Voto
+| Con quanta probabilità consiglieresti questo sito ad un amico o ad un conoscente? | 2/10
+|===

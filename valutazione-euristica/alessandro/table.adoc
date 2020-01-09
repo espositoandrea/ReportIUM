@@ -1,6 +1,6 @@
-[[tab-val-euristica-AlessandroAnnese]]
+[[tab-valutazione-euristica-AlessandroAnnese]]
 .Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da Alessandro Annese.
-[cols="6*^.^", options="header"]
+[cols="^.^1h,^.^2,^.^3,^.^2,^.^3,^.^2", options="header"]
 |===
 | N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
 | 1 | Home Page | I bottoni presenti nella sezione "`Servizi`" sono in realtà contenitori di link. | Visibilità dello stato del sistema | Rendere il bottone cliccabile (con i relativi cambi di stato) rimuovendone il link | 4 

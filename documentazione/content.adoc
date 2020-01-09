@@ -3,3 +3,5 @@ include::chapters/prefazione.adoc[]
 include::chapters/obiettivi.adoc[]
 
 include::chapters/gruppo-lavoro.adoc[]
+
+include::chapters/report.adoc[]

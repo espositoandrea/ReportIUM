@@ -42,7 +42,7 @@ problemi:
     gravita: 2
   - locazione: _Nessuna locazione_
     problema: La sezione “Tasse e tributi locali” non è raggiungibile senza utilizzare la funzione di ricerca
-    euristica: "-"
+    euristica: "---"
     soluzione: Riprogettare la pagina “Aree tematiche” per includere i link mancanti
     gravita: 5
   - locazione: Pagina “Vivere Taranto”
