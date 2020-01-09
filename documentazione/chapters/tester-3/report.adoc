@@ -56,7 +56,7 @@ Esito del task:: Task fallito
 
 == Task 3
 
-Il conduttore comunica ad Erminia il terzo task.
+Il facilitatore comunica ad Erminia il terzo task.
 L'utente si avvale nuovamente della navbar per trovare la pagina richiesta e prova a cliccare su "Aree tematiche".
 Dopo una rapida lettura, il tester clicca su "Lavori pubblici e innovazione".
 Non trovando la pagina richiesta, il tester torna alla "Home" e scrolla verso il basso.
@@ -84,7 +84,7 @@ L'utente prova a selezionare la voce "Musei" e inizia a scorrere la pagina.
 Erminia riteneva possibile ,in questa pagina, la presenza di un link per scaricare la documentazione sui musei.
 Scorrendo, però, trova solo e-mail dei vari dirigenti dei musei.
 Erminia ci esprime che, non trovando l'informazione richiesta, proverebbe a mandare una e-mail per farsi mandare la documentazione utile per svolgere il compito.
-Il conduttore comunica la non realizzabilità di questa sua idea per svolgere il task.
+Il facilitatore comunica la non realizzabilità di questa sua idea per svolgere il task.
 Saputo questo, Erminia comunica di non riuscire a trovare la pagina richiesta.
 
 
@@ -149,6 +149,9 @@ Erminia inoltre,dopo aver completato il task, dichiara di essere parecchio demor
 Esito del task:: Task completato
 
 == Considerazioni finali espresse dal tester
+
+Tutte le considerazioni del tester sono state inserite nei vari task a cui riguardano.
+L'utente, a fine test, ha mostrato interesse a voler sapere la posizione delle pagine all'interno del sito che avrebbe dovuto raggiungere per completare un task.
 
 === Rilevamento del Net Promoter Score
 
