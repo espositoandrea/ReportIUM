@@ -4,7 +4,7 @@ Facilitatore:: {author_2}
 Osservatore:: {author_3}
 
 
-Il tester è Erminia Salituro, una ausiliaria di Taranto di 36 anni che ha  
+Il tester è _Erminia Salituro_, una ausiliaria di Taranto di 36 anni che ha  
 affermato di usare spesso il sito del Comune della sua città.
 
 Illustrate le finalità del test, viene
@@ -148,5 +148,12 @@ Erminia inoltre,dopo aver completato il task, dichiara di essere parecchio demor
 
 Esito del task:: Task completato
 
-include:: nps.adoc[]
-include:: sus.adoc[]
+== Considerazioni finali espresse dal tester
+
+=== Rilevamento del Net Promoter Score
+
+include::nps.adoc[]
+
+=== Rilevamento del System Usability Scale
+
+include::sus.adoc[]
