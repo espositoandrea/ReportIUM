@@ -1,0 +1,77 @@
+= Tester 4
+
+Facilitatore:: {author}
+Osservatore:: {author_5}
+
+Il tester è Alessandro Cicala, uno studente universitario del secondo anno presso l'Università Aldo Moro con sede a Taranto. Essendo un cittadino di Taranto, conosce benissimo il comune di Taranto ma non ne ha mai visionato il sito web.
+Illustrate le finalità del test, viene sottoposto ad Alessandro il questionario demografico per l'identificazione del partecipante da cui emerge che il tester ha una buona conoscenza e un buon utilizzo delle tecnologie informatiche e che conosce il tema dell'usabilità dei siti web.
+
+== Task 1
+Il facilitatore comunica il primo task e ne illustra il contesto in modo che questo risulti essere chiaro e di facile comprensione per il tester. 
+A partire dalla Home del sito del comune di Taranto, Alessandro prova a individuare l'elenco nella pagina "`Settori, Servizi e Uffici Comunali`", nella sezione "`Amminnistrazione e uffici`". In quanto non riesce a individuare ciò che serve, il test accede alla sezione "`Aree Tematiche`" e, facendo uso della funzione di ricerca del browser, prova a cercarlo scrivendo "`bando`" ma fallendo.
+Provando ad accedere alla pagina "`Lavori pubblici e innovazione`", in quanto ha cliccato sull'immagine della pseudo card, è stato indirizzato nella pagina "`Appalti e contratti`" senza che se ne rendesse conto. Scorrendo, individua un bando di gara sul quale ha cliccato e attraverso la breadcrumb, una volta caricata la nuova pagina, individua la voce "`Bandi`" al quale accede venendo indirizzato nella sezione "`News`" relative ai bandi.
+In questo caso il tester, credendo di aver raggiunto l'obiettivo del task, conclude l'esecuzione dello stesso.
+
+=== Analisi e considerazioni
+Durante l'esecuzione del primo task, è comprensibile che il tester si sia trovato molto disorientato. Questo è dovuto non solo al fatto che Alessandro non abbia mai visionato il sito del comune di Taranto ma, principalmente, al fatto che il sito non risulta essere facilmente usabile e comprensibile a chi lo visita per la prima volta.
+Inoltre, si evince che le label della navbar non identificano propriamente il loro stesso contenuto e proprio per questo Alessandro è stato portato a selezionare delle voci che non c'entravano nulla con ciò che è stato richiesto indirizzandolo nella parte sbagliata del sito web.
+Una considerazione fondamentale è quella relativa alle card in quanto il tester, nel cercare l'elenco dei bandi, ha provato ad accedere nella pagina "`Lavori pubblici e innovazione`" ma cliccando sull'immagine della stessa è stato indirizzato in una pagina totalmente differente da quello che aveva deciso di selezionare. Questo problema, infatti, è stato segnalato dagli esperti durante la valutazione euristica (si veda <<tab-valutazione-euristica).
+Infine, il tester ha creduto di aver raggiunto l'obiettivo del task in questione in quanto ha selezionato la voce "`Bandi`", ma in realtà l'esito è risultato fallito proprio perchè non è stato indirizzato alla pagina di interesse.
+
+Esito:: Task fallito
+
+== Task 2
+Concluso il precedente task, si è riportato il tester alla pagina principale del sito del comune di Taranto descrivendo l'obiettivo ed eventuali chiarimenti relativi al secondo task.
+Alessandro, inizialmente, accede alla pagina "`Amministrazione e Uffici`" e in quanto non trova ciò che gli è stato richiesto è molto perplesso.
+Accede alla pagina delle "`Aree tematiche`", accede, poi, alla pagina "`Lavori pubblici e innonvazione`" e, non trovando ciò che cerca, ritorna alla Home del sito web attraverso il breadcrumb. Aperta la Home, prova ad accedere alla pagina "`Contatta il comune`" accedendo, successivamente alla pagina "`Recapiti telefonici degli Uffici`", dove quello che gli appare sono i numeri verdi. Ritorna poi alla Home, dove pone il quesito al facilitatore se fosse realmente presente il collegamento che permette la visione degli orari degli uffici. A questo punto, il facilitatore aiuta Alessandro dicendogli che tutto quello che gli viene richiesto, all'interno del sistema, è presente ma potrebbe non essere raggiungibile. Alessandro, a questo punto, intuisce che gli orari degli uffici potrebbero essere raggiungibili solo attraverso della barra di ricerca del sito ma prova a scovare il possibile collegamento. Infatti, accede alla pagina "`Elenco siti tematici`", ritorna in "`Amministrazione e Uffici`" chiedendo sarcasticamente di poter utilizzare la barra di ricerca del sito, dove non trova nessun possibile collegamento. Ritorna poi alla Home. Quello che propone a questo punto è quello di poter trovare attraverso la mappa di Taranto (ovvero un servizio esterno offerto da Google presente nella Home page del sito) un ufficio comunale del quale dovrebbero comparire, secondo il tester, le informazioni relative agli orari e contatti di quell'ufficio. Ma quello che succede non da l'informazione interessata ad Alessandro.
+Dopo tutti questi tentativi, decide di concludere il task consapevole di non averlo concluso.
+
+=== Analisi e considerazioni
+Il tester ha confermato quello che è stato descritto nella tabella della valutazione euristica (si veda <<tab-valutazione-euristica), cioè che non è presente nessun collegamento all'interno del sito, ad eccetto della barra di ricerca e della mappa del sito, relativo agli orari degli uffici della città di Taranto ed emerso anche che questo collegamento dovrebbere essere posizionato all'interno della pagina "`Amministrazione e Uffici`". Nel caso del tester Alessandro, è possibile dedurlo dalla sua perplessità nell'accedere alla pagina sopra mensionata e non trovare il collegamento richiesto.
+
+Esito:: Task fallito
+
+== Task 3
+Terminato il precedente task, il tester è stato riportato alla pagina principale del sito web e gli è stato spiegato l'obiettivo del terzo task ed eventuali chiarimenti necessari per assicurarsi che sia stato compreso a pieno. Quello che fa Alessandro, prima ancora che il facilitatore abbia finito di spiegare, è scrollare la home verso il basso e porsi nella sezione "`In evidenza`" dicendo di aver concluso e raggiunto l'obiettivo di questo task.
+
+=== Analisi e considerazioni
+Si può dedurre che il tester ha avuto, a primo colpo, l'impressione di aver raggiunto l'obiettivo in quanto è sbagliata la scelta progettuale. Questo perchè è stato utilizzato un carosello per poter rappresentare gli eventi a Taranto il quale porta a pensare a un qualcosa di importante come le news che sono in primo piano e subito evidenti. 
+
+Esito:: Task fallito
+
+== Task 4
+Terminato il precedente task, il tester è stato riportato alla pagina principale del sito web e gli è stato spiegato l'obiettivo del successivo task, ovvero il quarto, con eventuali chiarimenti necessari per assicurarsi che sia stato compreso a pieno. La prima cosa che afferma è che nel cercare di raggiungere gli obiettivi dei precendenti task può aver individuato già la posizione in cui si trova e procede andando in "`Aree tematiche`"->"`Cultura ed Eventi`" e infine accede in "`Biblioteca civica` Pietro Acclavio - Vetrina`". Ma subito si rende conto che non corrispondeva a ciò che era stato chiesto e chiede conferma al facilitatore. Quest'ultimo procede nel introdurre e spiegare nuovamente il task al tester. Ritorna quindi alla Home e procede nel visionare "`Modulistica dei procedimenti`" dove scorre verso la voce "`Pubblica istruzione - Cultura - Spettacolo - Sport`" e ci clicca sopra. Al tester compare una lista di moduli e lo stesso raggiunge la voce "`Biblioteca - Modulo richiesta visita guidata`" e conclude confermanda di aver terminato con successo il task.
+Il tester, concluso il task, esordisce dicendo che in quanto si trovava in nella pagina "`Biblioteca civica` Pietro Acclavio - Vetrina`" sarebbe stato utile trovare i moduli anche li.
+=== Analisi e considerazioni
+Il tester ha completato con successo l'obiettivo del task in questione. Si è notato anche in questo caso la poca famigliarità, necessaria, per utilizzare il sito web del Comune di Taranto risultando quindi poco usabile, poco intuibile e poco semplice anche per chi non ha mai visitato il sito.
+
+Esito:: Task completato
+
+== Task 5
+Terminato il task precedente, il tester è stato riportato alla pagina principale del sito web e gli è stato spiegato l'obiettivo del quinto task con eventuali chiarimenti necessari per assicurarsi che sia stato compreso a pieno. In particolare, il facilitatore fa riferimento a un portale che da la possibilità di poter pagare la tassa richiesta.  A questo punto, Alessandro scorrendo verso il basso sulla Home accede alla pagina "`Settori, Servizi e Uffici Comunali`", accede anche nella pagina "`Ambiente e qualità della vita`" proseguendo, da qui, su "`Link utili`". Anche se molto incerto, clicca sulla voce "`Il portale regionale dell'ambiente`" ma ritenendo che non fosse quello richiesto, ritorna successivamente sulla Home. Accede alla pagina "`Urbanistica e Mobilità`" e arrivato a questo punto comunica al facilitatore che non riesce a trovare il portale cocludento il task in questione.
+=== Analisi e considerazioni
+Il tester, è stato dalla distolto dal fatto che il portale per il pagamento della TARI è stato rappresentato come se fosse un banner, quindi facendo pensare ad Alessandro che fosse una pubblicità o un qualcosa che i progettisti hanno utilizzato per creare il sito web ma sicuramente non credeva fossero dei servizi utili per un qualsiasi cittadino tarantino. Questo è un problema riscontrato anche dalla tabella della valutazione euristica complessiva (si veda <<tab-valutazione-euristica).
+La cosa che conferma che il tester non aveva capito che si trattava di un servizio importate proprio per la sua sbagliata rappresentazione, è che lui essendo stato in Toscana per un periodo di tempo utilizzava lo stesso portale per poter pagare la TARI.
+
+Esito:: Task fallito
+
+== Task 6
+Terminato il task precedente, il tester è stato riportato alla pagina principale del sito web e gli è stato spiegato l'obiettivo dell'ultimo task con eventuali chiarimenti necessari per assicurarsi che sia stato compreso a pieno. Accede alla "`Cultura ed eventi`" e utilizzando la funzione di ricerca del browser digita la parola "`cinema`" non riscomtrando nessun risultato e proprio per questo decide di tornare alla home. Il tester ha cliccato sul tag "`Eventi`" pensando di trovare qualcosa di utile per la sua ricerca ma il sistema lo ha riportato nuovamente nella home. Da qui, Alessandro, in quanto stanco, ha utilizzato la barra di ricerca del sito per poter raggiungere l'obiettivo concludendo così il task. Il tester ha esposto al facilitatore la sua incomprensione riguardo alla label utilizzato nella navbar per rappresentare le attrazioni della città come appunto il cinema.
+=== Analisi e considerazioni
+Si deduce che il tester, inconsciamente abbia individuato un problema non si evince dalle valutazioni euristiche. Ovvero sia che cliccando sul tag "`Eventi`", presente nella home, il tester viene reindirizzao nuovamente alla home cosa che in realtà non dovrebbe accadere in quanto non dovrebbero essere cliccabili.
+Alessandro, una volta venuto a conoscenza della label "`Vivere Taranto`" presente sulla navbar ha confermato un problema riscontrato nelle valutazioni euristiche (si veda <<tab-valutazione-euristica) cioè il contenuto di tale sezione del sito non è ben rappresentabile da questa label e quindi non intuibile che ci potessero essere le informazioni riguardante anche l'elenco dei cinema presenti a Taranto.
+
+Esito:: Task fallito
+
+== Considerazioni finali espresse dal tester
+Il tester è stato molto chiaro sulla poca usabilità del sito in questione. Ha espresso implicitamente che per uno studente è facile poter maneggiare un computer e avere più elasticità mentale rispetto ad altri nel trovare determinate aree del sistema, ma una volta visitato questo sito ribasce che è necessario saperlo utilizzare già per capire i vari collegamenti.
+
+Oltrettutto è stato utile Alessandro che ha fatto emergere un problema non individuato in precedenza cioè quello di poter essere indirizzati in altre o addirutta nella stessa pagina cliccando su un tag della home page.
+
+Il tester ha dato la possibilità di comprendere che quelli che hanno realizzato e progettato questo sistema hanno sbaglio tutte le scelte progettuali non pensando di rendere il sito del comune di Taranto accessibile a tutti non solo dai disabili ma anche da persone normo-dotate. A questo proposito, Alessandro evince che se è inaccessibile per persone che non hanno delle difficoltà psico-fisiche è possibile comprendere quanta difficoltà hanno le persone diversamente abili ad utilizzarlo.
+
+Infine, Alessandro ha esplicitato che ci sono determinati servizi ai quali non si ha dato molta importanza, quando in realtà hanno degli scopi precisi, rappresentandoli come se fossero delle pubblicità, come ad esempio il portare per il pagamento della TARI. Espone, anche, che non è possibile non poter accedere alla pagina in cui si fa riferimento agli uffici e orari di Taranto. 
+=== Rilevamento del Net Promoter Score (NPS)
+include:: nps.adoc[]
+=== Rilevamento del System Usability Scale (SUS)
+include:: sus.adoc[]
