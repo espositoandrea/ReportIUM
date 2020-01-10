@@ -101,7 +101,7 @@ presente in Aree Tematiche. Sebbene egli abbia avuto la visione d'insieme delle
 Aree Tematiche non è stato in grado di focalizzarsi su essa, oppure non l'ha
 ritenuta pertinente a ciò che veniva richiesto.
 
-Esito del task:: Task Fallito
+Esito del task:: Task fallito
 
 == Task 5
 

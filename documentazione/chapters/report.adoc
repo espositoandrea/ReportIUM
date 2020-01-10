@@ -42,14 +42,24 @@ di esprimere una valutazione quantitativa dell'usabilità del sito web.
 I seguenti report sono stati stesi dai relativi osservatori e sono stati poi
 discussi dall'intero team.
 
-include::tester-1/report.adoc[leveloffset=+2]
+=== Report dei test
 
-include::tester-2/report.adoc[leveloffset=+2]
+include::tester-1/report.adoc[leveloffset=+3]
 
-include::tester-3/report.adoc[leveloffset=+2]
+include::tester-2/report.adoc[leveloffset=+3]
 
-include::tester-4/report.adoc[leveloffset=+2]
+include::tester-3/report.adoc[leveloffset=+3]
 
-include::tester-5/report.adoc[leveloffset=+2]
+include::tester-4/report.adoc[leveloffset=+3]
 
-include::tester-6/report.adoc[leveloffset=+2]
+include::tester-5/report.adoc[leveloffset=+3]
+
+include::tester-6/report.adoc[leveloffset=+3]
+
+=== Risultati complessivi 
+
+Si riporta in <<tab-successo-task>>, per ogni tester, lo stato di ogni task
+(superato o non superato). Inoltre si riporta il tasso di successo per task, il
+tasso di successo per partecipante e il tasso di successo complessivo.
+
+include::tasks/successo.adoc[]

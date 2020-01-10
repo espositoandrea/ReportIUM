@@ -45,10 +45,6 @@ def generate_euristic(input, author = "FSC -- Five Students of Computer Science"
   end
 end
 
-def convert_asciidoc(input_file, theme = "basic")
-  Asciidoctor.convert_file input_file, backend: "pdf", safe: :unsafe, to_dir: "out/", attributes: { "lang" => "it", "pdf-theme" => theme, "pdf-themesdir" => "./themes" }, mkdirs: true
-end
-
 def create_table_from_survey(entries)
   table = "[cols=\"<.^10h,^.^1\", options=\"header\"]\n|===\n| Domanda | Voto\n"
   entries.each { |question, answer| table += "| #{question} | #{answer}\n" }

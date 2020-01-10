@@ -1,0 +1,13 @@
+[[tab-successo-task]]
+.Tabella del tasso di successo dei task.
+[cols="^.^1h,6*^.^1,^.^1", options="header"]
+|===
+| | Tester 1 | Tester 2 | Tester 3 | Tester 4 | Tester 5 | Tester 6| Tasso di successo medio per task
+| Task 1 | [red]#No# | [red]#No# | [red]#No# | [red]#No# | [green]#Sì# | [red]#No#|16.67%
+| Task 2 | [red]#No# | [red]#No# | [red]#No# | [red]#No# | [red]#No# | [red]#No#|0.0%
+| Task 3 | [green]#Sì# | [red]#No# | [green]#Sì# | [red]#No# | [green]#Sì# | [green]#Sì#|66.67%
+| Task 4 | [red]#No# | [red]#No# | [red]#No# | [green]#Sì# | [red]#No# | [green]#Sì#|33.33%
+| Task 5 | [red]#No# | [red]#No# | [red]#No# | [red]#No# | [red]#No# | [red]#No#|0.0%
+| Task 6 | [red]#No# | [red]#No# | [green]#Sì# | [red]#No# | [green]#Sì# | [green]#Sì#|50.0%
+|Tasso di successo medio per tester|16.67%|0.0%|33.33%|16.67%|50.0%|50.0%| *Media: 27.78%*
+|===

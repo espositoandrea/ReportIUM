@@ -1,0 +1,93 @@
+# Si riportano di seguito i sei task eseguiti dai tester e i loro esiti per ogni
+# tester
+
+- task: "Individuare una bando di concorso"
+  id: 1
+  contesto: >-
+    Hai saputo che il comune di Taranto ha pubblicato dei bandi per l'assunzione
+    di dieci istruttori informatici. Sei interessato a tale bando e vuoi
+    ottenere maggiori informazioni
+  successo:
+    - "http://131.1.231.197/index.php/concorsi"
+    - "http://www.comune.taranto.it/index.php/elenco-servizi/bandi-di-concorso"
+  esiti:
+    tester1: false
+    tester2: false
+    tester3: false
+    tester4: false
+    tester5: true
+    tester6: false
+- task: "Individuare gli orari di apertura delle sedi del comune"
+  id: 2
+  contesto: >-
+    Devi ritirare la tua nuova carta di identità e per farlo devi recarti alla
+    sede del comune più vicina. Vuoi, quindi, conoscere gli orari di apertura di
+    quella sede.
+  successo:
+    - "http://www.comune.taranto.it/index.php/elenco-aree-tematiche/anagrafe/servizi-decentrati-per-il-cittadino"
+  esiti:
+    tester1: false
+    tester2: false
+    tester3: false
+    tester4: false
+    tester5: false
+    tester6: false
+- task: "Individuare le ultime news"
+  id: 3
+  contesto: >-
+    Il comune pubblica sul proprio sito alcune notizie importanti, come
+    eventuali avvisi per _wind day_ o allerte meteo. Vuoi controllare se per la
+    giornata di domani vi siano avvisi simili.
+  successo:
+    - "http://www.comune.taranto.it/"
+    - "http://www.comune.taranto.it/index.php/elenco-news"
+  esiti:
+    tester1: true
+    tester2: false
+    tester3: true
+    tester4: false
+    tester5: true
+    tester6: true
+- task: "Recuperare un modulo di domanda"
+  id: 4
+  contesto: >-
+    Vuoi recuperare il modello di domanda per una visita guidata della
+    biblioteca di Taranto.
+  successo:
+    - "http://www.comune.taranto.it/index.php/elenco-servizi/modulistica-dei-procedimenti"
+  esiti:
+    tester1: false
+    tester2: false
+    tester3: false
+    tester4: true
+    tester5: false
+    tester6: true
+- task: "Trovare link al portale per il pagamento della TARI"
+  id: 5
+  contesto: >-
+    Devi pagare la tassa sui rifiuti TARI. Hai saputo che è possibile pagarla
+    attraverso un portale del sito del comune di Taranto. Vuoi quindi trovare
+    tale portale.
+  successo:
+    - "http://www.comune.taranto.it/"
+    - "https://linkmatesec.servizienti.it/LinkmateSec/?c=L049"
+  esiti:
+    tester1: false
+    tester2: false
+    tester3: false
+    tester4: false
+    tester5: false
+    tester6: false
+- task: "Trovare l'elenco dei cinema di Taranto"
+  id: 6
+  contesto: >-
+    Vuoi conoscere quali siano i cinema presenti nella città di Taranto.
+  successo:
+    - "http://www.comune.taranto.it/index.php/elenco-taranto/i-personaggi-storici/cinema"
+  esiti:
+    tester1: false
+    tester2: false
+    tester3: true
+    tester4: false
+    tester5: true
+    tester6: true

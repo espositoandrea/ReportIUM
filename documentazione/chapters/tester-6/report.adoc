@@ -82,7 +82,7 @@ del task.
 [[task-3-analisi-e-considerazioni-antonio-pastorelli]]
 === Analisi e considerazioni
 
-l'utente non ha avuto alcuna difficoltà a completare il task, ma ciò è anche
+L'utente non ha avuto alcuna difficoltà a completare il task, ma ciò è anche
 dovuto all'esperienza regressa che gli ha portato a comprendere che non tutto
 ciò che è nella pagina home è presente anche nella barra di navigazione.
 
