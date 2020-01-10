@@ -20,7 +20,7 @@ riservata. Successivamente da questa pagina clicca entra nella sezione
 entra nella stessa pagina dalla navbar (da cui non è evidente che ha cliccato la
 pagina già attiva). L'utente successivamente tenta di accedere alla pagina "`aree
 tematiche`" ma, non trovando un link comunica al facilitatore di non essere
-riuscito a completare l'obiettivo
+riuscito a completare l'obiettivo.
 
 [[task-1-analisi-e-considerazioni-vittorio-albano]]
 === Analisi e considerazioni
@@ -104,7 +104,7 @@ Esito del task:: Task fallito
 [[task-5-vittorio-albano]]
 == Task 5 
 
-Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
+Il facilitatore illustra il quinto task e ne presenta un contesto in modo che
 questo sia chiaro e di facile comprensione per il tester. L'utente avvia la
 ricerca accedendo mediante la barra di navigazione alla sezione
 "`Amministrazione e uffici`". Non trovando l'informazione ricercata l'utente
@@ -129,7 +129,7 @@ Esito del task:: Task fallito
 [[task-6-vittorio-albano]]
 == Task 6
 
-Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
+Il facilitatore illustra il sesto task e ne presenta un contesto in modo che
 questo sia chiaro e di facile comprensione per il tester. Data l'esperienza
 regressa dell'ultimo task eseguito (<<task-5-vittorio-albano>>), l'utente prova
 a ricercare l'informazione effettuando dello scrolling nella pagina home. Accede
