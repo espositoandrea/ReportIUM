@@ -9,6 +9,7 @@ Vittorio il questionario demografico per l'identificazione del partecipante. Da
 tale test emerge che l'utente ha familiarità con l'utilizzo di internet e
 utilizza raramente il sito web del Comune di Taranto.
 
+[[task-1-vittorio-albano]]
 == Task 1
 
 Il facilitatore illustra il primo task e ne presenta un contesto in modo che
@@ -21,6 +22,7 @@ pagina già attiva). L'utente successivamente tenta di accedere alla pagina "`ar
 tematiche`" ma, non trovando un link comunica al facilitatore di non essere
 riuscito a completare l'obiettivo
 
+[[task-1-analisi-e-considerazioni-vittorio-albano]]
 === Analisi e considerazioni
 
 Una problematica risultata evidente durante l'esecuzione del task sta nel fatto
@@ -36,6 +38,7 @@ contiene un link che permetta di raggiungere la pagina desiderata.
 
 Esito del task:: Task fallito
 
+[[task-2-vittorio-albano]]
 == Task 2
 
 Il facilitatore illustra il secondo task e ne presenta un contesto in modo che
@@ -48,6 +51,7 @@ Dopo numerosi altri tentativi a vuoto e dopo essere uscito dal sito (accedendo
 al vecchio sito del comune), il tester comunica l'impossibilità di trovare
 l'informazione cercata.
 
+[[task-2-analisi-e-considerazioni-vittorio-albano]]
 === Analisi e considerazioni
 
 Durante l'esecuzione del task l'utente cercava continuamente le informazioni
@@ -56,13 +60,16 @@ raggiungere tale fine.
 
 Esito del task:: Task fallito
 
+[[task-3-vittorio-albano]]
 == Task 3
 
-L'utente risulta essere completamente perso in quanto tenta di utilizzare la
-barra di navigazione per raggiungere lo scopo del task. Dopo diverso tempo
-l'utente, evidentemente perso e frustrato, decide di terminare l'esecuzione del
-task.
+Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester. L'utente risulta
+essere completamente perso in quanto tenta di utilizzare la barra di navigazione
+per raggiungere lo scopo del task. Dopo diverso tempo l'utente, evidentemente
+perso e frustrato, decide di terminare l'esecuzione del task.
 
+[[task-3-analisi-e-considerazioni-vittorio-albano]]
 === Analisi e considerazioni
 
 Il problema più evidente durante l'esecuzione del task è quello indicato
@@ -72,34 +79,86 @@ navigazione.
 
 Esito del task:: Task fallito
 
+[[task-4-vittorio-albano]]
 == Task 4
 
 Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
-questo sia chiaro e di facile comprensione per il tester.
+questo sia chiaro e di facile comprensione per il tester. L'utente accede alla
+sezione "`Amministrazione e uffici`" mediante la barra di navigazione e
+suggerisce che questa fosse la posizione più logica per il file desiderato. Non
+trovando l'informazione desiderata, segue il percorso "`Aree tematiche`" (a cui
+accede mediante la barra di navigazione), "`Cultura ed eventi`", "`Altre
+biblioteche`". Dopo un po' di tempo, l'utente sottolinea che non è presente il
+modulo ricercato (che dovrebbe trovarsi nella sezione visitata) e pone fine al
+task.
 
+[[task-4-analisi-e-considerazioni-vittorio-albano]]
 === Analisi e considerazioni
+
+Un suggerimento molto importante da parte dell'utente è quello dato
+involontariamente al termine del task: la modulistica relativa alla biblioteca
+dovrebbe essere situata nella sezione "`Biblioteca`".
 
 Esito del task:: Task fallito
 
+[[task-5-vittorio-albano]]
+== Task 5 
 
-== Task 5
+Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester. L'utente avvia la
+ricerca accedendo mediante la barra di navigazione alla sezione
+"`Amministrazione e uffici`". Non trovando l'informazione ricercata l'utente
+risulta essere fortemente frustrato e perso. Al fine di migliorare l'esperienza
+dell'utente e tranquillizzarlo, il facilitatore decide di suggerire all'utente
+di tornare alla pagina principale e provare ad effettuare dello scrolling.
+Nonostante questo forte suggerimento, l'utente non riesce a trovare il link al
+portale e decide quindi di porre fine al task.
 
+[[task-5-analisi-e-considerazioni-vittorio-albano]]
 === Analisi e considerazioni
+
+È da sottolineare che l'aiuto dato dal facilitatore aveva l'obiettivo di
+tranquillizzare l'utente e migliorare la sua esperienza di test. È tuttavia
+stato utile a notare che l'utente conosce la possibilità di effettuare scrolling
+sulle pagine web, ma non è naturalmente portato a farlo in quanto ritiene che le
+informazioni principali si trovino sulla parte alta di una pagina e sia quindi
+inutile provare a raggiungerne il fondo.
 
 Esito del task:: Task fallito
 
+[[task-6-vittorio-albano]]
 == Task 6
 
+Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester. Data l'esperienza
+regressa dell'ultimo task eseguito (<<task-5-vittorio-albano>>), l'utente prova
+a ricercare l'informazione effettuando dello scrolling nella pagina home. Accede
+quindi alla sezione "`Aree tematiche`" e quindi alla sezione "`Eventi e
+cultura`", suggerendo sottovoce che la posizione più naturale per l'informazione
+ricercata fosse quella. Dopo un po' di ricerca nella pagina, l'utente decide di
+porre fine al task.
+
+[[task-6-analisi-e-considerazioni-vittorio-albano]]
 === Analisi e considerazioni
+
+Nonostante l'esperienza regressa data dall'esecuzione del task 5, l'utente tenta
+di ricercare l'informazione nella barra di navigazione suggerendo che tutto
+dovrebbe essere raggiungibile da lì. Tuttavia, l'informazione è effettivamente
+accessibile mediante la navbar, sottolineando la scarsa chiarezza dell'etichetta
+"`Vivere Taranto`" (come suggerito dal problema 20 della
+<<tab-valutazione-euristica>>).
 
 Esito del task:: Task fallito
 
+[[considerazioni-finali-espresse-dal-tester-vittorio-albano]]
 == Considerazioni finali espresse dal tester
 
+[[rilevamento-del-net-promoter-score-vittorio-albano]]
 === Rilevamento del Net Promoter Score
 
 include::nps.adoc[]
 
+[[rilevamento-del-system-usability-scale-vittorio-albano]]
 === Rilevamento del System Usability Scale
 
 include::sus.adoc[]
