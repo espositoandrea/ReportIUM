@@ -7,7 +7,7 @@ Il tester è _Giuseppa Scorrano_, una Casalinga di 76 anni e vive a Taranto. Non
 
 == Task 1
 
-Il facilitatore comunica il primo task e ne illustra il contesto in modo che sia chiaro e di facile comprensione per il tester. L'utente apre la Home Page del sito e si dirige in "`Amministrazione e uffici`", a questo punto, leggendo i vari link, pensa che il link "`Organizzazione`" riguardi l'organizzatore dei bandi di corso. Tenta quindi di cliccare il contenitore (che, in realtà, ha le sembianze di un bottone) senza nessun cambiamento della pagina. Dopo vari tentativi di click, il cursore capita (per sbaglio) sul link contenuto all'interno del bottone che la rimanda alla pagina "`Organizzatore`" senza lasciare che l'utente capisca dove cliccare nelle volte successive. Arrivata nella pagina "`Organizzatore`" l'utente crede di trovare ciò che veniva richiesto dal task ma si arrende.
+Il facilitatore comunica il primo task e ne illustra il contesto in modo che sia chiaro e di facile comprensione per il tester. L'utente apre la "`Home Page`" del sito e si dirige in "`Amministrazione e uffici`" successivamente, leggendo i vari link, pensa che il link "`Organizzazione`" riguardi l'organizzatore dei bandi di corso. Tenta quindi di cliccare il contenitore (che, in realtà, ha le sembianze di un bottone) senza nessun cambiamento della pagina. Dopo vari tentativi di click, il cursore capita (per sbaglio) sul link contenuto all'interno del bottone che la rimanda alla pagina "`Organizzatore`" senza lasciare che l'utente capisca dove cliccare nelle volte successive. Arrivata nella pagina "`Organizzatore`" l'utente crede di trovare ciò che veniva richiesto dal task ma si arrende.
 
 Riepilogo del percorso effettuato::
 *Home* -> *Amministrazione e Uffici* -> *Organizzatore*
@@ -20,7 +20,7 @@ Esito del task:: Task fallito
 
 == Task 2
 
-Partendo dalla Home Page, l'utente si sofferma sulla navbar cercando di trovare un link che riguardi gli uffici del comune. Procede quindi nella pagina "`Amministrazione e uffici`", scrolla la pagina fino ad arrivare al footer ed effettua il click su "`Servizi e Uffici`" mostrando un forte disorientamento. Ricerca più volte, all'interno della pagina, un collegamento utile ma senza successo.
+Partendo dalla "`Home Page`", l'utente si sofferma sulla navbar cercando di trovare un link che riguardi gli uffici del comune. Procede quindi nella pagina "`Amministrazione e uffici`", scrolla la pagina fino ad arrivare al footer ed effettua il click su "`Servizi e Uffici`" mostrando un forte disorientamento. Ricerca più volte, all'interno della pagina, un collegamento utile ma senza successo.
 
 Riepilogo del percorso effettuato::
 *Home* -> *Amministrazione e uffici* -> *Settori, Servizi e Uffici*
@@ -39,7 +39,7 @@ Riepilogo del percorso effettuato:: *Home* -> _In primo piano_
 
 === Analisi e considerazioni
 
-Dall'analisi dello svolgimento di questo task si evince che il carosello di immagini presente nella "`Home Page`" disorienta l'utente in quanto occupa troppo spazio sullo schermo (problema già segnalato nella "`Tabella di valutazione euristica`" <<tab-valutazione-euristica>>). Inoltre, il fatto che ci siano due tipologie di "notizie" differenti (vedi "`In primo piano`" e "`In Evidenza`") distrae l'utente durante la ricerca di quelle che interessano il task ("`In primo piano`") portandolo a credere di aver trovato le News mentre, in realtà, trova solo una lista di Eventi. Una volta trovata la sezione corretta, l'utente lamenta il fatto che lo scorrimento delle notizie è troppo veloce, impedendogli di leggere i titoli, le anteprime e di aprire una possibile notizia di interesse.
+Dall'analisi dello svolgimento di questo task si evince che il carosello di immagini presente nella "`Home Page`" disorienta l'utente in quanto occupa troppo spazio sullo schermo (problema già segnalato nella <<tab-valutazione-euristica>>). Inoltre, il fatto che ci siano due tipologie di "`notizie`" differenti (vedi "`In primo piano`" e "`In Evidenza`") distrae l'utente durante la ricerca di quelle che interessano il task ("`In primo piano`") portandolo a credere di aver trovato le News mentre, in realtà, trova solo una lista di Eventi. Una volta trovata la sezione corretta, l'utente lamenta il fatto che lo scorrimento delle notizie è troppo veloce, impedendogli di leggere i titoli, le anteprime e di aprire una possibile notizia di interesse.
 
 Esito del task:: Task superato
 
@@ -51,20 +51,20 @@ Riepilogo del percorso effettuato:: *Home* -> *Settori, Servizi e Uffici comunal
 
 === Analisi e considerazioni
 
-Si è notato, anche durante questo task, che l'utente tende maggiormente a soffermarsi sulla navbar presente nell'header del sito piuttosto che guardare il resto dei link offerti dalla pagina infatti, tende a porre minore enfasi verso la "`Home Page`" in quanto troppo caotica e confusionaria.
+Si è notato, anche durante questo task, che l'utente tende maggiormente a soffermarsi sulla navbar presente nell'header del sito piuttosto che guardare il resto dei link offerti dalla pagina, infatti, tende a porre minore enfasi verso la "`Home Page`" in quanto troppo caotica e confusionaria.
 
 Esito del task:: Task fallito
 
 == Task 5
 
 L'utente si sofferma nella sezione "`In primo piano`" della "`Home Page`" in quanto crede che, insieme alle news, siano presenti dei link utili a delle pagine come quella richiesta dal task. Inoltre, tra le news in scorrimento, ne nota una intitolata "Transizione ecologica" solo che, data l'elevata velocità con cui veniva effettuata la transizione, non ha avuto possibilità di comprendere meglio che fosse una news e tantomeno di cliccare sul link per aprirla.
-Dopo aver provato più volte ad aprire la suddetta news, si arrende e cerca un'altra via per completare il task all'iterno della "`Home Page`". Si sofferma sulla sezione "`Servizi`" e, dopo una lettura di tutti i link presenti, decide di entrare nella pagina "`Settori, Servizi e Uffici comunali`" attirata dalla parola "`Servizi`". Nella pagina, si accorge che i "`Servizi`" da lei ricercati non sono presenti, arrecandole frustrazione e senso di incapacità.
+Dopo aver provato più volte ad aprire la suddetta news, si arrende e cerca un'altra via per completare il task all'interno della "`Home Page`". Si sofferma sulla sezione "`Servizi`" e, dopo una lettura di tutti i link presenti, decide di entrare nella pagina "`Settori, Servizi e Uffici comunali`" attirata dalla parola "`Servizi`". Nella pagina, si accorge che i "`Servizi`" da lei ricercati non sono presenti, arrecandole frustrazione e senso di incapacità portandola, quindi, a rinunciare.
 
 Riepilogo del percorso effettuato:: *Home Page* -> *Settori, Servizi e Uffici comunali*
 
 === Analisi e considerazioni
 
-Lo svolgimento del task dimostra il fatto che le label dei link della pagina sono poco chiari e traggono in inganno. Infatti, la scelta del link "`Settori, Servizi e Uffici comunali`" è stata fatta secondo un criterio preciso, i "`Servizi`", solo che, la pagina, mostra un grafico ritenuto "disturbante" agli occhi dell'utente che, intento a cercare tutt'altro, si ritrova a provare un senso di sconforto.  
+Lo svolgimento del task dimostra il fatto che le label dei link della pagina sono poco chiari e traggono in inganno. Infatti, la scelta del link "`Settori, Servizi e Uffici comunali`", è stata fatta secondo un criterio preciso, i "`Servizi`", solo che, la pagina, mostra un grafico ritenuto "disturbante" agli occhi dell'utente che, intento a cercare tutt'altro, si ritrova a provare un senso di sconforto.  
 
 Esito del task:: Task fallito
 
@@ -76,7 +76,7 @@ Riepilogo del percorso effettuato:: *Home Page*
 
 === Analisi e considerazioni
 
-In questo task si dimostra il fatto che le label offerte dal sito non sono efficaci per l'utente. Questo provoca incomprensione e frustrazione, portandolo ad arrendersi facilmente. Inoltre la presenza delle immagini all'inizio della "`Home Page`" creano molto disorientamento dato dalla loro preponderante dimensione.
+In questo task si dimostra il fatto che le label offerte dal sito non sono efficaci per l'utente. Questo provoca incomprensione e frustrazione, portandolo ad arrendersi facilmente. Inoltre, la presenza delle immagini all'inizio della "`Home Page`", creano molto disorientamento dato dalla loro preponderante dimensione.
 
 Esito del task:: Task fallito
 
