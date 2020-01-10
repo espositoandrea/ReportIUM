@@ -1,148 +1,189 @@
-= Tester 3
+= Tester 3: Erminia Salituro
 
 Facilitatore:: {author_2}
 Osservatore:: {author_3}
 
-
-Il tester è _Erminia Salituro_, una ausiliaria di Taranto di 36 anni che ha  
+Il tester è _Erminia Salituro_, una ausiliaria di Taranto di 36 anni che ha
 affermato di usare spesso il sito del Comune della sua città.
 
-Illustrate le finalità del test, viene
-sottoposto a Erminia il questionario per la sua identificazione. Da cui è emerso che la
-tester ritiene di possedere un buon livello di familiarità tecnologica. 
-Dopo una breve introduzione sulle attività che andranno svolte e dopo alcune rassicurazioni,cioè che la valutazione non è effettuata sul tester ma sul sito in questione, viene illustrato il primo task ed inizia il test.
+Illustrate le finalità del test, viene sottoposto a Erminia il questionario per
+la sua identificazione. Da cui è emerso che la tester ritiene di possedere un
+buon livello di familiarità tecnologica. Dopo una breve introduzione sulle
+attività che andranno svolte e dopo alcune rassicurazioni,cioè che la
+valutazione non è effettuata sul tester ma sul sito in questione, viene
+illustrato il primo task ed inizia il test.
 
 == Task 1
 
-L'utente, per trovare i bandi di concorso, ha inizialmente pensato di andare 
-in "Amministrazione e uffici" e, successivamente, ha cliccato "Organizzazione".
-Torna indietro e clicca su "Commissione".
-Accorgendosi di aver sbagliato strada, il tester clicca su "Aree tematiche" presente nella navbar principale.
-Caricata la pagina, clicca su "Lavori pubblici e innovazione". Successivamente,
-torna indietro ad "Aree tematiche" e prova ad andare su "Cultura ed eventi".
-Erminia è visibilmente a disagio ma viene rassicurata dicendole, nuovamente, che non è lei ad essere valutata ma il sito del Comune di Taranto.
-Dopo vari minuti di ricerca, la pagina non viene trovata e il tester dichiara di non riuscire a trovare la pagina in questione.
+L'utente, per trovare i bandi di concorso, ha inizialmente pensato di andare in
+"Amministrazione e uffici" e, successivamente, ha cliccato "Organizzazione".
+Torna indietro e clicca su "Commissione". Accorgendosi di aver sbagliato strada,
+il tester clicca su "Aree tematiche" presente nella navbar principale. Caricata
+la pagina, clicca su "Lavori pubblici e innovazione". Successivamente, torna
+indietro ad "Aree tematiche" e prova ad andare su "Cultura ed eventi". Erminia è
+visibilmente a disagio ma viene rassicurata dicendole, nuovamente, che non è lei
+ad essere valutata ma il sito del Comune di Taranto. Dopo vari minuti di
+ricerca, la pagina non viene trovata e il tester dichiara di non riuscire a
+trovare la pagina in questione.
 
 === Task 1: analisi e considerazioni
 
-L'utente sembrava molto sicuro all'inizio.
-Erminia ha dichiarato di usare spesso il sito del Comune ma ci ha anche confessato che ha sempre usato la barra di ricerca per trovare le pagine desiderate.
-Non potendo utilizzare la barra di ricerca si è trovata molto in difficoltà.
-Il tester ha ritenuto subito che i bandi di concorso fossero nella sezione  "Amministrazione e uffici".
-In questa sezione, il tester era molto indeciso e confuso, non sapeva quale link cliccare.
-Nell'indecisione, ha provato a cliccare i primi due link più familiari ai bandi di concorso.
-Il tester, spaesato, prova di nuovo a fare affidamento alla navbar cliccando su "Aree tematiche". Dopo alcuni ultimi tentativi, il tester si arrende.
+L'utente sembrava molto sicuro all'inizio. Erminia ha dichiarato di usare spesso
+il sito del Comune ma ci ha anche confessato che ha sempre usato la barra di
+ricerca per trovare le pagine desiderate. Non potendo utilizzare la barra di
+ricerca si è trovata molto in difficoltà. Il tester ha ritenuto subito che i
+bandi di concorso fossero nella sezione  "Amministrazione e uffici". In questa
+sezione, il tester era molto indeciso e confuso, non sapeva quale link cliccare.
+Nell'indecisione, ha provato a cliccare i primi due link più familiari ai bandi
+di concorso. Il tester, spaesato, prova di nuovo a fare affidamento alla navbar
+cliccando su "Aree tematiche". Dopo alcuni ultimi tentativi, il tester si
+arrende.
 
 Esito del task:: Task fallito
 
 
 == Task 2
 
-L'utente per svolgere il task 2, con molta sicurezza, clicca su "Amministrazione e uffici", guidata dal nome del link molto simile alla richiesta del task 2.
-Clicca su "Segretario generale" e, successivamente, su "Organizzazione".
-Da qui, l'utente inizia a navigare tramite la navbar laterale cliccando tutti i link possibili.
-Dopo un attenta ricerca in queste pagine, clicca su "Aree tematiche" ma, non trovando la pagina richiesta, ritiene di non riuscire a portare a termine il task.
+L'utente per svolgere il task 2, con molta sicurezza, clicca su "Amministrazione
+e uffici", guidata dal nome del link molto simile alla richiesta del task 2.
+Clicca su "Segretario generale" e, successivamente, su "Organizzazione". Da qui,
+l'utente inizia a navigare tramite la navbar laterale cliccando tutti i link
+possibili. Dopo un attenta ricerca in queste pagine, clicca su "Aree tematiche"
+ma, non trovando la pagina richiesta, ritiene di non riuscire a portare a
+termine il task.
 
 
 === Task 2: analisi e considerazioni
 
-Erminia era molto sicura all'inizio. Dovendo cercare l'orario di apertura delle sedi del Comune clicca, ovviamente, su "Amministrazione e uffici".
-Il nome del link porta l'utente a pensare che, per trovare la pagina richiesta dal task 2, bisogna cliccare su "Amministrazione e uffici".
-Da qui in poi, l'utente cerca una disperata ricerca tramite la navbar laterale cliccando tutti i link. Infine l'utente, come ultima possibilità, prova ad andare nella sezione "Aree tematiche".
-Per arrivare a quest'ultima sezione, però, l'utente ha cliccato casualmente, mostrando chiari segni di confusione.
+Erminia era molto sicura all'inizio. Dovendo cercare l'orario di apertura delle
+sedi del Comune clicca, ovviamente, su "Amministrazione e uffici". Il nome del
+link porta l'utente a pensare che, per trovare la pagina richiesta dal task 2,
+bisogna cliccare su "Amministrazione e uffici". Da qui in poi, l'utente cerca
+una disperata ricerca tramite la navbar laterale cliccando tutti i link. Infine
+l'utente, come ultima possibilità, prova ad andare nella sezione "Aree
+tematiche". Per arrivare a quest'ultima sezione, però, l'utente ha cliccato
+casualmente, mostrando chiari segni di confusione.
 
 Esito del task:: Task fallito
 
 
 == Task 3
 
-Il facilitatore comunica ad Erminia il terzo task.
-L'utente si avvale nuovamente della navbar per trovare la pagina richiesta e prova a cliccare su "Aree tematiche".
-Dopo una rapida lettura, il tester clicca su "Lavori pubblici e innovazione".
-Non trovando la pagina richiesta, il tester torna alla "Home" e scrolla verso il basso.
-L'utente, inizialmente, non si accorge di aver trovato la sezione desiderata ma, dopo vari secondi, dichiara di aver trovato l'informazione richiesta e, quindi, di aver completato il task. 
+Il facilitatore comunica ad Erminia il terzo task. L'utente si avvale nuovamente
+della navbar per trovare la pagina richiesta e prova a cliccare su "Aree
+tematiche". Dopo una rapida lettura, il tester clicca su "Lavori pubblici e
+innovazione". Non trovando la pagina richiesta, il tester torna alla "Home" e
+scrolla verso il basso. L'utente, inizialmente, non si accorge di aver trovato
+la sezione desiderata ma, dopo vari secondi, dichiara di aver trovato
+l'informazione richiesta e, quindi, di aver completato il task. 
 
 === Task 3: analisi e considerazioni
 
-Per svolgere il task 3 è sufficente scrollare leggermente la "Home".
-L'utente ,però, ha subito utilizzato la navbar senza scorrere e ,quindi, senza trovare immediatamente l'informazione richiesta.
-L'utente si accorge della strada completamente sbagliata e ritorna nella "Home".
-Qui, il tester scrolla verso il basso e inizia a leggere le news.
-Erminia non percepisce subito di aver trovato il task richiesto, inizia a leggere le singole news.
-Le notizie non venivano neanche completamente lette a causa della velocità troppo elevata del carousel.
-Dopo vari secondi , però, il tester si accorge di non dover più andare avanti e di aver completato il compito.
+Per svolgere il task 3 è sufficente scrollare leggermente la "Home". L'utente
+,però, ha subito utilizzato la navbar senza scorrere e ,quindi, senza trovare
+immediatamente l'informazione richiesta. L'utente si accorge della strada
+completamente sbagliata e ritorna nella "Home". Qui, il tester scrolla verso il
+basso e inizia a leggere le news. Erminia non percepisce subito di aver trovato
+il task richiesto, inizia a leggere le singole news. Le notizie non venivano
+neanche completamente lette a causa della velocità troppo elevata del carousel.
+Dopo vari secondi , però, il tester si accorge di non dover più andare avanti e
+di aver completato il compito.
 
 Esito del task:: Task completato
 
 == Task 4
 
-L'utente, partendo dalla "Home", clicca su "Area riservata", supponendo che, per scaricare la documentazione, potesse essere necessario una iscrizione.
-Da qui, Erminia però cambia completamente strada e clicca su "Amministrazione e uffici" nella navbar laterale. 
-Successivamente, clicca su "Sindaco" e seleziona "Vivere Taranto".
-Dalla sezione "Vivere Taranto", clicca su "Musei, gallerie e luoghi d'arte".
-L'utente prova a selezionare la voce "Musei" e inizia a scorrere la pagina.
-Erminia riteneva possibile ,in questa pagina, la presenza di un link per scaricare la documentazione sui musei.
-Scorrendo, però, trova solo e-mail dei vari dirigenti dei musei.
-Erminia ci esprime che, non trovando l'informazione richiesta, proverebbe a mandare una e-mail per farsi mandare la documentazione utile per svolgere il compito.
-Il facilitatore comunica la non realizzabilità di questa sua idea per svolgere il task.
-Saputo questo, Erminia comunica di non riuscire a trovare la pagina richiesta.
+L'utente, partendo dalla "Home", clicca su "Area riservata", supponendo che, per
+scaricare la documentazione, potesse essere necessario una iscrizione. Da qui,
+Erminia però cambia completamente strada e clicca su "Amministrazione e uffici"
+nella navbar laterale. Successivamente, clicca su "Sindaco" e seleziona "Vivere
+Taranto". Dalla sezione "Vivere Taranto", clicca su "Musei, gallerie e luoghi
+d'arte". L'utente prova a selezionare la voce "Musei" e inizia a scorrere la
+pagina. Erminia riteneva possibile ,in questa pagina, la presenza di un link per
+scaricare la documentazione sui musei. Scorrendo, però, trova solo e-mail dei
+vari dirigenti dei musei. Erminia ci esprime che, non trovando l'informazione
+richiesta, proverebbe a mandare una e-mail per farsi mandare la documentazione
+utile per svolgere il compito. Il facilitatore comunica la non realizzabilità di
+questa sua idea per svolgere il task. Saputo questo, Erminia comunica di non
+riuscire a trovare la pagina richiesta.
 
 
 === Task 4: analisi e considerazioni
 
-Il tester, già da subito, si perde completamente.
-Rendendosi conto di aver raggiunto una pagina sbagliata, clicca su "Amministrazione e uffici" nella navbar laterale, dimenticandosi completamente della navbar principale.
-Si osserva come Erminia sia in grande difficoltà e sia anche molto scoraggiata.
-Dopo varie ricerche, il tester raggiunge la sezione "Musei".
-In questa pagina, Erminia cerca attentamente un possibile link per la documentazione sui musei ma trova solo e-mail dei dirigenti.
-Da qui, Erminia confessa che, se avesse avuto davvero la necessità di questa documentazione, avrebbe mandato una e-mail ad uno dei dirigenti per richiederla.
-Erminia, però, si accorge da sola dell'enorme spreco di tempo che queste operazioni comporterebbero ed esprime un parere negativo sul sito.
-Il tester, visibilmente irritato, dichiara di non sapere assolutamente dove poter trovare la documentazione richiesta.
+Il tester, già da subito, si perde completamente. Rendendosi conto di aver
+raggiunto una pagina sbagliata, clicca su "Amministrazione e uffici" nella
+navbar laterale, dimenticandosi completamente della navbar principale. Si
+osserva come Erminia sia in grande difficoltà e sia anche molto scoraggiata.
+Dopo varie ricerche, il tester raggiunge la sezione "Musei". In questa pagina,
+Erminia cerca attentamente un possibile link per la documentazione sui musei ma
+trova solo e-mail dei dirigenti. Da qui, Erminia confessa che, se avesse avuto
+davvero la necessità di questa documentazione, avrebbe mandato una e-mail ad uno
+dei dirigenti per richiederla. Erminia, però, si accorge da sola dell'enorme
+spreco di tempo che queste operazioni comporterebbero ed esprime un parere
+negativo sul sito. Il tester, visibilmente irritato, dichiara di non sapere
+assolutamente dove poter trovare la documentazione richiesta.
 
 Esito del task:: Task fallito
 
 == Task 5
 
-A partire dalla "Home page" del sito, il tester clicca su "Vivere Taranto" nella navbar principale affermando di aver scelto quel link solo perchè la riteneva "piena di sbocchi".
-Da qui, il tester clicca su "Aree tematiche" tramite la navbar laterale.
-Raggiunta la pagina, Erminia clicca su "Programmazione economica-finanziaria e tributi" e, successivamente, clicca su "Urbanistica e mobilità".
-L'utente, smarrito, ritorna alla "Home page" e clicca su "Area riservata" ma, dopo una rapida lettura della pagina, dichiara di non riuscire a completare il task.
+A partire dalla "Home page" del sito, il tester clicca su "Vivere Taranto" nella
+navbar principale affermando di aver scelto quel link solo perchè la riteneva
+"piena di sbocchi". Da qui, il tester clicca su "Aree tematiche" tramite la
+navbar laterale. Raggiunta la pagina, Erminia clicca su "Programmazione
+economica-finanziaria e tributi" e, successivamente, clicca su "Urbanistica e
+mobilità". L'utente, smarrito, ritorna alla "Home page" e clicca su "Area
+riservata" ma, dopo una rapida lettura della pagina, dichiara di non riuscire a
+completare il task.
 
 
 === Task 5: analisi e considerazioni
 
-Si osservi come il tester, una volta comunicato il task 5, rimanga sorpreso.
-Erminia non era a conoscenza della possibilità di pagare la Tari direttamente dal sito del Comune di Taranto.
-Si evidenzia come il tester non abbia alcuna idea su dove trovare la pagina richiesta.
-Clicca su "Vivere Taranto" solo perchè si ricordava la presenza, in quella sezione, di molti link e, quindi, di molte strade da percorrere.
-La presenza di molti link nella pagina "Vivere Taranto", per Erminia, ha significato un valido motivo per essere visitata ritenendo che questo fattore, a detta del tester, potesse dargli una maggiore probabilità di trovare l'informazione richiesta.
-L'utente, una volta raggiunta la pagina, clicca su "Aree tematiche" dalla navbar laterale, dichiarando di essere convinta della strada che sta percorrendo.
-Si osservi come il tester si dimentichi nuovamente della navbar principale.
-Il link "Aree tematiche" della navbar principale non viene assolutamente preso in considerazione, infatti Erminia accede a quella pagina solo tramite navbar laterale e tramite la navigazione di altre pagine.
+Si osserva che come il tester, una volta comunicato il task 5, rimanga sorpreso.
+Erminia non era a conoscenza della possibilità di pagare la Tari direttamente
+dal sito del Comune di Taranto. Si evidenzia come il tester non abbia alcuna
+idea su dove trovare la pagina richiesta. Clicca su "Vivere Taranto" solo perchè
+si ricordava la presenza, in quella sezione, di molti link e, quindi, di molte
+strade da percorrere. La presenza di molti link nella pagina "Vivere Taranto",
+per Erminia, ha significato un valido motivo per essere visitata ritenendo che
+questo fattore, a detta del tester, potesse dargli una maggiore probabilità di
+trovare l'informazione richiesta. L'utente, una volta raggiunta la pagina,
+clicca su "Aree tematiche" dalla navbar laterale, dichiarando di essere convinta
+della strada che sta percorrendo. Si osservi come il tester si dimentichi
+nuovamente della navbar principale. Il link "Aree tematiche" della navbar
+principale non viene assolutamente preso in considerazione, infatti Erminia
+accede a quella pagina solo tramite navbar laterale e tramite la navigazione di
+altre pagine.
 
 Esito del task:: Task fallito
 
 == Task 6
 
-Partendo dalla "Home", Erminia clicca su "Aree tematiche".
-Da qui, il tester clicca su "Welfare e pari opportunità" affermando che l'immagine le ricorda il cinema.
-Non trovando l'informazione richiesta, Erminia torna alla pagina "Aree tematiche".
-Il tester, raggiunta questa pagina, clicca tutti i link possibili.
-Erminia si sofferma particolarmente nella sezione "Ambiente e qualità della vita".
-Non trovando nulla, clicca su "Area riservata" dalla navbar principale.
-Successivamente, dalla navbar laterale, clicca su "Vivere Taranto".
-Raggiunta la pagina, il tester seleziona la voce "Teatro, cinema e sala congressi".
-A partire da questa pagina, Erminia clicca su "Cinema" e si accorge immediatamente di essere arrivata nella pagina richiesta.
-Il tester, quindi, dichiara di aver completato con successo il task.
+Partendo dalla "Home", Erminia clicca su "Aree tematiche". Da qui, il tester
+clicca su "Welfare e pari opportunità" affermando che l'immagine le ricorda il
+cinema. Non trovando l'informazione richiesta, Erminia torna alla pagina "Aree
+tematiche". Il tester, raggiunta questa pagina, clicca tutti i link possibili.
+Erminia si sofferma particolarmente nella sezione "Ambiente e qualità della
+vita". Non trovando nulla, clicca su "Area riservata" dalla navbar principale.
+Successivamente, dalla navbar laterale, clicca su "Vivere Taranto". Raggiunta la
+pagina, il tester seleziona la voce "Teatro, cinema e sala congressi". A partire
+da questa pagina, Erminia clicca su "Cinema" e si accorge immediatamente di
+essere arrivata nella pagina richiesta. Il tester, quindi, dichiara di aver
+completato con successo il task.
 
 === Task 6: analisi e considerazioni
 
 Si osservi come il tester venga confuso dalle immagini usate per i vari link.
-L'utente, durante il task 6, afferma più volte la sua voglia di superare almeno quest'altro task.
-Proprio per questo, il tester prova una disperata ricerca cliccando su quasi tutti i link presenti nella sezione "Aree tematiche".
-Si osservi come il tester clicchi sul link "Vivere Taranto" sempre tramite navbar laterale e solo dopo aver visualizzato molte pagine inutili.
-Il tester ha, ad un certo punto, ritenuto che le informazioni da trovare per svolgere i task, in realtà, non fossero davvero presenti nel sito.
-Erminia inoltre,dopo aver completato il task, dichiara di essere parecchio demoralizzata per essere riuscita a svolgere solo due task e che il sito non le sembra assolutamente molto semplice da utilizzare. 
+L'utente, durante il task 6, afferma più volte la sua voglia di superare almeno
+quest'altro task. Proprio per questo, il tester prova una disperata ricerca
+cliccando su quasi tutti i link presenti nella sezione "Aree tematiche". Si
+osservi come il tester clicchi sul link "Vivere Taranto" sempre tramite navbar
+laterale e solo dopo aver visualizzato molte pagine inutili. Il tester ha, ad un
+certo punto, ritenuto che le informazioni da trovare per svolgere i task, in
+realtà, non fossero davvero presenti nel sito. Erminia inoltre,dopo aver
+completato il task, dichiara di essere parecchio demoralizzata per essere
+riuscita a svolgere solo due task e che il sito non le sembra assolutamente
+molto semplice da utilizzare. 
 
 
 
@@ -150,8 +191,10 @@ Esito del task:: Task completato
 
 == Considerazioni finali espresse dal tester
 
-Tutte le considerazioni del tester sono state inserite nei vari task a cui riguardano.
-L'utente, a fine test, ha mostrato interesse a voler sapere la posizione delle pagine all'interno del sito che avrebbe dovuto raggiungere per completare un task.
+Tutte le considerazioni del tester sono state inserite nei vari task a cui
+riguardano. L'utente, a fine test, ha mostrato interesse a voler sapere la
+posizione delle pagine all'interno del sito che avrebbe dovuto raggiungere per
+completare un task.
 
 === Rilevamento del Net Promoter Score
 

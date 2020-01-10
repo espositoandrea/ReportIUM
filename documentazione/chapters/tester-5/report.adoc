@@ -3,74 +3,147 @@
 Facilitatore:: {author}
 Osservatore:: {author_4}
 
-Il tester è Daniele Russano, uno studente universitario di 20 anni dell'Università di Bari.Illustrate le finalità del test viene sottoposto al questionario demografico per l’identificazione del partecipante da cui emerge che il tester ha un buon livello di familiarità tecnologica e che conosce il tema dell’usabilità dei siti web. Viene dunque proposta una breve introduzione di quanto gli si richiede di fare, sottolineando che le attività non sono finalizzate alla valutazione del tester, piuttosto all’individuazione e valutazione di eventuali problematiche legate all’usabilità del sito del comune di Taranto. 
+Il tester è _Daniele Russano_, uno studente universitario di 20 anni
+dell'Università di Bari.Illustrate le finalità del test viene sottoposto al
+questionario demografico per l’identificazione del partecipante da cui emerge
+che il tester ha un buon livello di familiarità tecnologica e che conosce il
+tema dell’usabilità dei siti web. Viene dunque proposta una breve introduzione
+di quanto gli si richiede di fare, sottolineando che le attività non sono
+finalizzate alla valutazione del tester, piuttosto all’individuazione e
+valutazione di eventuali problematiche legate all’usabilità del sito del comune
+di Taranto. 
 
 == Task 1
 
-Il facilitatore comunica il primo task e ne illustra il contesto in modo che questo sia chiaro e di facile comprensione per il tester. Partendo dalla home page del sito, il tester la visiona in maniera generale, selezionando poi la voce "`Bandi di Concorso`". Da qui egli apre il link che riporta ai "`Concorsi precedenti al 28/11/2019`". Raggiunta la pagina, il tester comunica di aver raggiunto l'obiettivo.
+Il facilitatore comunica il primo task e ne illustra il contesto in modo che
+questo sia chiaro e di facile comprensione per il tester. Partendo dalla home
+page del sito, il tester la visiona in maniera generale, selezionando poi la
+voce "`Bandi di Concorso`". Da qui egli apre il link che riporta ai "`Concorsi
+precedenti al 28/11/2019`". Raggiunta la pagina, il tester comunica di aver
+raggiunto l'obiettivo.
 
 === Analisi e considerazioni
 
-Essendo uno studente universitario, giornalmente a contatto con Internet e con l'utilizzo di siti web, il tester dimostra una buona dimestichezza nel navigare all'interno del sito. Egli riesce a identificare facilmente la voce "`Bandi di Concorso`" all'interno dei "Servizi", riuscendo a non perdersi in voci e sezioni che potevano essere fuorvianti.
+Essendo uno studente universitario, giornalmente a contatto con Internet e con
+l'utilizzo di siti web, il tester dimostra una buona dimestichezza nel navigare
+all'interno del sito. Egli riesce a identificare facilmente la voce "`Bandi di
+Concorso`" all'interno dei "Servizi", riuscendo a non perdersi in voci e sezioni
+che potevano essere fuorvianti.
+
 Il task è stato concluso in breve tempo.
 
 Esito del task:: Task completato
 
 == Task 2
 
-Il facilitatore illustra il secondo task al tester, illustrandone il contesto per renderlo più chiaro.
-Partendo dalla Home Page, il tester si sposta nella sezione "`Amministrazione e Uffici`" utilizzando il menù presente ad inizio pagina. Egli visiona generalmente la pagina, ricercando qualcosa che potesse avere a che fare con il task sottoposto. Non trovando nulla, il tester ritorna sulla Home Page, spostandosi questa volta nella sezione "`Settori, Servizi e Uffici comunali`" presente all'interno della voce "`Servizi`" della Home page. Visionando il contenuto della pagina, il tester si accorge di non essere nella sezione corretta, da qui ritorna alla Home page comunicando di non riuscire a ritrovare quello che chiedeva il task.
+Il facilitatore illustra il secondo task al tester, illustrandone il contesto
+per renderlo più chiaro. Partendo dalla Home Page, il tester si sposta nella
+sezione "`Amministrazione e Uffici`" utilizzando il menù presente ad inizio
+pagina. Egli visiona generalmente la pagina, ricercando qualcosa che potesse
+avere a che fare con il task sottoposto. Non trovando nulla, il tester ritorna
+sulla Home Page, spostandosi questa volta nella sezione "`Settori, Servizi e
+Uffici comunali`" presente all'interno della voce "`Servizi`" della Home page.
+Visionando il contenuto della pagina, il tester si accorge di non essere nella
+sezione corretta, da qui ritorna alla Home page comunicando di non riuscire a
+ritrovare quello che chiedeva il task.
 
 === Analisi e considerazioni
 
-Il tester si muove all'interno delle varie sezioni del sito ricercando parole chiave che possono rimandare a quanto chiesto dal task. Pertanto visiona la maggior parte dei menù che citano parole come "`sedi`", "`uffici`", "`orari`". Credendo di aver ormai visionato tutto ciò che potesse avere a che fare con il task richiesto, il tester annuncia l'impossibilità di ritrovare quanto specificato dal task, ipotizzando che non esista tale informazione all'interno del sito.
-Il task si è concluso con esito negativo in un tempo breve, evidenziando l'intenzione del tester di voler dedicare poco tempo al completamento di un task, utilizzando esclusivamente le pagine che egli ritiene coerenti a ciò che viene richiesto ed evitando a prescindere altre strade.
+Il tester si muove all'interno delle varie sezioni del sito ricercando parole
+chiave che possono rimandare a quanto chiesto dal task. Pertanto visiona la
+maggior parte dei menù che citano parole come "`sedi`", "`uffici`", "`orari`".
+Credendo di aver ormai visionato tutto ciò che potesse avere a che fare con il
+task richiesto, il tester annuncia l'impossibilità di ritrovare quanto
+specificato dal task, ipotizzando che non esista tale informazione all'interno
+del sito. Il task si è concluso con esito negativo in un tempo breve,
+evidenziando l'intenzione del tester di voler dedicare poco tempo al
+completamento di un task, utilizzando esclusivamente le pagine che egli ritiene
+coerenti a ciò che viene richiesto ed evitando a prescindere altre strade.
 
 Esito del task:: Task fallito
 
 == Task 3
 
-Il facilitatore espone il task al tester, illustrandone un possibile scenario di applicazione.
-Partendo dalla Home Page, dopo una breve lettura del contenuto di quest'ultima il tester è in grado di affermare di aver concluso il task, essendo le informazioni richieste facilmente visibili.
+Il facilitatore espone il task al tester, illustrandone un possibile scenario di
+applicazione. Partendo dalla Home Page, dopo una breve lettura del contenuto di
+quest'ultima il tester è in grado di affermare di aver concluso il task, essendo
+le informazioni richieste facilmente visibili.
 
 === Analisi e considerazioni
 
-Nel ricercare quanto richiesto, il tester pone buona attenzione su ciò che sta leggendo e tiene a mente anche informazioni che possono essere poco evidenziate o potenzialmente banali. Difatti le informazioni richieste non sono presenti in una sezione apposita, ma poco al di sotto di ciò che viene visto appena entrati nella Home Page.
+Nel ricercare quanto richiesto, il tester pone buona attenzione su ciò che sta
+leggendo e tiene a mente anche informazioni che possono essere poco evidenziate
+o potenzialmente banali. Difatti le informazioni richieste non sono presenti in
+una sezione apposita, ma poco al di sotto di ciò che viene visto appena entrati
+nella Home Page.
 
 Esito del task:: Task completato
 
 == Task 4
 
 Il facilitatore espone il task illustrandone il contesto per maggiore chiarezza.
-Partendo dalla Home Page il tester si muove nella sezione "`Vivere Taranto`" del menù presente ad inizio pagina. Da qui utilizzando lo stesso menù egli si sposta nella sezione "`Aree tematiche`"; successivamente non trovando nulla che avesse a che fare con quanto richiesto, il tester torna nella Home Page, visionandola completamente.
-Non riuscendo a trovare nulla, il tester dichiara di non riuscire a completare il task esso.
+Partendo dalla Home Page il tester si muove nella sezione "`Vivere Taranto`" del
+menù presente ad inizio pagina. Da qui utilizzando lo stesso menù egli si sposta
+nella sezione "`Aree tematiche`"; successivamente non trovando nulla che avesse
+a che fare con quanto richiesto, il tester torna nella Home Page, visionandola
+completamente.
+
+Non riuscendo a trovare nulla, il tester dichiara di non riuscire a completare
+il task.
 
 Esito del task:: Task fallito
 
 === Analisi e considerazioni
 
-Nell'esecuzione di questo task, il tester dimostra di aver tralasciato alcune sezioni riconducibili al task richiesto, come ad esempio "`Cultura ed Eventi`" presente in Aree Tematiche. Sebbene egli abbia avuto la visione d'insieme delle Aree Tematiche non è stato in grado di focalizzarsi su essa, oppure non l'ha ritenuta pertinente a ciò che veniva richiesto.
+Nell'esecuzione di questo task, il tester dimostra di aver tralasciato alcune
+sezioni riconducibili al task richiesto, come ad esempio "`Cultura ed Eventi`"
+presente in Aree Tematiche. Sebbene egli abbia avuto la visione d'insieme delle
+Aree Tematiche non è stato in grado di focalizzarsi su essa, oppure non l'ha
+ritenuta pertinente a ciò che veniva richiesto.
 
 Esito del task:: Task Fallito
 
 == Task 5
 
-Il facilitatore espone il task al tester, che non necessita di ulteriori chiarimenti.
-Partendo dalla Home Page, il tester si sposta in "`Amministrazione e uffici`", ma non trovando nulla ritorna dopo poco tempo nella Home. Successivamente si muove nell'area "`Settori, Servizi e Uffici comunali`"; anche in questo caso non trova nulla che potesse ricondurlo alle informazioni richiesta, pertanto torna nella Home Page. Da qui si sposta in "`Amministrazione Trasparente`", ma capendo di essere in un'area non rilevante torna nuovamente nella Home, affermando di non riuscire a trovare ciò che gli veniva richiesto.
+Il facilitatore espone il task al tester, che non necessita di ulteriori
+chiarimenti. Partendo dalla Home Page, il tester si sposta in "`Amministrazione
+e uffici`", ma non trovando nulla ritorna dopo poco tempo nella Home.
+Successivamente si muove nell'area "`Settori, Servizi e Uffici comunali`"; anche
+in questo caso non trova nulla che potesse ricondurlo alle informazioni
+richiesta, pertanto torna nella Home Page. Da qui si sposta in "`Amministrazione
+Trasparente`", ma capendo di essere in un'area non rilevante torna nuovamente
+nella Home, affermando di non riuscire a trovare ciò che gli veniva richiesto.
 
 === Analisi e considerazioni
-Durante il completamento di questo task, si  nota una maggiore volontà nel ricercare quanto richiesto da parte del tester. A differenza dei precedenti task egli visiona un numero maggiore di aree, precedentemente non viste. Una volta arrivato nell'area "`Amministrazione trasparente`", il tester viene portato in una pagina esterna che non sembrava avere nulla a che fare con il sito di partenza, evidenziando un visibile disorientamento del tester. Tale disorientamento potrebbe essere stata la causa che ha portato il tester ad affermare di non riuscire a trovare quanto richiesto.
+
+Durante il completamento di questo task, si  nota una maggiore volontà nel
+ricercare quanto richiesto da parte del tester. A differenza dei precedenti task
+egli visiona un numero maggiore di aree, precedentemente non viste. Una volta
+arrivato nell'area "`Amministrazione trasparente`", il tester viene portato in
+una pagina esterna che non sembrava avere nulla a che fare con il sito di
+partenza, evidenziando un visibile disorientamento del tester. Tale
+disorientamento potrebbe essere stata la causa che ha portato il tester ad
+affermare di non riuscire a trovare quanto richiesto.
 
 Esito task:: Task fallito
 
 == Task 6
 
-Il facilitatore espone il task al tester, che non necessita di ulteriori chiarimenti.
-Partendo dalla Home page, il tester si sposta nella sezione "`Aree Tematiche`" e da li in "`Cultura ed eventi`". Non riuscendo a trovare quanto richiesto, egli si sposta in "` Appalti e contratti`", capendo tuttavia di non essere nella sezione giusta. Tornando nella Home, il tester decide di spostarsi attraverso il menù nella sezione "`Vivere Taranto`", e da qui capisce di essere nella sezione giusta riuscendo a leggere una voce che citava la parola "`Cinema`". Segue quindi il percorso "`Teatro, Cinema e Sale Congressi`" e infine "`Cinema`", ritrovandosi di fronte all'elenco richiesto e affermando di aver completato il task.
+Il facilitatore espone il task al tester, che non necessita di ulteriori
+chiarimenti. Partendo dalla Home page, il tester si sposta nella sezione "`Aree
+Tematiche`" e da li in "`Cultura ed eventi`". Non riuscendo a trovare quanto
+richiesto, egli si sposta in "` Appalti e contratti`", capendo tuttavia di non
+essere nella sezione giusta. Tornando nella Home, il tester decide di spostarsi
+attraverso il menù nella sezione "`Vivere Taranto`", e da qui capisce di essere
+nella sezione giusta riuscendo a leggere una voce che citava la parola
+"`Cinema`". Segue quindi il percorso "`Teatro, Cinema e Sale Congressi`" e
+infine "`Cinema`", ritrovandosi di fronte all'elenco richiesto e affermando di
+aver completato il task.
 
 === Analisi e considerazioni
 
-Il tester dimostra questa volta una buona propensione a navigare nelle diverse pagine del sito, anche in aree potenzialmente non correlate al task.
-Riesce a ricondursi nella sezione corretta e da li completa il task in un tempo breve.
+Il tester dimostra questa volta una buona propensione a navigare nelle diverse
+pagine del sito, anche in aree potenzialmente non correlate al task. Riesce a
+ricondursi nella sezione corretta e da li completa il task in un tempo breve.
 
 Esito task:: Task completato
