@@ -7,7 +7,11 @@ Il tester è _Antonio Pastorelli_, un laureato (e studente) di 26 anni presso la
 sede di Taranto dell'Università di Bari. Illustrate le finalità del test, viene
 sottoposto ad Antonio il questionario demografico per l'identificazione del
 partecipante. Da tale test emerge che l'utente ha familiarità con l'utilizzo di
-internet e utilizza raramente il sito web del Comune di Taranto.
+internet e utilizza raramente il sito web del Comune di Taranto. Il tester
+risulta essere a conoscenza degli standard e dei concetti legati all'usabilità
+dei siti web, quindi decide di sottolineare eventuali problemi che nota durante
+l'utilizzo (effettuando una "`valutazione euristica`" molto rapida durante la
+navigazione).
 
 [[task-1-antonio-pastorelli]]
 == Task 1
@@ -152,6 +156,16 @@ Esito del task:: Task completato
 
 [[considerazioni-finali-espresse-dal-tester-antonio-pastorelli]]
 == Considerazioni finali espresse dal tester
+
+Tutte le considerazioni del tester sono state inserite nei vari task a cui
+riguardano. L'utente, a fine test, ha mostrato interesse a voler sapere la
+posizione delle pagine all'interno del sito che avrebbe dovuto raggiungere per
+completare un task.
+
+Mostrati i possibili percorsi dei vari task, il tester risulta essere sorpreso
+dal link al portale per il pagamento della tassa sui rifiuti
+(<<task-5-antonio-pastorelli>>), in quanto era convinto che fosse pubblicità (a
+causa della sua esperienza pregressa).
 
 [[rilevamento-del-net-promoter-score-antonio-pastorelli]]
 === Rilevamento del Net Promoter Score

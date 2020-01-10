@@ -153,6 +153,9 @@ Esito del task:: Task fallito
 [[considerazioni-finali-espresse-dal-tester-vittorio-albano]]
 == Considerazioni finali espresse dal tester
 
+Tutte le considerazioni del tester sono state inserite nei vari task a cui
+riguardano.
+
 [[rilevamento-del-net-promoter-score-vittorio-albano]]
 === Rilevamento del Net Promoter Score
 
