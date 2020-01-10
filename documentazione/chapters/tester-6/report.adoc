@@ -13,67 +13,142 @@ internet e utilizza raramente il sito web del Comune di Taranto.
 == Task 1
 
 Il facilitatore illustra il primo task e ne presenta un contesto in modo che
-questo sia chiaro e di facile comprensione per il tester. 
+questo sia chiaro e di facile comprensione per il tester. L'utente accede alla
+sezione "`Amministrazione e uffici`" e da lì alla pagina "`Segretario
+generale`". Capito subito di non trovare l'informazione ricercata, torna
+indietro e accede alla sezione "`Aree tematiche`" e da lì alla sezione "`Lavori
+pubblici`". L'utente torna nuovamente indietro e risulta essere evidentemente
+perso. Accede poi dalla home alla sezione "`Settori, Servizi e Uffici`" dal
+_footer_, ma torna nuovamente indietro in quanto si accorge di non trovare in
+quella sezione l'informazione cercata. Accede, infine, nuovamente alla sezione
+"`Amministrazione e uffici`", ma ribadisce di non credere che sia la sezione
+corretta.
+
+L'utente pone all'attenzione del facilitatore che si aspettava di trovare
+l'informazione in "`Lavori pubblici`" e che non tenterebbe di trovare tale
+informazione per così tanto tempo. Per questo motivo, pone fine al task.
 
 [[task-1-analisi-e-considerazioni-antonio-pastorelli]]
 === Analisi e considerazioni
 
-Esito del task:: Task __
+Un problema importante che è stato sottolineato riguarda la progettazione dei
+menù: non solo alcune etichette sono fuorvianti (si veda per esempio il problema
+20 della <<tab-valutazione-euristica>>), ma l'utente si aspettava di poter
+accedere alle varie sezioni mediante delle tendine che non richiedessero quindi
+di entrare in ogni singola sezione per poter navigare il sito.
+
+Esito del task:: Task fallito
 
 [[task-2-antonio-pastorelli]]
 == Task 2
 
 Il facilitatore illustra il secondo task e ne presenta un contesto in modo che
-questo sia chiaro e di facile comprensione per il tester. 
+questo sia chiaro e di facile comprensione per il tester. L'utente accede alla
+sezione "`Amministrazione e uffici`" e risulta essere inizialmente perso. Prova
+poi ad accedere alla sezione "`Organizzazione`". Non trovando l'informazione
+cercata, l'utente tenta di accedere alla sezione "`Area riservata`" in quanto
+unica sezione non ancora visitata. Non trovando ancora una volta l'informazione
+torna alla home page e, _casualmente_, nota la sezione "`Servizi`"
+(sottolineando che non è presente nella barra di navigazione). Prova quindi ad
+accedere alla sezione "`Contatta il comune`" e, non trovando gli orari delle
+sedi, torna indietro e accede alla sezione "`Amministrazione trasparente`" (che
+chiude immediatamente in quanto fuori dal sito).
+
+L'utente, frustrato per la quantità di tempo necessaria a trovare
+un'informazione ritenuta basilare, decide di porre fine al task.
 
 [[task-2-analisi-e-considerazioni-antonio-pastorelli]]
 === Analisi e considerazioni
 
-Esito del task:: Task __
+Un problema grave notato durante il test è la mancanza di alcune sezioni della
+pagina home all'interno della navbar (per esempio, la sezione "`Servizi`").
+Scoperto questo problema, l'utente riesce anche a trovare il percorso per il
+task precedente.
+
+Esito del task:: Task fallito
 
 [[task-3-antonio-pastorelli]]
 == Task 3
 
-Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
-questo sia chiaro e di facile comprensione per il tester.
+Il facilitatore illustra il terzo task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester. L'utente effettua
+dello scrolling nella pagina principale e raggiunge immediatamente l'obiettivo
+del task.
 
 [[task-3-analisi-e-considerazioni-antonio-pastorelli]]
 === Analisi e considerazioni
 
-Esito del task:: Task __
+l'utente non ha avuto alcuna difficoltà a completare il task, ma ciò è anche
+dovuto all'esperienza regressa che gli ha portato a comprendere che non tutto
+ciò che è nella pagina home è presente anche nella barra di navigazione.
+
+Esito del task:: Task completato
 
 [[task-4-antonio-pastorelli]]
 == Task 4
 
 Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
-questo sia chiaro e di facile comprensione per il tester.
+questo sia chiaro e di facile comprensione per il tester. L'utente accede
+immediatamente alla sezione "`Modulistica dei procedimenti`" e alla sua
+sottosezione "`Pubblica istruzione - cultura - spettacolo - sport`", completando
+il task.
 
 [[task-4-analisi-e-considerazioni-antonio-pastorelli]]
 === Analisi e considerazioni
 
-Esito del task:: Task __
+Un fattore da sottolineare per il completamento di questo task è quello della
+_memoria regressa_ dell'utente: come ammesso da lui stesso, l'utente è riuscito
+a completare il task in quanto ha _ricordato_ la sezione "`Servizi`" scoperta
+durante l'esecuzione del task 3 (<<task-3-antonio-pastorelli>>). Questo tuttavia
+è da tenere in forte considerazione in quanto ci si basa sulla memoria
+dell'utente, violando l'euristica di Nielsen "`riconoscimento piuttosto di
+memorizzazione`".
+
+Esito del task:: Task completato
 
 [[task-5-antonio-pastorelli]]
 == Task 5 
 
 Il facilitatore illustra il quinto task e ne presenta un contesto in modo che
-questo sia chiaro e di facile comprensione per il tester.
+questo sia chiaro e di facile comprensione per il tester. L'utente accede alla
+sezione "`Modulistica dei procedimenti`" e non trovando l'informazione cercata,
+torna alla home page. Tenta quindi di accedere alla sezione "`Aree tematiche`"
+e, non trovando nuovamente il link a cui è interessato, mostra evidenti segni di
+frustrazione. L'utente risulta essere perso, e sottolinea che nulla nella pagina
+principale lo porta a pensare al suo obiettivo e quindi decide di porre fine al
+task.
 
 [[task-5-analisi-e-considerazioni-antonio-pastorelli]]
 === Analisi e considerazioni
 
-Esito del task:: Task __
+Dei problemi confermati durante l'esecuzione di questo task sono i problemi 4 e
+5 della <<tab-valutazione-euristica>>: l'utente riconosce alcuni link come link
+doppi e, provando a cliccarli, risulta essere sorpreso quando è portato alla
+stessa pagina di destinazione. Allo stesso modo, data questa esperienza, risulta
+essere ancora più sorpreso quando effettuando le stesse operazioni su altri link
+simili ai primi è portato su pagine differenti in base alla parte del link su
+cui clicca.
+
+Esito del task:: Task fallito
 
 [[task-6-antonio-pastorelli]]
 == Task 6
 
 Il facilitatore illustra il sesto task e ne presenta un contesto in modo che
-questo sia chiaro e di facile comprensione per il tester.
+questo sia chiaro e di facile comprensione per il tester. L'utente accede alla
+sezione "`Aree tematiche`" e quindi a "`Cultura ed eventi`". Non trovando
+l'informazione ricercata, accede a "`Vivere Taranto`", quindi a "`Teatro, cinema
+e sale congressi`" e quindi alla sottosezione "`Cinema`", completando il task.
 
 [[task-6-analisi-e-considerazioni-antonio-pastorelli]]
 === Analisi e considerazioni
 
-Esito del task:: Task __
+Il primo errore commesso dall'utente conferma la problematica 20 riportata in
+<<tab-valutazione-euristica>>. Inoltre, lo stesso errore suggerisce che le
+informazioni circa i cinema della città dovrebbero essere riportate anche nella
+sezione "`Cultura ed eventi`", in quanto a essa logicamente collegate.
+
+Esito del task:: Task completato
 
 [[considerazioni-finali-espresse-dal-tester-antonio-pastorelli]]
 == Considerazioni finali espresse dal tester

@@ -42,8 +42,6 @@ di esprimere una valutazione quantitativa dell'usabilità del sito web.
 I seguenti report sono stati stesi dai relativi osservatori e sono stati poi
 discussi dall'intero team.
 
-<<<
-
 include::tester-1/report.adoc[leveloffset=+2]
 
 include::tester-2/report.adoc[leveloffset=+2]
@@ -54,4 +52,4 @@ include::tester-4/report.adoc[leveloffset=+2]
 
 include::tester-5/report.adoc[leveloffset=+2]
 
-// include::tester-6/report.adoc[leveloffset=+2]
+include::tester-6/report.adoc[leveloffset=+2]

@@ -63,7 +63,7 @@ Esito del task:: Task fallito
 [[task-3-vittorio-albano]]
 == Task 3
 
-Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
+Il facilitatore illustra il terzo task e ne presenta un contesto in modo che
 questo sia chiaro e di facile comprensione per il tester. L'utente risulta
 essere completamente perso in quanto tenta di utilizzare la barra di navigazione
 per raggiungere lo scopo del task. Dopo diverso tempo l'utente, evidentemente
