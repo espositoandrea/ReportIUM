@@ -4,13 +4,13 @@ Facilitatore:: {author}
 Osservatore:: {author_4}
 
 Il tester è _Daniele Russano_, uno studente universitario di 20 anni
-dell'Università di Bari.Illustrate le finalità del test viene sottoposto al
-questionario demografico per l’identificazione del partecipante da cui emerge
+dell'Università di Bari. Illustrate le finalità del test viene sottoposto al
+questionario demografico per l'identificazione del partecipante da cui emerge
 che il tester ha un buon livello di familiarità tecnologica e che conosce il
-tema dell’usabilità dei siti web. Viene dunque proposta una breve introduzione
+tema dell'usabilità dei siti web. Viene dunque proposta una breve introduzione
 di quanto gli si richiede di fare, sottolineando che le attività non sono
-finalizzate alla valutazione del tester, piuttosto all’individuazione e
-valutazione di eventuali problematiche legate all’usabilità del sito del comune
+finalizzate alla valutazione del tester, piuttosto all'individuazione e
+valutazione di eventuali problematiche legate all'usabilità del sito del comune
 di Taranto. 
 
 == Task 1
@@ -37,11 +37,11 @@ Esito del task:: Task completato
 == Task 2
 
 Il facilitatore illustra il secondo task al tester, illustrandone il contesto
-per renderlo più chiaro. Partendo dalla Home Page, il tester si sposta nella
+per renderlo più chiaro. Partendo dalla Home page, il tester si sposta nella
 sezione "`Amministrazione e Uffici`" utilizzando il menù presente ad inizio
 pagina. Egli visiona generalmente la pagina, ricercando qualcosa che potesse
 avere a che fare con il task sottoposto. Non trovando nulla, il tester ritorna
-sulla Home Page, spostandosi questa volta nella sezione "`Settori, Servizi e
+sulla Home page, spostandosi questa volta nella sezione "`Settori, Servizi e
 Uffici comunali`" presente all'interno della voce "`Servizi`" della Home page.
 Visionando il contenuto della pagina, il tester si accorge di non essere nella
 sezione corretta, da qui ritorna alla Home page comunicando di non riuscire a
@@ -65,7 +65,7 @@ Esito del task:: Task fallito
 == Task 3
 
 Il facilitatore espone il task al tester, illustrandone un possibile scenario di
-applicazione. Partendo dalla Home Page, dopo una breve lettura del contenuto di
+applicazione. Partendo dalla Home page, dopo una breve lettura del contenuto di
 quest'ultima il tester è in grado di affermare di aver concluso il task, essendo
 le informazioni richieste facilmente visibili.
 
@@ -75,17 +75,17 @@ Nel ricercare quanto richiesto, il tester pone buona attenzione su ciò che sta
 leggendo e tiene a mente anche informazioni che possono essere poco evidenziate
 o potenzialmente banali. Difatti le informazioni richieste non sono presenti in
 una sezione apposita, ma poco al di sotto di ciò che viene visto appena entrati
-nella Home Page.
+nella Home page.
 
 Esito del task:: Task completato
 
 == Task 4
 
 Il facilitatore espone il task illustrandone il contesto per maggiore chiarezza.
-Partendo dalla Home Page il tester si muove nella sezione "`Vivere Taranto`" del
+Partendo dalla Home page il tester si muove nella sezione "`Vivere Taranto`" del
 menù presente ad inizio pagina. Da qui utilizzando lo stesso menù egli si sposta
 nella sezione "`Aree tematiche`"; successivamente non trovando nulla che avesse
-a che fare con quanto richiesto, il tester torna nella Home Page, visionandola
+a che fare con quanto richiesto, il tester torna nella Home page, visionandola
 completamente.
 
 Non riuscendo a trovare nulla, il tester dichiara di non riuscire a completare
@@ -106,11 +106,11 @@ Esito del task:: Task Fallito
 == Task 5
 
 Il facilitatore espone il task al tester, che non necessita di ulteriori
-chiarimenti. Partendo dalla Home Page, il tester si sposta in "`Amministrazione
+chiarimenti. Partendo dalla Home page, il tester si sposta in "`Amministrazione
 e uffici`", ma non trovando nulla ritorna dopo poco tempo nella Home.
 Successivamente si muove nell'area "`Settori, Servizi e Uffici comunali`"; anche
 in questo caso non trova nulla che potesse ricondurlo alle informazioni
-richiesta, pertanto torna nella Home Page. Da qui si sposta in "`Amministrazione
+richiesta, pertanto torna nella Home page. Da qui si sposta in "`Amministrazione
 Trasparente`", ma capendo di essere in un'area non rilevante torna nuovamente
 nella Home, affermando di non riuscire a trovare ciò che gli veniva richiesto.
 
@@ -147,3 +147,16 @@ pagine del sito, anche in aree potenzialmente non correlate al task. Riesce a
 ricondursi nella sezione corretta e da li completa il task in un tempo breve.
 
 Esito task:: Task completato
+
+[[considerazioni-finali-espresse-dal-tester-daniele-russano]]
+== Considerazioni finali espresse dal tester
+
+[[rilevamento-del-net-promoter-score-daniele-russano]]
+=== Rilevamento del Net Promoter Score
+
+include::nps.adoc[]
+
+[[rilevamento-del-system-usability-scale-daniele-russano]]
+=== Rilevamento del System Usability Scale
+
+include::sus.adoc[]

@@ -33,8 +33,8 @@ stesso.
 === Analisi e considerazioni
 
 Durante l'esecuzione del primo task è comprensibile che il tester si sia trovato
-molto disorientato. Questo è causato, sia perchè Alessandro non ha mai visionato
-il sito del comune di Taranto e sia, principalmente, perchè il sito non risulta
+molto disorientato. Questo è causato, sia perché Alessandro non ha mai visionato
+il sito del comune di Taranto e sia, principalmente, perché il sito non risulta
 essere facilmente usabile e comprensibile a chi lo visita per la prima volta.
 Inoltre, si evince che le label della navbar non identificano propriamente il
 loro stesso contenuto e, proprio per questo, Alessandro è stato portato a
@@ -61,7 +61,7 @@ relativi al secondo task.
 Alessandro, inizialmente, accede alla pagina "`Amministrazione e Uffici`" e non
 trovando ciò che gli è stato richiesto rimane molto perplesso. Accede alla
 pagina delle "`Aree tematiche`", accede, poi, alla pagina "`Lavori pubblici e
-innonvazione`" e, non trovando ciò che cerca, ritorna alla Home del sito web
+innovazione`" e, non trovando ciò che cerca, ritorna alla Home del sito web
 attraverso le breadcrumb. Aperta la Home, accede alla pagina "`Contatta il
 comune`" e, successivamente, accede alla pagina "`Recapiti telefonici degli
 Uffici`" riuscendo a visualizzare i numeri verdi. Dopo essere tornato alla Home,
@@ -89,10 +89,10 @@ Il tester ha confermato quello che è stato descritto nella tabella della
 valutazione euristica (si veda <<tab-valutazione-euristica>>), cioè che non è
 presente nessun collegamento all'interno del sito, ad eccetto della barra di
 ricerca e della mappa del sito, relativo agli orari degli uffici della città di
-Taranto ed emerso anche che questo collegamento dovrebbere essere posizionato
+Taranto ed è emerso anche che questo collegamento dovrebbe essere posizionato
 all'interno della pagina "`Amministrazione e Uffici`". Nel caso del tester
 Alessandro, è possibile dedurlo dalla sua perplessità nell'accedere alla pagina
-sopra mensionata e non trovare il collegamento richiesto.
+sopra menzionata e non trovare il collegamento richiesto.
 
 Esito del task:: Task fallito
 
@@ -109,7 +109,7 @@ di aver concluso e raggiunto l'obiettivo di questo task.
 
 Si osservi che il tester ha avuto, a primo colpo, l'impressione di aver
 raggiunto l'obiettivo. Questa considerazione sbagliata è dovuta ad una scelta
-progettuale discutibile. Questo perchè è stato utilizzato un carousel per poter
+progettuale discutibile. Questo perché è stato utilizzato un carosello per poter
 rappresentare gli eventi a Taranto il quale ha portato l'utente a pensare ad un
 qualcosa di importante come le news che sono in primo piano e subito evidenti. 
 
@@ -121,7 +121,7 @@ Terminato il precedente task, il tester è stato riportato alla pagina principal
 del sito web e gli è stato spiegato l'obiettivo del successivo task, ovvero il
 quarto, con eventuali chiarimenti necessari per assicurarsi che sia stato
 compreso a pieno. La prima cosa che afferma è che, nel cercare di raggiungere
-gli obiettivi dei precendenti task, può aver individuato già la posizione in cui
+gli obiettivi dei precedenti task, può aver individuato già la posizione in cui
 si trova e procede andando in "`Aree tematiche`"->"`Cultura ed Eventi`" ed
 infine accede in "`Biblioteca civica` Pietro Acclavio - Vetrina`". Subito si
 rende conto che non corrispondeva a ciò che era stato chiesto e chiede conferma
@@ -161,7 +161,7 @@ a trovare il portale concludendo il task in questione.
 
 === Analisi e considerazioni
 
-Il tester non è riuscito a concludere il task perchè il portale per il pagamento
+Il tester non è riuscito a concludere il task perché il portale per il pagamento
 della TARI è stato rappresentato come se fosse un banner e, quindi, facendo
 pensare ad Alessandro che fosse una pubblicità o un qualcosa che i progettisti
 hanno utilizzato per creare il sito web. L'utente non avrebbe mai potuto credere
@@ -209,7 +209,7 @@ Esito del task:: Task fallito
 Il tester è stato molto chiaro sulla poca usabilità del sito in questione. Ha
 espresso implicitamente che, per uno studente, è facile poter maneggiare un
 computer e avere più elasticità mentale rispetto ad altri nel trovare
-determinate aree del sistema ma, una volta visitato questo sito, ribasce che è
+determinate aree del sistema ma, una volta visitato questo sito, ribadisce che è
 necessario saperlo utilizzare già per capire i vari collegamenti.
 
 Oltrettutto Alessandro ha fatto emergere un problema non individuato in

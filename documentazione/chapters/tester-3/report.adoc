@@ -26,7 +26,7 @@ ad essere valutata ma il sito del Comune di Taranto. Dopo vari minuti di
 ricerca, la pagina non viene trovata e il tester dichiara di non riuscire a
 trovare la pagina in questione.
 
-=== Task 1: analisi e considerazioni
+=== Analisi e considerazioni
 
 L'utente sembrava molto sicuro all'inizio. Erminia ha dichiarato di usare spesso
 il sito del Comune ma ci ha anche confessato che ha sempre usato la barra di
@@ -52,8 +52,7 @@ possibili. Dopo un attenta ricerca in queste pagine, clicca su "Aree tematiche"
 ma, non trovando la pagina richiesta, ritiene di non riuscire a portare a
 termine il task.
 
-
-=== Task 2: analisi e considerazioni
+=== Analisi e considerazioni
 
 Erminia era molto sicura all'inizio. Dovendo cercare l'orario di apertura delle
 sedi del Comune clicca, ovviamente, su "Amministrazione e uffici". Il nome del
@@ -77,17 +76,17 @@ scrolla verso il basso. L'utente, inizialmente, non si accorge di aver trovato
 la sezione desiderata ma, dopo vari secondi, dichiara di aver trovato
 l'informazione richiesta e, quindi, di aver completato il task. 
 
-=== Task 3: analisi e considerazioni
+=== Analisi e considerazioni
 
-Per svolgere il task 3 è sufficente scrollare leggermente la "Home". L'utente
-,però, ha subito utilizzato la navbar senza scorrere e ,quindi, senza trovare
-immediatamente l'informazione richiesta. L'utente si accorge della strada
-completamente sbagliata e ritorna nella "Home". Qui, il tester scrolla verso il
-basso e inizia a leggere le news. Erminia non percepisce subito di aver trovato
-il task richiesto, inizia a leggere le singole news. Le notizie non venivano
-neanche completamente lette a causa della velocità troppo elevata del carousel.
-Dopo vari secondi , però, il tester si accorge di non dover più andare avanti e
-di aver completato il compito.
+Per svolgere il task 3 è sufficiente scrollare leggermente la "Home".
+L'utente,però, ha subito utilizzato la navbar senza scorrere e ,quindi, senza
+trovare immediatamente l'informazione richiesta. L'utente si accorge della
+strada completamente sbagliata e ritorna nella "Home". Qui, il tester scrolla
+verso il basso e inizia a leggere le news. Erminia non percepisce subito di aver
+trovato il task richiesto, inizia a leggere le singole news. Le notizie non
+venivano neanche completamente lette a causa della velocità troppo elevata del
+carosello. Dopo vari secondi , però, il tester si accorge di non dover più
+andare avanti e di aver completato il compito.
 
 Esito del task:: Task completato
 
@@ -108,7 +107,7 @@ questa sua idea per svolgere il task. Saputo questo, Erminia comunica di non
 riuscire a trovare la pagina richiesta.
 
 
-=== Task 4: analisi e considerazioni
+=== Analisi e considerazioni
 
 Il tester, già da subito, si perde completamente. Rendendosi conto di aver
 raggiunto una pagina sbagliata, clicca su "Amministrazione e uffici" nella
@@ -128,7 +127,7 @@ Esito del task:: Task fallito
 == Task 5
 
 A partire dalla "Home page" del sito, il tester clicca su "Vivere Taranto" nella
-navbar principale affermando di aver scelto quel link solo perchè la riteneva
+navbar principale affermando di aver scelto quel link solo perché la riteneva
 "piena di sbocchi". Da qui, il tester clicca su "Aree tematiche" tramite la
 navbar laterale. Raggiunta la pagina, Erminia clicca su "Programmazione
 economica-finanziaria e tributi" e, successivamente, clicca su "Urbanistica e
@@ -137,12 +136,12 @@ riservata" ma, dopo una rapida lettura della pagina, dichiara di non riuscire a
 completare il task.
 
 
-=== Task 5: analisi e considerazioni
+=== Analisi e considerazioni
 
 Si osserva che come il tester, una volta comunicato il task 5, rimanga sorpreso.
 Erminia non era a conoscenza della possibilità di pagare la Tari direttamente
 dal sito del Comune di Taranto. Si evidenzia come il tester non abbia alcuna
-idea su dove trovare la pagina richiesta. Clicca su "Vivere Taranto" solo perchè
+idea su dove trovare la pagina richiesta. Clicca su "Vivere Taranto" solo perché
 si ricordava la presenza, in quella sezione, di molti link e, quindi, di molte
 strade da percorrere. La presenza di molti link nella pagina "Vivere Taranto",
 per Erminia, ha significato un valido motivo per essere visitata ritenendo che
@@ -171,7 +170,7 @@ da questa pagina, Erminia clicca su "Cinema" e si accorge immediatamente di
 essere arrivata nella pagina richiesta. Il tester, quindi, dichiara di aver
 completato con successo il task.
 
-=== Task 6: analisi e considerazioni
+=== Analisi e considerazioni
 
 Si osservi come il tester venga confuso dalle immagini usate per i vari link.
 L'utente, durante il task 6, afferma più volte la sua voglia di superare almeno
