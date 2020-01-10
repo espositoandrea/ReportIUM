@@ -1,0 +1,11 @@
+= Test di usabilità: Informazioni utili
+Andrea Esposito <a.esposito39@studenti.uniba.it>; Alessandro Annese <a.annese23@studenti.uniba.it>; Davide De Salvo <d.desalvo@studenti.uniba.it>; Graziano Montanaro <g.montanaro16@studenti.uniba.it>; Regina Zaccaria <r.zaccaria14@studenti.uniba.it>
+v1.0.0, 2019: Stesura iniziale
+:toc: left
+:doctype: book
+:sectnums:
+:partnums:
+:sectnumsdepth: 5
+:xrefstyle: short
+:media: prepress
+include::./locale/attributes.adoc[]
