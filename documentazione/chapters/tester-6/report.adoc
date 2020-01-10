@@ -1,1 +1,89 @@
-= Tester 6
+= Tester 6: Antonio Pastorelli
+
+Facilitatore:: {author_4}
+Osservatore:: {author}
+
+Il tester è _Antonio Pastorelli_, un laureato (e studente) di 26 anni presso la
+sede di Taranto dell'Università di Bari. Illustrate le finalità del test, viene
+sottoposto ad Antonio il questionario demografico per l'identificazione del
+partecipante. Da tale test emerge che l'utente ha familiarità con l'utilizzo di
+internet e utilizza raramente il sito web del Comune di Taranto.
+
+[[task-1-antonio-pastorelli]]
+== Task 1
+
+Il facilitatore illustra il primo task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester. 
+
+[[task-1-analisi-e-considerazioni-antonio-pastorelli]]
+=== Analisi e considerazioni
+
+Esito del task:: Task __
+
+[[task-2-antonio-pastorelli]]
+== Task 2
+
+Il facilitatore illustra il secondo task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester. 
+
+[[task-2-analisi-e-considerazioni-antonio-pastorelli]]
+=== Analisi e considerazioni
+
+Esito del task:: Task __
+
+[[task-3-antonio-pastorelli]]
+== Task 3
+
+Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester.
+
+[[task-3-analisi-e-considerazioni-antonio-pastorelli]]
+=== Analisi e considerazioni
+
+Esito del task:: Task __
+
+[[task-4-antonio-pastorelli]]
+== Task 4
+
+Il facilitatore illustra il quarto task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester.
+
+[[task-4-analisi-e-considerazioni-antonio-pastorelli]]
+=== Analisi e considerazioni
+
+Esito del task:: Task __
+
+[[task-5-antonio-pastorelli]]
+== Task 5 
+
+Il facilitatore illustra il quinto task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester.
+
+[[task-5-analisi-e-considerazioni-antonio-pastorelli]]
+=== Analisi e considerazioni
+
+Esito del task:: Task __
+
+[[task-6-antonio-pastorelli]]
+== Task 6
+
+Il facilitatore illustra il sesto task e ne presenta un contesto in modo che
+questo sia chiaro e di facile comprensione per il tester.
+
+[[task-6-analisi-e-considerazioni-antonio-pastorelli]]
+=== Analisi e considerazioni
+
+Esito del task:: Task __
+
+[[considerazioni-finali-espresse-dal-tester-antonio-pastorelli]]
+== Considerazioni finali espresse dal tester
+
+[[rilevamento-del-net-promoter-score-antonio-pastorelli]]
+=== Rilevamento del Net Promoter Score
+
+include::nps.adoc[]
+
+[[rilevamento-del-system-usability-scale-antonio-pastorelli]]
+=== Rilevamento del System Usability Scale
+
+include::sus.adoc[]
