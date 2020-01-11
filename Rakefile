@@ -11,7 +11,7 @@ require_relative './generation-utils'
 task default: :documentazione
 
 desc 'Genera il report completo'
-task documentazione: ['parziale', 'euristica'] do
+task documentazione: ['parziale', 'euristica', 'charts'] do
   puts 'Building documentation'
   Asciidoctor.convert_file 'documentazione/ReportIUM.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'book', 'pdf-themesdir' => './themes'}, mkdirs: true
 end
@@ -117,6 +117,11 @@ namespace :parziale do
   end
 end
 
+desc 'Genera tutti i diagrammi'
+task charts: ['parziale:nps'] do
+  sh 'npm run charts --silent'
+end
+
 desc 'Genera tutte le tabelle di valutazione euristica'
 task :euristica do
   puts "Building 'Andrea'"
@@ -174,3 +179,8 @@ end
 
 desc 'Crea ZIP per la consegna'
 task dist: ['dist:zip']
+
+task :install do
+  sh 'bundle install'
+  sh 'npm install'
+end

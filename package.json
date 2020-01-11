@@ -1,0 +1,24 @@
+{
+  "name": "report-ium",
+  "version": "1.0.0",
+  "description": "Report del test di usabilità condotto dal team FSC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "charts": "node -e 'require(\"./index\").chartsToSVG()'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espositoandrea/ReportIUM.git"
+  },
+  "author": "FSC -- Five Students of Computer Science",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/espositoandrea/ReportIUM/issues"
+  },
+  "homepage": "https://github.com/espositoandrea/ReportIUM#readme",
+  "dependencies": {
+    "vega": "^5.9.0",
+    "vega-cli": "^5.9.0"
+  }
+}

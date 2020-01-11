@@ -68,7 +68,7 @@ include::tasks/successo.adoc[]
 
 [[fig-risultati-nps]]
 .I risultati del NPS
-image::../hey.svg[role=right]
+image::images/fig-risultati-nps.svg[role=right]
 
 Si riporta in <<fig-risultati-nps>> Un riepilogo dei risultati del questionario
 _Net Promoter Score (NPS)_. È evidente dall'assenza totale di utenti promotori

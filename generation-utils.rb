@@ -73,10 +73,6 @@ def create_nps_from_excel(column)
 
   nps_results = nps ratings
 
-  out = "[[fig-risultati-nps]]\n"
-  out+=".I risultati del NPS\n"
-  out+="[vega, fig-risultati-nps, svg]\n----\n"
-
   graph = <<~EOS
     {
       "$schema": "https://vega.github.io/schema/vega/v5.json",
@@ -177,9 +173,6 @@ def create_nps_from_excel(column)
     }
   EOS
 
-  out += "#{graph}\n----\n"
-
-  File.write File.join(File.dirname(__FILE__), 'documentazione/grafici/fig-risultati-nps.adoc'), out
-  File.write File.join(File.dirname(__FILE__), 'documentazione/grafici/fig-risultati-nps.json'), graph
+  File.write File.join(File.dirname(__FILE__), 'grafici/fig-risultati-nps.json'), graph
 
 end
