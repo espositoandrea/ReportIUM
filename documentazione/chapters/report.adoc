@@ -63,3 +63,14 @@ Si riporta in <<tab-successo-task>>, per ogni tester, lo stato di ogni task
 tasso di successo per partecipante e il tasso di successo complessivo.
 
 include::tasks/successo.adoc[]
+
+==== Risultati Net Promoter Score
+
+[[fig-risultati-nps]]
+.I risultati del NPS
+image::../hey.svg[role=right]
+
+Si riporta in <<fig-risultati-nps>> Un riepilogo dei risultati del questionario
+_Net Promoter Score (NPS)_. È evidente dall'assenza totale di utenti promotori
+del sito che sono state riscontrate diverse difficoltà nel suo utilizzo: sono
+evidentemente preponderanti, infatti, gli utenti detrattori del sito.

@@ -1,10 +1,13 @@
 require 'asciidoctor-pdf' unless defined? ::Asciidoctor::Pdf
+require 'asciidoctor-diagram'
 
 module AsciidoctorPdfExtension
   # Override the built-in layout_toc to move colophon before front of table of contents
   # NOTE we assume that the colophon fits on a single page
   def layout_toc(doc, num_levels = 2, toc_page_number = 2, start_y = nil, num_front_matter_pages = 0)
-    go_to_page toc_page_number unless (page_number == toc_page_number) || scratch?
+    unless (page_number == toc_page_number) || scratch?
+      go_to_page toc_page_number
+    end
     if scratch?
       colophon = doc.find_by(context: :section) { |sect| sect.sectname == 'colophon' }
       if (colophon = colophon.first)
@@ -38,7 +41,7 @@ module AsciidoctorPdfExtension
     if (sect_id = node.id) == 'dedication' || sect_id == 'acknowledgements'
       layout_heading_custom title, align: :center
     elsif sect_id == 'colophon'
-      #puts 'Processing ' + node.sectname + '...'
+      # puts 'Processing ' + node.sectname + '...'
       if node.document.attr? 'media', 'prepress'
         move_down 325
       else
@@ -53,7 +56,7 @@ module AsciidoctorPdfExtension
   def layout_heading_custom(string, opts = {})
     move_down 100
     typeset_text string, calc_line_metrics((opts.delete :line_height) || @theme.heading_line_height), {
-        inline_format: true,
+      inline_format: true
     }.merge(opts)
     move_up 5
     i = 0
@@ -66,14 +69,16 @@ module AsciidoctorPdfExtension
                    end
       i += 1
     end
-    if string == 'Dedication'
-      underline += '////'
-    end
+    underline += '////' if string == 'Dedication'
     typeset_text underline, calc_line_metrics((opts.delete :line_height) || @theme.heading_line_height), {
-        inline_format: true, color: 'B0B0B0', size: 8, style: :italic,
+      inline_format: true,
+      color: 'B0B0B0',
+      size: 8,
+      style: :italic
     }.merge(opts)
     move_down 20
   end
+
 end
 
 Asciidoctor::Pdf::Converter.prepend AsciidoctorPdfExtension
