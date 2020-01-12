@@ -1,0 +1,17 @@
+.Tabella dei risultati del questionario SUS del tester 4
+[[tab-sus-tester4]]
+[cols="^.^1h,<.^4,^.^1,^.^1"]
+|===
+2.2+h|Domande 2+^h|Codice tester: 4 ^h|Voto ^h|Punteggio
+|1|Penso che mi piacerebbe utilizzare questo sito frequentemente|2|1
+|2|Ho trovato il sito inutilmente complesso|4|1
+|3|Ho trovato il sito molto semplice da usare|2|1
+|4|Penso che avrei bisogno del supporto di una persona già in grado di utilizzare il sito|3|2
+|5|Ho trovato le varie funzionalità del sito bene integrate|2|1
+|6|Ho trovato incoerenze tra le varie funzionalità del sito|2|3
+|7|Penso che la maggior parte delle persone possano imparare ad utilizzare il sito facilmente|2|1
+|8|Ho trovato il sito molto difficile da utilizzare|3|2
+|9|Mi sono sentito a mio agio nell'utilizzare il sito|3|2
+|10|Ho avuto bisogno di imparare molti processi prima di riuscire ad utilizzare al meglio il sito|3|2
+3+h|Valutazione totale ^.^h|40.0
+|===

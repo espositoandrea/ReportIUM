@@ -11,7 +11,7 @@ require_relative './generation-utils'
 task default: :documentazione
 
 desc 'Genera il report completo'
-task documentazione: ['parziale', 'euristica', 'charts'] do
+task documentazione: %w[parziale euristica charts] do
   puts 'Building documentation'
   Asciidoctor.convert_file 'documentazione/ReportIUM.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'book', 'pdf-themesdir' => './themes'}, mkdirs: true
 end
@@ -55,7 +55,7 @@ namespace :euristica do
 end
 
 task :parziale do
-  Rake.application.in_namespace(:parziale) { |x| x.tasks.each { |t| t.invoke } }
+  Rake.application.in_namespace(:parziale) { |x| x.tasks.each(&:invoke) }
 end
 
 namespace :parziale do
@@ -66,7 +66,7 @@ namespace :parziale do
     header = xlsx.row 1
     xlsx.each_row_streaming offset: 1 do |row|
       i += 1
-      nps = create_table_from_survey({'Con quanta probabilità consiglieresti questo sito ad un amico o ad un conoscente?' => "#{row[7].value.to_i}/10"})
+      nps = create_table_from_survey('Con quanta probabilità consiglieresti questo sito ad un amico o ad un conoscente?' => "#{row[7].value.to_i}/10")
 
       sus = {}
       header[8..17].each_with_index { |question, index| sus[question] = "#{row[index + 8].value.to_i}/5" }
@@ -151,6 +151,62 @@ namespace :parziale do
   task :nps do
     create_nps_from_excel 8
   end
+
+  task :sus do
+    results = create_sus_from_excel
+
+    questions = [
+        'Penso che mi piacerebbe utilizzare questo sito frequentemente',
+        'Ho trovato il sito inutilmente complesso',
+        'Ho trovato il sito molto semplice da usare',
+        'Penso che avrei bisogno del supporto di una persona già in grado di utilizzare il sito',
+        'Ho trovato le varie funzionalità del sito bene integrate',
+        'Ho trovato incoerenze tra le varie funzionalità del sito',
+        'Penso che la maggior parte delle persone possano imparare ad utilizzare il sito facilmente',
+        'Ho trovato il sito molto difficile da utilizzare',
+        "Mi sono sentito a mio agio nell'utilizzare il sito",
+        'Ho avuto bisogno di imparare molti processi prima di riuscire ad utilizzare al meglio il sito'
+    ]
+
+    results.each do |res|
+      path = File.join(File.dirname(__FILE__), './documentazione/tables/sus', "tester#{res[:code]}.adoc")
+      table = ".Tabella dei risultati del questionario SUS del tester #{res[:code]}\n"
+      table += "[[tab-sus-tester#{res[:code]}]]\n"
+      table += "[cols=\"^.^1h,<.^4,^.^1,^.^1\"]\n"
+      table += "|===\n"
+      table += "2.2+h|Domande 2+^h|Codice tester: #{res[:code]} ^h|Voto ^h|Punteggio\n"
+      (0..questions.size - 1).each do |i|
+        table += "|#{i + 1}|#{questions[i]}|#{res[:answers][i]}|#{res[:results][i]}\n"
+      end
+      table += "3+h|Valutazione totale ^.^h|#{res[:total]}\n"
+      table += "|===\n"
+
+      File.write path, table
+    end
+
+    path = File.join(File.dirname(__FILE__), './documentazione/tables/sus', "complessiva.adoc")
+    table = ".Tabella dei risultati medi del questionario SUS\n"
+    table += "[[tab-sus-complessiva]]\n"
+    table += "[cols=\"^.^1h,<.^4,^.^1,^.^1\"]\n"
+    table += "|===\n"
+    table += "2+h|Domande ^h|Voto medio ^h|Punteggio medio\n"
+
+    average_answers = Array.new questions.size
+    average_ratings = Array.new questions.size
+    (0..questions.size - 1).each do |i|
+      temp_answers = results.map { |x| x[:answers][i] }
+      temp_ratings = results.map { |x| x[:results][i] }
+      average_answers[i] = (temp_answers.sum.to_f / results.size).round 2
+      average_ratings[i] = (temp_ratings.sum.to_f / results.size).round 2
+    end
+    (0..questions.size - 1).each do |i|
+      table += "|#{i + 1}|#{questions[i]}|#{average_answers[i]}|#{average_ratings[i]}\n"
+    end
+    table += "3+h|Valutazione totale ^.^h|#{((results.map { |x| x[:total] }).sum.to_f / results.size).round(2)}\n"
+    table += "3+h|Deviazione standard ^.^h|#{standard_deviation(results.map { |x| x[:total] }).round(2)}\n"
+    table += "|===\n"
+    File.write path, table
+  end
 end
 
 desc 'Genera tutti i diagrammi'
@@ -183,40 +239,40 @@ namespace :dist do
   desc 'Crea ZIP per valutazione euristica'
   task euristica: ['euristica'] do
     file_list = {
-      'alessandro.pdf' => 'out/alessandro.pdf',
-      'andrea.pdf' => 'out/andrea.pdf',
-      'complessiva.pdf' => 'out/complessiva.pdf',
-      'davide.pdf' => 'out/davide.pdf',
-      'graziano.pdf' => 'out/graziano.pdf',
-      'regina.pdf' => 'out/regina.pdf',
+        'alessandro.pdf' => 'out/ alessandro.pdf ',
+        ' andrea.pdf ' => ' out / andrea.pdf ',
+        ' complessiva.pdf ' => ' out / complessiva.pdf ',
+        ' davide.pdf ' => ' out / davide.pdf ',
+        ' graziano.pdf ' => ' out / graziano.pdf ',
+        ' regina.pdf ' => ' out / regina.pdf '
     }
-    create_zip_file 'out/euristica.zip', file_list
+    create_zip_file ' out / euristica.zip ', file_list
   end
 
-  desc 'Crea ZIP per la consegna'
-  task zip: ['documentazione'] do
+  desc ' Crea ZIP per la consegna '
+  task zip: [' documentazione '] do
     # TODO: Implement
-    Asciidoctor.convert_file 'README.adoc', backend: 'html', safe: :unsafe, attributes: {'lang' => 'it'}, mkdirs: true
+    Asciidoctor.convert_file ' README.adoc ', backend: ' html ', safe: :unsafe, attributes: {' lang ' => ' it '}, mkdirs: true
     file_list = {
-      'README.html' => 'README.html',
-      'report/ReportIUM.pdf' => 'out/ReportIUM.pdf',
-      'report/euristica/alessandro.pdf' => 'out/alessandro.pdf',
-      'report/euristica/andrea.pdf' => 'out/andrea.pdf',
-      'report/euristica/complessiva.pdf' => 'out/complessiva.pdf',
-      'report/euristica/davide.pdf' => 'out/davide.pdf',
-      'report/euristica/graziano.pdf' => 'out/graziano.pdf',
-      'report/euristica/regina.pdf' => 'out/regina.pdf',
+        ' README.html ' => ' README.html ',
+        ' report / ReportIUM.pdf ' => ' out / ReportIUM.pdf ',
+        ' report / euristica / alessandro.pdf ' => ' out / alessandro.pdf ',
+        ' report / euristica / andrea.pdf ' => ' out / andrea.pdf ',
+        ' report / euristica / complessiva.pdf ' => ' out / complessiva.pdf ',
+        ' report / euristica / davide.pdf ' => ' out / davide.pdf ',
+        ' report / euristica / graziano.pdf ' => ' out / graziano.pdf ',
+        ' report / euristica / regina.pdf ' => ' out / regina.pdf '
     }
-    create_zip_file 'out/fsc.zip', file_list
-    File.delete 'README.html'
-    puts 'NOT YET IMPLEMENTED'
+    create_zip_file ' out / fsc.zip ', file_list
+    File.delete ' README.html '
+    puts ' NOT YET IMPLEMENTED '
   end
 end
 
-desc 'Crea ZIP per la consegna'
-task dist: ['dist:zip']
+desc ' Crea ZIP per la consegna '
+task dist: [' dist : zip ']
 
 task :install do
-  sh 'bundle install'
-  sh 'npm install'
+  sh ' bundle install '
+  sh ' npm install '
 end

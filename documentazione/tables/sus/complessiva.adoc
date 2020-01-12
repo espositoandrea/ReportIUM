@@ -1,0 +1,18 @@
+.Tabella dei risultati medi del questionario SUS
+[[tab-sus-complessiva]]
+[cols="^.^1h,<.^4,^.^1,^.^1"]
+|===
+2+h|Domande ^h|Voto medio ^h|Punteggio medio
+|1|Penso che mi piacerebbe utilizzare questo sito frequentemente|2.83|1.83
+|2|Ho trovato il sito inutilmente complesso|4.33|0.67
+|3|Ho trovato il sito molto semplice da usare|2.0|1.0
+|4|Penso che avrei bisogno del supporto di una persona già in grado di utilizzare il sito|3.5|1.5
+|5|Ho trovato le varie funzionalità del sito bene integrate|1.33|0.33
+|6|Ho trovato incoerenze tra le varie funzionalità del sito|3.17|1.83
+|7|Penso che la maggior parte delle persone possano imparare ad utilizzare il sito facilmente|1.67|0.67
+|8|Ho trovato il sito molto difficile da utilizzare|4.0|1.0
+|9|Mi sono sentito a mio agio nell'utilizzare il sito|2.5|1.5
+|10|Ho avuto bisogno di imparare molti processi prima di riuscire ad utilizzare al meglio il sito|3.67|1.33
+3+h|Valutazione totale ^.^h|29.17
+3+h|Deviazione standard ^.^h|14.91
+|===

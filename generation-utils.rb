@@ -66,6 +66,13 @@ def create_zip_file(zip_name, file_list, relative = true)
   end
 end
 
+def create_sus_from_excel
+  out = []
+  ratings = Roo::Excelx.new File.join(File.dirname(__FILE__), 'risultati-google-form.xlsx')
+  ratings.sheet(0).each_row_streaming(offset: 1) { |rating| out.push sus(rating, out.size + 1) }
+  out
+end
+
 def create_nps_from_excel(column)
   xlsx = Roo::Excelx.new File.join(File.dirname(__FILE__), 'risultati-google-form.xlsx')
   ratings = []
@@ -175,4 +182,10 @@ def create_nps_from_excel(column)
 
   File.write File.join(File.dirname(__FILE__), 'grafici/fig-risultati-nps.json'), graph
 
+end
+
+def standard_deviation(array)
+  mean = array.sum / array.size
+  sum = array.inject(0) { |accum, i| accum + ((i - mean) ** 2) }
+  Math.sqrt(sum / (array.size).to_f)
 end
