@@ -7,3 +7,5 @@ include::chapters/gruppo-lavoro.adoc[]
 include::chapters/analisi.adoc[]
 
 include::chapters/report.adoc[]
+
+include::chapters/considerazioni-finali.adoc[]
