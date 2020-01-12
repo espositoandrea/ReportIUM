@@ -1,7 +1,9 @@
 == Considerazioni finali
 
 Le attività di test precedentemente documentate hanno permesso ai componenti del gruppo di avere un quadro generale più ampio riguardo l'usabilità del sito analizzato. 
-Queste attività, insieme alla "`Tabella di valutazione euristica`" (<<tab-valutazione-euristica>>), sono state utili per trarre delle conclusioni più critiche e mirate. Di seguito vengono proposti i paragrafi contenenti le considerazioni relative alla interfaccia, i contenuti, le esperienze dell'utente e le metodologie di valutazione utilizzate.
+Queste attività, insieme alla "`Tabella di valutazione euristica`" (<<tab-valutazione-euristica>>), sono state utili per trarre delle conclusioni più critiche e mirate. 
+
+Di seguito vengono proposti i paragrafi contenenti le considerazioni relative alla interfaccia, i contenuti, le esperienze dell'utente e le metodologie di valutazione utilizzate.
 
 === Interfaccia
 
@@ -23,6 +25,6 @@ In seguito a ciò che è stato appena elencato possiamo analizzare alcuni esempi
 *  Molti link non rispecchiano ciò che contengono come, ad esempio, "`Amministrazione e Uffici`" che si trova nella navbar presente nell'header di tutte le pagine. Una volta cliccato, veniamo a scoprire che il nome non rispecchia ciò che promette perchè troviamo informazioni riguardo l'amministrazione comunale, l'organizzazione del comune, il sindaco, il consiglio ecc. mentre le informazioni sugli uffici comunali non sono presenti. 
 * Per riflettere riguardo la scarsa disposizione delle informazioni, prendiamo in esempio la sezione "`Servizi`" presente nella "`Home Page`": quanto emerso dai test ci conferma che sarebbe stato più efficace creare una pagina a se stante (come fatto con "`Aree Tematiche`") invece di includerla all'interno di una pagina già complessa infatti, molti tester, tendevano proprio ad ignorare tale sezione basandosi principalmente sulla navabar principale. 
 
-Il comportamento della maggior parte degli utenti dimostra che le parti più importanti del sito sono state ignorate dai progettisti dando più spazio a zone meno utili per l'utente finale confermando i punti descritti nella "`Tabella di valutazione euristica`" (<<tab-valutazione-euristica>>) e gli esempi riportati sopra. Questa grave pecca comporta una scarsa qualità del sito e una navigabilità molto più complessa per chi lo utilizza per la prima volta. Inoltre, la navigazione da parte di utenti meno esperti porta a utilizzare lo strumento di ricerca del sito che, come riconosciuto da alcuni test preliminari effettuati dal team, è poco accurato e molto grossolano causando la perdita di informazioni che sono presenti ma che vengono involontariamente nascoste all'utente.
+Il comportamento della maggior parte degli utenti dimostra che le parti più importanti del sito sono state ignorate dai progettisti dando più spazio a zone meno utili per l'utente finale, confermando i punti descritti nella "`Tabella di valutazione euristica`" (<<tab-valutazione-euristica>>) e gli esempi riportati sopra. Questa grave pecca comporta una scarsa qualità del sito e una navigabilità molto più complessa per chi lo utilizza per la prima volta. Inoltre, la navigazione da parte di utenti meno esperti porta a utilizzare lo strumento di ricerca del sito che, come riconosciuto da alcuni test preliminari effettuati dal team, è poco accurato e molto grossolano causando la perdita di informazioni che sono presenti ma che vengono involontariamente nascoste all'utente.
 
 === Metodologie utilizzate
