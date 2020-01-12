@@ -1,0 +1,7 @@
+. Individuare una bando di concorso
+. Individuare gli orari di apertura delle sedi del comune
+. Individuare le ultime news
+. Recuperare un modulo di domanda
+. Trovare link al portale per il pagamento della TARI
+. Trovare l'elenco dei cinema di Taranto
+

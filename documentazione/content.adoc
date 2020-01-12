@@ -4,4 +4,6 @@ include::chapters/obiettivi.adoc[]
 
 include::chapters/gruppo-lavoro.adoc[]
 
+include::chapters/analisi.adoc[]
+
 include::chapters/report.adoc[]

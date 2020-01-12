@@ -1,0 +1,58 @@
+== Analisi preliminare
+
+=== Profilazione dei partecipanti
+
+Ai fini di migliorare le attività di valutazione, si sono identificate delle
+categorie di utenti che siano potenziali utilizzatori del sito. Nello specifico
+si sono individuate tre categorie di utenti, basate sull'età degli utenti
+stessi. Si noti, tuttavia, che gli estremi d'età non sono rigidi ma sono estremi
+puramente indicativi utili a identificare la categoria: la scelta di un utente
+avviene, infatti, mediante una valutazione delle sue capacità e conoscenze.
+
++1.+ "`Over 60`"::
+    Questa categoria di utenti è costituita da persone che, potenzialmente,
+    fanno un utilizzo ridotto della tecnologia web e dei servizi erogati tramite
+    essa. Sono potenzialmente allo scuro di eventuali _standard de facto_ del
+    mondo del web e potrebbero avere difficoltà nell'utilizzo di un computer.
+    Tuttavia potrebbero avere la necessità di utilizzare il sito del Comune di
+    Taranto per recuperare notizie o informazioni di varia natura.
+
++2.+ "`Età compresa fra i 30 e i 60`"::
+    Questa categoria di utenti è costituita da persone che fanno un uso
+    quotidiano di internet ma non ne sfruttano pienamente i servizi. Conoscono
+    alcuni degli _standard de facto_ del mondo del web e non hanno difficoltà a
+    utilizzare un computer. Potrebbero utilizzare il sito del Comune di Taranto
+    per recuperare notizie ed effettuare pagamenti.
+
++3.+ "`Età inferiore ai 30 anni`"::
+    Questa categoria di utenti è costituita da persone che fanno un uso
+    quotidiano e intensivo di internet. Conoscono gli _standard de facto_ del
+    mondo del web e non hanno alcuna difficoltà nell'utilizzare un computer.
+    Potrebbero utilizzare il sito del Comune di Taranto per effettuare tutte le
+    operazioni legare agli uffici comunali.
+
+==== Gli utenti partecipanti al test
+
+Gli utenti partecipanti (a cui ci si riferisce nel corso dell'intero documento
+come "`partecipanti`" o "`tester`" indifferentemente) scelti ai fini della
+valutazione sono riportati in <<tab-lista-partecipanti>>. 
+
+include::../tables/tab-lista-partecipanti.adoc[]
+
+
+=== Analisi e definizione dei task
+
+I task da assegnare agli utenti sono stati selezionati in seguito a un'analisi
+preliminare del sito basandosi sulle possibili esigenze dei potenziali utenti e
+identificando le funzionalità potenzialmente più interessanti. Si elencano di
+seguito i task definiti, che saranno proposti a ciascun utente durante
+l'attività di valutazione del sito web con metodologia thinking aloud.
+
+.I task definiti
+****
+include::../lists/tasks.adoc[]
+****
+
+Si sottolinea inoltre che la valutazione euristica che sarà condotta dai membri
+del team di valutazione sarà ridotta (ai fini dell'esame) agli stessi sei task
+che saranno sottoposti ai tester.

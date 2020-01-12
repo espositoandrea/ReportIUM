@@ -1,0 +1,12 @@
+.Tabella dei partecipanti alle sessioni di test. Per ogni partecipante è riportato un numero intero che funge da identificatore.
+[[tab-lista-partecipanti]]
+[cols="^.^1h, ^.^4, ^.^4, ^.^2", options="header"]
+|===
+|N.ro|Nome|Cognome|Categoria
+| 1 | Giuseppa | Scorrano | 1
+| 2 | Vittorio | Albano | 2
+| 3 | Erminia | Salituro | 2
+| 4 | Alessandro | Cicala | 3
+| 5 | Daniele | Russano | 3
+| 6 | Antonio | Pastorelli | 3
+|===

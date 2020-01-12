@@ -1,0 +1,50 @@
+# Elenco dei partecipanti alla valutazione con tecnica Thinking Aloud.
+
+- nome: "Giuseppa"
+  cognome: "Scorrano"
+  eta: 76
+  professione: "Casalinga"
+  uso_internet: "più volte al giorno"
+  visiti_sito: "molto raramente"
+  inizio_sessione: "9/01/2020 9:20"
+  categoria: 1
+
+- nome: "Vittorio"
+  cognome: "Albano"
+  eta: 45
+  uso_internet: "più volte al giorno"
+  visiti_sito: "molto raramente"
+  inizio_sessione: "9/01/2020 9:36"
+  categoria: 2
+
+- nome: "Erminia"
+  cognome: "Salituro"
+  eta: 36
+  uso_internet: "più volte al giorno"
+  visiti_sito: "molto raramente"
+  inizio_sessione: "9/01/2020 9:46"
+  categoria: 2
+
+- nome: "Alessandro"
+  cognome: "Cicala"
+  eta: 22
+  uso_internet: "più volte al giorno"
+  visiti_sito: "molto raramente"
+  inizio_sessione: "9/01/2020 10:05"
+  categoria: 3
+
+- nome: "Daniele"
+  cognome: "Russano"
+  eta: 20
+  uso_internet: "più volte al giorno"
+  visiti_sito: "molto raramente"
+  inizio_sessione: "9/01/2020 10:40"
+  categoria: 3
+
+- nome: "Antonio"
+  cognome: "Pastorelli"
+  eta: 26
+  uso_internet: "più volte al giorno"
+  visiti_sito: "molto raramente"
+  inizio_sessione: "9/01/2020 11:04"
+  categoria: 3

@@ -75,6 +75,42 @@ namespace :parziale do
     end
   end
 
+  desc 'Genera la lista dei partecipanti e altro'
+  task :partecipanti do
+    data = YAML.load_file File.join(File.dirname(__FILE__), 'tester.yml')
+
+    out = ".Tabella dei partecipanti alle sessioni di test. Per ogni partecipante è riportato un numero intero che funge da identificatore.\n"
+    out += "[[tab-lista-partecipanti]]\n"
+    out += "[cols=\"^.^1h, ^.^4, ^.^4, ^.^2\", options=\"header\"]\n"
+    out += "|===\n"
+    out += "|N.ro|Nome|Cognome|Categoria\n"
+    data.each_with_index { |elem, i| out += "| #{i + 1} | #{elem['nome']} | #{elem['cognome']} | #{elem['categoria']}\n" }
+    out += "|===\n"
+
+    File.write File.join(File.dirname(__FILE__), 'documentazione/tables/tab-lista-partecipanti.adoc'), out
+
+    out = ".Tabella dei partecipanti alle sessioni di test con le loro informazioni demografiche.\n"
+    out += "[[tab-demografica-partecipanti]]\n"
+    out += "[cols=\"^.^1h, ^.^4,^.^2,^.^4,^.^4,^.^3\", options=\"header\"]\n"
+    out += "|===\n"
+    out += "|#|Partecipante|Età|Esperienza internet|Esperienza sito|Data/Ora sessione\n"
+    data.each_with_index { |elem, i| out += "| #{i + 1} | #{elem['nome']} #{elem['cognome']} | #{elem['eta']} | #{elem['uso_internet']} | #{elem['visiti_sito']} | #{elem['inizio_sessione']}\n" }
+    out += "|===\n"
+
+    File.write File.join(File.dirname(__FILE__), 'documentazione/tables/tab-demografica-partecipanti.adoc'), out
+  end
+
+  desc 'Genera la la lista dei task'
+  task :task do
+    data = YAML.load_file File.join(File.dirname(__FILE__), 'tasks.yml')
+
+    out = ''
+    data.each { |el| out += ". #{el['task']}\n" }
+    out += "\n"
+
+    File.write File.join(File.dirname(__FILE__), './documentazione/lists/tasks.adoc'), out
+  end
+
   desc 'Crea la tabella di successo dei task'
   task :successo_task do
     yaml = YAML.load_file File.join(File.dirname(__FILE__), 'tasks.yml')

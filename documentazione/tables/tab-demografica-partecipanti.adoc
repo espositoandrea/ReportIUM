@@ -1,0 +1,12 @@
+.Tabella dei partecipanti alle sessioni di test con le loro informazioni demografiche.
+[[tab-demografica-partecipanti]]
+[cols="^.^1h, ^.^4,^.^2,^.^4,^.^4,^.^3", options="header"]
+|===
+|#|Partecipante|Età|Esperienza internet|Esperienza sito|Data/Ora sessione
+| 1 | Giuseppa Scorrano | 76 | più volte al giorno | molto raramente | 9/01/2020 9:20
+| 2 | Vittorio Albano | 45 | più volte al giorno | molto raramente | 9/01/2020 9:36
+| 3 | Erminia Salituro | 36 | più volte al giorno | molto raramente | 9/01/2020 9:46
+| 4 | Alessandro Cicala | 22 | più volte al giorno | molto raramente | 9/01/2020 10:05
+| 5 | Daniele Russano | 20 | più volte al giorno | molto raramente | 9/01/2020 10:40
+| 6 | Antonio Pastorelli | 26 | più volte al giorno | molto raramente | 9/01/2020 11:04
+|===

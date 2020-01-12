@@ -39,9 +39,15 @@ test, ovverosia:
 Agli utenti è poi notificata la necessità di compilare un questionario al fine
 di esprimere una valutazione quantitativa dell'usabilità del sito web.
 
-I seguenti report sono stati stesi dai relativi osservatori e sono stati poi
-discussi dall'intero team.
+I report presentati in <<report-dei-test>> sono stati stesi dai relativi
+osservatori e sono stati poi discussi dall'intero team.
 
+Si presenta di seguito una tabella riepilogativa (<<tab-demografica-partecipanti>>)
+contenente le informazioni demografiche raccolte sugli utenti partecipanti.
+
+include::../tables/tab-demografica-partecipanti.adoc[]
+
+[[report-dei-test]]
 === Report dei test
 
 include::tester-1/report.adoc[leveloffset=+3]
@@ -66,6 +72,7 @@ include::tasks/successo.adoc[]
 
 ==== Risultati Net Promoter Score
 
+ifndef::backend-pdf[]
 [[fig-risultati-nps]]
 .I risultati del NPS
 image::images/fig-risultati-nps.svg[role=right]
@@ -74,3 +81,18 @@ Si riporta in <<fig-risultati-nps>> Un riepilogo dei risultati del questionario
 _Net Promoter Score (NPS)_. È evidente dall'assenza totale di utenti promotori
 del sito che sono state riscontrate diverse difficoltà nel suo utilizzo: sono
 evidentemente preponderanti, infatti, gli utenti detrattori del sito.
+endif::[]
+ifdef::backend-pdf[]
+[cols="<.<, >.^", frame=none, grid=none]
+|===
+a|Si riporta in <<fig-risultati-nps>> Un riepilogo dei risultati del questionario
+_Net Promoter Score (NPS)_. È evidente dall'assenza totale di utenti promotori
+del sito che sono state riscontrate diverse difficoltà nel suo utilizzo: sono
+evidentemente preponderanti, infatti, gli utenti detrattori del sito.
+
+a|
+[[fig-risultati-nps]]
+.I risultati del NPS
+image::images/fig-risultati-nps.svg[role=right]
+|===
+endif::[]

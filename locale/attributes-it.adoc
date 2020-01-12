@@ -3,6 +3,7 @@
 :appendix-refsig: {appendix-caption}
 :caution-caption: Attenzione
 :chapter-label: Capitolo
+:section-label: Sezione
 :part-signifier: Parte
 :chapter-refsig: {chapter-label}
 :example-caption: Esempio

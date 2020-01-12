@@ -18,3 +18,30 @@ toc:
 
 blockquote:
   font-size: $base-font-size
+
+header:
+  height: 1.5cm
+  padding: [15, 0, 0, 0]
+  line_height: 1
+  border-color: #dddddd
+  border-style: solid
+  border-width: $base-border-width
+  recto:
+    center:
+      content: '{document-title}'
+  verso:
+    center:
+      content: '{document-title}'
+ 
+footer:
+  height: 2.5cm
+  border-style: solid
+  border-color: #dddddd
+  border-width: $base-border-width
+  line_height: 1
+  recto:
+    right:
+      content: '{chapter-title} | *{page-number}*'
+  verso:
+    left:
+      content: '*{page-number}* | {chapter-title}'
