@@ -96,3 +96,32 @@ a|
 image::images/fig-risultati-nps.svg[role=right]
 |===
 endif::[]
+
+==== Risultati del System Usability Scale
+
+Si riportano nelle varie tabele successive un riepilogo dei risultati dei questionari SUS somministrati.
+
+include::../tables/sus/tester1.adoc[]
+
+include::../tables/sus/tester2.adoc[]
+
+include::../tables/sus/tester3.adoc[]
+
+include::../tables/sus/tester4.adoc[]
+
+include::../tables/sus/tester5.adoc[]
+
+include::../tables/sus/tester6.adoc[]
+
+===== Risultati complessivi
+
+Si riporta nella <<tab-sus-complessiva>> un riepilogo complessivo di tutte le
+valutazioni SUS ricevute.
+
+include::../tables/sus/complessiva.adoc[]
+
+Il punteggio complessivo è di *29.17*, un punteggio molto basso che sottolinea
+una scarsa usabilità del sito. Questo risultato è in linea con le previsioni che
+è possibile fare guardando solo la tabella di valutazione euristica
+(<<tab-valutazione-euristica>>), dove quasi tutti i problemi riscontrati sono
+caratterizzati da una gravità alta.
