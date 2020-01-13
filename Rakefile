@@ -5,52 +5,53 @@ require 'ruby-progressbar'
 require 'roo'
 require 'zip'
 
-require_relative './asciidoctor-pdf-extension'
-require_relative './generation-utils'
+require_relative './src/ruby/asciidoctor-pdf-extension'
+require_relative './src/ruby/generation-utils'
+require_relative './src/ruby/files-location'
 
 task default: :documentazione
 
 desc 'Genera il report completo'
 task documentazione: %w[parziale euristica charts] do
   puts 'Building documentation'
-  Asciidoctor.convert_file 'documentazione/ReportIUM.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'book', 'pdf-themesdir' => './themes'}, mkdirs: true
+  Asciidoctor.convert_file ReportFiles::REPORT, backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'book', 'pdf-themesdir' => './src/themes'}, mkdirs: true
 end
 
 namespace :euristica do
   desc 'Genera la tabella di valutazione di Andrea'
   task :andrea do
-    generate_euristic 'valutazione-euristica/andrea.yml', 'Andrea Esposito'
-    Asciidoctor.convert_file 'valutazione-euristica/andrea/andrea.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './themes'}, mkdirs: true
+    generate_euristic 'src/valutazione-euristica/andrea.yml', 'Andrea Esposito'
+    Asciidoctor.convert_file 'src/valutazione-euristica/andrea/andrea.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione di Alessandro'
   task :alessandro do
-    generate_euristic 'valutazione-euristica/alessandro.yml', 'Alessandro Annese'
-    Asciidoctor.convert_file 'valutazione-euristica/alessandro/alessandro.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './themes'}, mkdirs: true
+    generate_euristic 'src/valutazione-euristica/alessandro.yml', 'Alessandro Annese'
+    Asciidoctor.convert_file 'src/valutazione-euristica/alessandro/alessandro.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione di Davide'
   task :davide do
-    generate_euristic 'valutazione-euristica/davide.yml', 'Davide De Salvo'
-    Asciidoctor.convert_file 'valutazione-euristica/davide/davide.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './themes'}, mkdirs: true
+    generate_euristic 'src/valutazione-euristica/davide.yml', 'Davide De Salvo'
+    Asciidoctor.convert_file 'src/valutazione-euristica/davide/davide.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione di Graziano'
   task :graziano do
-    generate_euristic 'valutazione-euristica/graziano.yml', 'Graziano Montanaro'
-    Asciidoctor.convert_file 'valutazione-euristica/graziano/graziano.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './themes'}, mkdirs: true
+    generate_euristic 'src/valutazione-euristica/graziano.yml', 'Graziano Montanaro'
+    Asciidoctor.convert_file 'src/valutazione-euristica/graziano/graziano.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione di Regina'
   task :regina do
-    generate_euristic 'valutazione-euristica/regina.yml', 'Regina Zaccaria'
-    Asciidoctor.convert_file 'valutazione-euristica/regina/regina.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './themes'}, mkdirs: true
+    generate_euristic 'src/valutazione-euristica/regina.yml', 'Regina Zaccaria'
+    Asciidoctor.convert_file 'src/valutazione-euristica/regina/regina.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione complessiva'
   task :complessiva do
-    generate_euristic 'valutazione-euristica/complessiva.yml'
-    Asciidoctor.convert_file 'valutazione-euristica/complessiva/complessiva.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './themes'}, mkdirs: true
+    generate_euristic 'src/valutazione-euristica/complessiva.yml'
+    Asciidoctor.convert_file 'src/valutazione-euristica/complessiva/complessiva.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 end
 
@@ -61,7 +62,7 @@ end
 namespace :parziale do
   desc 'Porta i risultati dei questionari nella documentazione'
   task :questionari do
-    xlsx = Roo::Excelx.new File.join(File.dirname(__FILE__), 'risultati-google-form.xlsx')
+    xlsx = Roo::Excelx.new ReportFiles::Data::GOOGLE_FORM
     i = 0
     header = xlsx.row 1
     xlsx.each_row_streaming offset: 1 do |row|
@@ -70,14 +71,14 @@ namespace :parziale do
 
       sus = {}
       header[8..17].each_with_index { |question, index| sus[question] = "#{row[index + 8].value.to_i}/5" }
-      File.write File.join(File.dirname(__FILE__), "./documentazione/chapters/tester-#{i}/nps.adoc"), nps
-      File.write File.join(File.dirname(__FILE__), "./documentazione/chapters/tester-#{i}/sus.adoc"), create_table_from_survey(sus)
+      File.write File.join(File.dirname(__FILE__), "./src/documentazione/chapters/tester-#{i}/nps.adoc"), nps
+      File.write File.join(File.dirname(__FILE__), "./src/documentazione/chapters/tester-#{i}/sus.adoc"), create_table_from_survey(sus)
     end
   end
 
   desc 'Genera la lista dei partecipanti e altro'
   task :partecipanti do
-    data = YAML.load_file File.join(File.dirname(__FILE__), 'tester.yml')
+    data = YAML.load_file ReportFiles::Data::TESTERS
 
     out = ".Tabella dei partecipanti alle sessioni di test. Per ogni partecipante è riportato un numero intero che funge da identificatore.\n"
     out += "[[tab-lista-partecipanti]]\n"
@@ -87,7 +88,7 @@ namespace :parziale do
     data.each_with_index { |elem, i| out += "| #{i + 1} | #{elem['nome']} | #{elem['cognome']} | #{elem['categoria']}\n" }
     out += "|===\n"
 
-    File.write File.join(File.dirname(__FILE__), 'documentazione/tables/tab-lista-partecipanti.adoc'), out
+    File.write File.join(File.dirname(__FILE__), 'src/documentazione/tables/tab-lista-partecipanti.adoc'), out
 
     out = ".Tabella dei partecipanti alle sessioni di test con le loro informazioni demografiche.\n"
     out += "[[tab-demografica-partecipanti]]\n"
@@ -97,23 +98,23 @@ namespace :parziale do
     data.each_with_index { |elem, i| out += "| #{i + 1} | #{elem['nome']} #{elem['cognome']} | #{elem['eta']} | #{elem['uso_internet']} | #{elem['visiti_sito']} | #{elem['inizio_sessione']}\n" }
     out += "|===\n"
 
-    File.write File.join(File.dirname(__FILE__), 'documentazione/tables/tab-demografica-partecipanti.adoc'), out
+    File.write File.join(File.dirname(__FILE__), 'src/documentazione/tables/tab-demografica-partecipanti.adoc'), out
   end
 
   desc 'Genera la la lista dei task'
   task :task do
-    data = YAML.load_file File.join(File.dirname(__FILE__), 'tasks.yml')
+    data = YAML.load_file ReportFiles::Data::TASKS
 
     out = ''
     data.each { |el| out += ". #{el['task']}\n" }
     out += "\n"
 
-    File.write File.join(File.dirname(__FILE__), './documentazione/lists/tasks.adoc'), out
+    File.write File.join(File.dirname(__FILE__), './src/documentazione/lists/tasks.adoc'), out
   end
 
   desc 'Crea la tabella di successo dei task'
   task :successo_task do
-    yaml = YAML.load_file File.join(File.dirname(__FILE__), 'tasks.yml')
+    yaml = YAML.load_file ReportFiles::Data::TASKS
 
     number_of_testers = yaml[0]['esiti'].size
 
@@ -145,7 +146,7 @@ namespace :parziale do
     table += "| *Media: #{(tester_success.sum.to_f / (number_of_testers * yaml.size) * 100).round(2)}%*\n"
 
     table += "|===\n"
-    File.write File.join(File.dirname(__FILE__), './documentazione/chapters/tasks/successo.adoc'), table
+    File.write File.join(File.dirname(__FILE__), './src/documentazione/chapters/tasks/successo.adoc'), table
   end
 
   task :nps do
@@ -169,7 +170,7 @@ namespace :parziale do
     ]
 
     results.each do |res|
-      path = File.join(File.dirname(__FILE__), './documentazione/tables/sus', "tester#{res[:code]}.adoc")
+      path = File.join(File.dirname(__FILE__), './src/documentazione/tables/sus', "tester#{res[:code]}.adoc")
       table = ".Tabella dei risultati del questionario SUS del tester #{res[:code]}\n"
       table += "[[tab-sus-tester#{res[:code]}]]\n"
       table += "[cols=\"^.^1h,<.^4,^.^1,^.^1\"]\n"
@@ -184,7 +185,7 @@ namespace :parziale do
       File.write path, table
     end
 
-    path = File.join(File.dirname(__FILE__), './documentazione/tables/sus', "complessiva.adoc")
+    path = File.join(File.dirname(__FILE__), './src/documentazione/tables/sus', "complessiva.adoc")
     table = ".Tabella dei risultati medi del questionario SUS\n"
     table += "[[tab-sus-complessiva]]\n"
     table += "[cols=\"^.^1h,<.^4,^.^1,^.^1\"]\n"
@@ -255,15 +256,15 @@ namespace :dist do
     Asciidoctor.convert_file ' README.adoc ', backend: ' html ', safe: :unsafe, attributes: {' lang ' => ' it '}, mkdirs: true
     file_list = {
         ' README.html ' => ' README.html ',
-        ' report / ReportIUM.pdf ' => ' out / ReportIUM.pdf ',
-        ' report / euristica / alessandro.pdf ' => ' out / alessandro.pdf ',
-        ' report / euristica / andrea.pdf ' => ' out / andrea.pdf ',
-        ' report / euristica / complessiva.pdf ' => ' out / complessiva.pdf ',
-        ' report / euristica / davide.pdf ' => ' out / davide.pdf ',
-        ' report / euristica / graziano.pdf ' => ' out / graziano.pdf ',
-        ' report / euristica / regina.pdf ' => ' out / regina.pdf '
+        'report/ReportIUM.pdf' => 'out/ReportIUM.pdf',
+        'report/euristica/alessandro.pdf' => 'out/alessandro.pdf',
+        'report/euristica/andrea.pdf' => 'out/andrea.pdf',
+        'report/euristica/complessiva.pdf' => 'out/complessiva.pdf',
+        'report/euristica/davide.pdf' => 'out/davide.pdf',
+        'report/euristica/graziano.pdf' => 'out/graziano.pdf',
+        'report/euristica/regina.pdf' => 'out/regina.pdf'
     }
-    create_zip_file ' out / fsc.zip ', file_list
+    create_zip_file 'out/fsc.zip ', file_list
     File.delete ' README.html '
     puts ' NOT YET IMPLEMENTED '
   end

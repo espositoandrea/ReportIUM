@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'asciidoctor'
 require 'yaml'
 require 'date'
@@ -7,16 +9,21 @@ require 'zip'
 require 'fileutils'
 
 require_relative './surveys'
+require_relative './files-location'
+
+def dirname
+  File.join File.dirname(__FILE__), '..'
+end
 
 def generate_euristic(input, author = 'FSC -- Five Students of Computer Science')
   data = YAML.load_file input
-  template = File.read File.join(File.dirname(__FILE__), './valutazione-euristica/_master/main.adoc')
+  template = File.read File.join(dirname, 'valutazione-euristica/_master/main.adoc')
 
   template.gsub!(/~~AUTHOR~~/, author)
   template.gsub!(/~~DATE~~/, data['data'])
 
   base_name = File.basename(input, File.extname(input))
-  File.write File.join(File.dirname(__FILE__), './valutazione-euristica/', base_name, base_name + '.adoc'), template
+  File.write File.join(dirname, 'valutazione-euristica/', base_name, base_name + '.adoc'), template
 
   process_string = lambda do |string|
     string = string[1].to_s unless string.kind_of? String
@@ -38,13 +45,13 @@ def generate_euristic(input, author = 'FSC -- Five Students of Computer Science'
   end
   table += "|===\n"
 
-  File.write File.join(File.dirname(__FILE__), './valutazione-euristica/', base_name, 'table.adoc'), table
+  File.write File.join(dirname, 'valutazione-euristica/', base_name, 'table.adoc'), table
 
   return unless data['commenti']
 
   comments = ''
   data['commenti'].each { |comment| comments += "* #{process_string.call comment}\n" }
-  File.write File.join(File.dirname(__FILE__), './valutazione-euristica/', base_name, 'comments.adoc'), comments
+  File.write File.join(dirname, 'valutazione-euristica/', base_name, 'comments.adoc'), comments
 end
 
 def create_table_from_survey(entries)
@@ -53,7 +60,7 @@ def create_table_from_survey(entries)
   table += "|===\n"
 end
 
-def create_zip_file(zip_name, file_list, relative = true)
+def create_zip_file(zip_name, file_list)
   dirname = File.dirname zip_name
   FileUtils.mkdir_p dirname unless File.directory? dirname
   File.delete(zip_name) if File.exist?(zip_name)
@@ -68,13 +75,13 @@ end
 
 def create_sus_from_excel
   out = []
-  ratings = Roo::Excelx.new File.join(File.dirname(__FILE__), 'risultati-google-form.xlsx')
+  ratings = Roo::Excelx.new ReportFiles::Data::GOOGLE_FORM
   ratings.sheet(0).each_row_streaming(offset: 1) { |rating| out.push sus(rating, out.size + 1) }
   out
 end
 
 def create_nps_from_excel(column)
-  xlsx = Roo::Excelx.new File.join(File.dirname(__FILE__), 'risultati-google-form.xlsx')
+  xlsx = Roo::Excelx.new ReportFiles::Data::GOOGLE_FORM
   ratings = []
   xlsx.column(column).drop(1).each { |x| ratings.push x.to_i }
 
@@ -180,12 +187,12 @@ def create_nps_from_excel(column)
     }
   EOS
 
-  File.write File.join(File.dirname(__FILE__), 'grafici/fig-risultati-nps.json'), graph
+  File.write File.join(dirname, 'graphs/fig-risultati-nps.json'), graph
 
 end
 
 def standard_deviation(array)
   mean = array.sum / array.size
-  sum = array.inject(0) { |accum, i| accum + ((i - mean) ** 2) }
-  Math.sqrt(sum / (array.size).to_f)
+  sum = array.inject(0) { |accum, i| accum + ((i - mean)**2) }
+  Math.sqrt(sum / array.size.to_f)
 end

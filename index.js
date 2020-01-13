@@ -3,7 +3,7 @@ module.exports.chartsToSVG = function () {
     const path = require('path');
     const fs = require('fs');
     
-    const directoryPath = path.join(__dirname, 'grafici');
+    const directoryPath = path.join(__dirname, 'src/graphs');
 
     fs.readdir(directoryPath, function (err, files) {
         if (err) {
@@ -17,7 +17,7 @@ module.exports.chartsToSVG = function () {
 
             view.toSVG()
                 .then(function (svg) {
-                    let output = path.join(__dirname, 'documentazione/images', path.basename(file, path.extname(file)) + ".svg");
+                    let output = path.join(__dirname, 'src/documentazione/images', path.basename(file, path.extname(file)) + ".svg");
                     fs.writeFile(output, svg, function (error) {
                         if (error) return console.log(error);
                     })
