@@ -21,3 +21,11 @@ tecniche:
 La valutazione con tecnica thinking aloud richiederà, inoltre, il coinvolgimento
 di sei utenti, opportunamente selezionati in base a criteri di profilazione
 specifici in modo che siano rappresentativi della possibile utenza del sito.
+
+WARNING: Il team ha notato durante le varie sessioni di valutazione che il sito
+web in oggetto subiva frequenti variazioni e modifiche. Per questo motivo, lo
+stato del sito nel momento in cui si legge questo documento potrebbe essere
+diverso da quello che il team ha valutato. Per questo motivo tutte le
+segnalazioni e le valutazioni descritte sono da intendersi valide solo per il
+sito nello stato in cui era alla data della valutazione stessa (tale data è
+quindi riportata se necessaria).

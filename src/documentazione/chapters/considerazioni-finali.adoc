@@ -1,57 +1,165 @@
 == Considerazioni finali
 
-Le attività di test precedentemente documentate hanno permesso ai componenti del gruppo di avere un quadro generale più ampio riguardo l'usabilità del sito analizzato. 
-Queste attività, insieme alla "`Tabella di valutazione euristica`" (<<tab-valutazione-euristica>>), sono state utili per trarre delle conclusioni più critiche e mirate. 
+Le attività di test precedentemente documentate hanno permesso ai componenti del
+gruppo di avere un quadro generale più ampio riguardo l'usabilità del sito
+analizzato. Queste attività, insieme alla "`Tabella di valutazione euristica`"
+(<<tab-valutazione-euristica>>), sono state utili per trarre delle conclusioni
+più critiche e mirate. 
 
-Di seguito vengono proposti i paragrafi contenenti le considerazioni relative alla interfaccia, i contenuti, le esperienze dell'utente e le metodologie di valutazione utilizzate.
+Di seguito vengono proposti i paragrafi contenenti le considerazioni relative
+alla interfaccia, i contenuti, le esperienze dell'utente e le metodologie di
+valutazione utilizzate.
 
 === Interfaccia
-Al termine delle attività di valutazione è dunque possibile formulare alcune importanti considerazioni circa l'interfaccia grafica del sito in questione. Le problematiche emerse a seguito dell'analisi dell'interazione tra i tester ed il sito in analisi, hanno consetivo l'identificazione di alcune criticità, che se fossero risolte o mitigate potrebbero incrementare la facilità d'uso del prodotto.
 
-Si ricoda, infatti, che l'usabilità di un prodotto software è determinata anche dall'usabilità della corrispondente interfaccia che viene utilizzata dagli utente per usufruire delle funzionalità, dei servizi e dei contenuti offerti dal sito stesso.
+Al termine delle attività di valutazione è dunque possibile formulare alcune
+importanti considerazioni circa l'interfaccia grafica del sito in questione. Le
+problematiche emerse a seguito dell'analisi dell'interazione tra i tester ed il
+sito in analisi, hanno consentito l'identificazione di alcune criticità, che se
+fossero risolte o mitigate potrebbero incrementare la facilità d'uso del
+prodotto.
 
-Nel caso specifico, l'osservazione del comportamento dei partecipanti, unitamente all'osservazione delle modalità con cui questi hanno utilizzato gli strumenti ed i contenuti del sito, ha consentito la formulazione delle seguenti considerazioni fra cui si raccolgono sia punti di forza che soprattutto le principali criticità:
+Si ricorda, infatti, che l'usabilità di un prodotto software è determinata anche
+dall'usabilità della corrispondente interfaccia che viene utilizzata dagli
+utente per usufruire delle funzionalità, dei servizi e dei contenuti offerti dal
+sito stesso.
 
-* Si può percepire che i tester sono molto disorientati nell'utilizzo dell'interfaccia.
-* È possibile dedurre che durante la navigazione i partecipanti al test si soffermavano molto sulla navbar, soprattutto utenti della fascia "`Over 60`", avendo la necessità di inquadrare ogni possibile task senza dover navigare l'intera Home page.
-* Le label sono risultate inadeguante per le informazioni che contengono. Ad esempio, la metà dei partecipanti non è riuscita a completare il quinto task in quanto la label "`Vivere Taranto`", presente nella navbar, non fa capire e/o percepire che contiene le attrazioni presenti nella città (_in questo task si faceva riferimento ai cinema presenti a Taranto_).
-* I partecipanti hanno avuto difficoltà a usufruire dei bottoni presenti all'interno della home page in quanto non sono reali bottoni ma sono dei link. Soprattutti i tester "`Over 60`" si soffermavano, come dovrebbe essere, nell'area del bottone e non sul link rimanendo perplessi del mancato cambiamento di stato del sistema, ovvero non si aveva nessun indirizzamento alla pagina desiderata.
-* Sempre nella home page, è evidente che le _news_ possono essere confuse con gli _eventi_ in quanto viene data la stessa importanza ad entrambe avendo label inadeguate, rispettivamente "`In primo piano`" e "`In evidenza`", e anche perchè sono rappresentati entrambi da un carosello.
-* Si ha una disposizione non strategica dei link: nella home page la sezione "`Servizi`" doveva essere introdotta all'interno della navbar soprattutto per facilitare utenti "`Over 60`", che si soffermano sull'area iniziale della home, e anche perchè ha una certa importanza per un sito del comune.
-* Le cards presenti, come ad esempio nella pagina "`Aree tematiche`", hanno immagini che non rispecchiano la label sottostante e soprattutto non rappresentano il loro contenuto.
-* Sempre riguardo le cards, i tester hanno notato che le immagini risultano essere cliccabili e che hanno un collegamento ipertestuale differente dai reali link a cui fanno riferimento.
-* Sempre riguardo le cards, solo l'immagine e il link contenuta nella singola card sono cliccabili il resto dell'area no.
-* Le icone che presenti nel sito in analisi risulta essere confusionale per i tester in quanto in alcune pagine, per tutti i link prensenti nella stessa, sono uguali mentre in altre non rispecchiano la label e il contenuto. 
-Un esempio di quest'ultimo caso: si può notare che all'interno della home page nella sezione "`Servizi`" si ha l'icona raffigurante una _clessidra_ che dovrebbe rappresentare la pagina "`Bandi di concorso`" ma si capisce bene che non hanno nessun riferimento.
-* Nessun partecipante non è riuscito a completare il secondo task, come si era previsto, in quanto la pagina contenente gli orari e gli uffici non è raggiungibile se non attraverso la barra di ricerca o attraverso la mappa del sito e questo è sinonimo di non usabilità.
-* In alcune pagine, i partecipanti hanno avuto un disorientamento netto, in quanto non avvertiti attraverso un pop-up, nell'accedere a un collegamento e ritrovarsi nel sito precendete del Comune di Taranto.
-* Gli utenti che hanno partecipato al test dell'usabilità, non sono riusciti a completare l'ultimo task in quanto non è ben visibile e ben contornata l'area dei portali che si trovano nella home page subito sopra la mappa della città.
-Questi portali sono visualizzati come se fossero delle pubblicità e non dei servizi importanti che un cittadino comune dovrebbe utilizzare per pagare ad esempio la tassa della TARI. Questo, quindi, ha una scarsa affordance.
-* Nonostante la presenza di breadcrumbs, alcuni partecipanti hanno manifestato un senso di disorientamento che ha, in alcuni casi, determinato l'abbandono della navigazione. 
-* I tester hanno notato l'incoerenza tra i collegamente ipertestuali a cui accedevano e il contenuto che gli veniva mostrato.
-* La presenza di link doppi ha destabilizzato alcuni tester in quanto hanno espresso, come anche riportato nella <<tab-valutazione-euristica>>, l'inappropriato utilizzo di un singolo bottone per rappresentare due link differenti che hanno, oltretutto, due contesti diversi. 
+Nel caso specifico, l'osservazione del comportamento dei partecipanti,
+unitamente all'osservazione delle modalità con cui questi hanno utilizzato gli
+strumenti ed i contenuti del sito, ha consentito la formulazione delle seguenti
+considerazioni fra cui si raccolgono sia punti di forza che soprattutto le
+principali criticità:
 
-In conclusione, è necessario una rivalutazione da parte dei progettisti del sito web per poter rendere usabile e accessibile il sito in analisi.
+* Si può percepire che i tester sono molto disorientati nell'utilizzo
+  dell'interfaccia.
+
+* È possibile dedurre che durante la navigazione i partecipanti al test si
+  soffermavano molto sulla navbar, soprattutto utenti della fascia "`Over 60`",
+  avendo la necessità di inquadrare ogni possibile task senza dover navigare
+  l'intera Home page.
+
+* Le label sono risultate inadeguate per le informazioni che contengono. Ad
+  esempio, la metà dei partecipanti non è riuscita a completare il quinto task in
+  quanto la label "`Vivere Taranto`", presente nella navbar, non fa capire e/o
+  percepire che contiene le attrazioni presenti nella città (_in questo task si
+  faceva riferimento ai cinema presenti a Taranto_).
+
+* I partecipanti hanno avuto difficoltà a usufruire dei bottoni presenti
+  all'interno della home page in quanto non sono reali bottoni ma sono dei link.
+  Soprattutto i tester "`Over 60`" si soffermavano, come dovrebbe essere,
+  nell'area del bottone e non sul link rimanendo perplessi del mancato cambiamento
+  di stato del sistema, ovvero non si aveva nessun indirizzamento alla pagina
+  desiderata.
+
+* Sempre nella home page, è evidente che le _news_ possono essere confuse con
+  gli _eventi_ in quanto viene data la stessa importanza ad entrambe avendo label
+  inadeguate, rispettivamente "`In primo piano`" e "`In evidenza`", e anche perché
+  sono rappresentati entrambi da un carosello.
+
+* Si ha una disposizione non strategica dei link: nella home page la sezione
+  "`Servizi`" doveva essere introdotta all'interno della navbar soprattutto per
+  facilitare utenti "`Over 60`", che si soffermano sull'area iniziale della home,
+  e anche perché ha una certa importanza per un sito del comune.
+
+* Le _cards_ presenti, come ad esempio nella pagina "`Aree tematiche`", hanno
+  immagini che non rispecchiano la label sottostante e soprattutto non
+  rappresentano il loro contenuto.
+
+* Sempre riguardo le cards, i tester hanno notato che le immagini risultano
+  essere cliccabili e che hanno un collegamento ipertestuale differente dai reali
+  link a cui fanno riferimento.
+
+* Sempre riguardo le cards, solo l'immagine e il link contenuta nella singola
+  card sono cliccabili il resto dell'area no.
+
+* Le icone che presenti nel sito in analisi risulta essere confusionale per i
+  tester in quanto in alcune pagine, per tutti i link prensenti nella stessa, sono
+  uguali mentre in altre non rispecchiano la label e il contenuto. Un esempio di
+  quest'ultimo caso: si può notare che all'interno della home page nella sezione
+  "`Servizi`" si ha l'icona raffigurante una _clessidra_ che dovrebbe
+  rappresentare la pagina "`Bandi di concorso`" ma si capisce bene che non hanno
+  nessun riferimento.
+
+* Nessun partecipante non è riuscito a completare il secondo task, come si era
+  previsto, in quanto la pagina contenente gli orari e gli uffici non è
+  raggiungibile se non attraverso la barra di ricerca o attraverso la mappa del
+  sito e questo è sinonimo di non usabilità.
+
+* In alcune pagine, i partecipanti hanno avuto un disorientamento netto, in
+  quanto non avvertiti attraverso un pop-up, nell'accedere a un collegamento e
+  ritrovarsi nel sito precedente del Comune di Taranto.
+
+* Gli utenti che hanno partecipato al test dell'usabilità, non sono riusciti a
+  completare l'ultimo task in quanto non è ben visibile e ben contornata l'area
+  dei portali che si trovano nella home page subito sopra la mappa della città.
+  Questi portali sono visualizzati come se fossero delle pubblicità e non dei
+  servizi importanti che un cittadino comune dovrebbe utilizzare per pagare ad
+  esempio la tassa della TARI. Questo, quindi, ha una scarsa _affordance_.
+
+* Nonostante la presenza di breadcrumbs, alcuni partecipanti hanno manifestato
+  un senso di disorientamento che ha, in alcuni casi, determinato l'abbandono
+  della navigazione.
+
+* I tester hanno notato l'incoerenza tra i collegamente ipertestuali a cui
+  accedevano e il contenuto che gli veniva mostrato.
+
+* La presenza di link doppi ha destabilizzato alcuni tester in quanto hanno
+  espresso, come anche riportato nella <<tab-valutazione-euristica>>,
+  l'inappropriato utilizzo di un singolo bottone per rappresentare due link
+  differenti che hanno, oltretutto, due contesti diversi. 
+
+In conclusione, è necessario una rivalutazione da parte dei progettisti del sito
+web per poter rendere usabile e accessibile il sito in analisi.
 
 === Contenuti
-Al termine delle attività di valutazioni è inoltre possibile formulare alcune considerazioni relative ai contenuti. L'osservazione delle dinamiche di interazioni tra il sito ed i partecipanti coinvolti nella valutazione ha consentito l'indentificazione di alcune criticità.
 
-Si sottolinea come la corretta strutturazione dell'informazione e dei contenuti siano aspetti da ritenersi fondamentali alla realizzazione di un sito web facile da usare. L'usabilità di un sito web può infatti essere anche realizzata attraverso l'uso di soluzioni che garantiscono la comprensibilità e la raggiungibilità e l'accessibilità delle informazioni.
+Al termine delle attività di valutazioni è inoltre possibile formulare alcune
+considerazioni relative ai contenuti. L'osservazione delle dinamiche di
+interazioni tra il sito ed i partecipanti coinvolti nella valutazione ha
+consentito l'identificazione di alcune criticità.
 
-Nel caso specifico del sito in analisi, il comportamento dei partecipanti ha reso evidenti alcune problematiche che si riferiscono alla strutturazione delle informazioni e dei contenuti. In particolare è emerso quanto segue:
+Si sottolinea come la corretta strutturazione dell'informazione e dei contenuti
+siano aspetti da ritenersi fondamentali alla realizzazione di un sito web facile
+da usare. L'usabilità di un sito web può infatti essere anche realizzata
+attraverso l'uso di soluzioni che garantiscono la comprensibilità e la
+raggiungibilità e l'accessibilità delle informazioni.
 
-* Per alcuni contenuti non è garantita la raggiungibilità in un numero ridotto di click soprattutto se, come in questo caso, le label sono fuorvianti.
-* Per alcuni contenuti non è garantita la raggiungibilità se non attraverso l'utilizzo della mappa o la barra di ricerca del sito.
-* In molti casi i partecipanti hanno mostrato incapacità o difficoltà nell'identificazione delle informazioni richieste durante i task in quanto non sono ben differenziati i contenuti all'interno del sito web.
-* In molte occasioni, i partecipanti si sono retenuti incapaci a identificare i persorsi di navigazione corretti: tale problematica si ritiene legata ad una scarsa gerarchizzazione dei contenuti, che qualora incrementata, potrebbe consentire all'utente di individuare facilmente le informazioni di suo interesse.
-* Si è riscontrato incoerenza tra il contenuto e il collegamento a cui i tester hanno effettuato il click.
-* Si percepisce che i contenuti sono redatti in modo fuorviante provocando dubbi nei tester. Come ad esempio, trovandosi nella pagina di una biblioteca presente a Taranto, hanno pensato di poter trovare all'interno i relativi bandi.
+Nel caso specifico del sito in analisi, il comportamento dei partecipanti ha
+reso evidenti alcune problematiche che si riferiscono alla strutturazione delle
+informazioni e dei contenuti. In particolare è emerso quanto segue:
 
-In conclusione, è necessario che gli adetti alla pubblicazione dei contenuti siano ben consapevoli e convinti dell'inserimento di informazioni in una pagina piuttosto che in un'altra e che siano ben certi che ciò che andranno a inserire sia comprensibile anche agli utenti più comuni.
+* Per alcuni contenuti non è garantita la raggiungibilità in un numero ridotto
+  di click soprattutto se, come in questo caso, le label sono fuorvianti.
+
+* Per alcuni contenuti non è garantita la raggiungibilità se non attraverso
+  l'utilizzo della mappa o la barra di ricerca del sito.
+
+* In molti casi i partecipanti hanno mostrato incapacità o difficoltà
+  nell'identificazione delle informazioni richieste durante i task in quanto non
+  sono ben differenziati i contenuti all'interno del sito web.
+
+* In molte occasioni, i partecipanti si sono ritenuti incapaci a identificare i
+  percorsi di navigazione corretti: tale problematica si ritiene legata ad una
+  scarsa gerarchizzazione dei contenuti, che qualora incrementata, potrebbe
+  consentire all'utente di individuare facilmente le informazioni di suo
+  interesse.
+
+* Si è riscontrato incoerenza tra il contenuto e il collegamento a cui i tester
+  hanno effettuato il click.
+
+* Si percepisce che i contenuti sono redatti in modo fuorviante provocando dubbi
+  nei tester. Come ad esempio, trovandosi nella pagina di una biblioteca presente
+  a Taranto, hanno pensato di poter trovare all'interno i relativi bandi.
+
+In conclusione, è necessario che gli addetti alla pubblicazione dei contenuti
+siano ben consapevoli e convinti dell'inserimento di informazioni in una pagina
+piuttosto che in un'altra e che siano ben certi che ciò che andranno a inserire
+sia comprensibile anche agli utenti più comuni.
 
 === Esperienza utente
 
-Come emerso dai test effettuati, il sito tende a disorientare l'utente portandolo in uno stato confusionale.
+Come emerso dai test effettuati, il sito tende a disorientare l'utente
+portandolo in uno stato confusionale.
 
 Uno degli errori più gravi e degno di nota riguarda le label dei link in quanto:
 
@@ -61,10 +169,36 @@ Uno degli errori più gravi e degno di nota riguarda le label dei link in quanto
 
 In seguito a ciò che è stato appena elencato possiamo analizzare alcuni esempi:
 
-* Molte label sono ambigue come, ad esempio, "`Settori, Servizi e Uffici comunali`". Questa pagina da l'idea di trovare gli uffici comunali, di poter visionare i settori degli uffici e di mostrare i servizi offerti dal comune. Tutto ciò non è presente una volta aperta la pagina, infatti la stessa mostra un grafico rappresentante il consiglio comunale.
-*  Molti link non rispecchiano ciò che contengono come, ad esempio, "`Amministrazione e Uffici`" che si trova nella navbar presente nell'header di tutte le pagine. Una volta cliccato, veniamo a scoprire che il nome non rispecchia ciò che promette perchè troviamo informazioni riguardo l'amministrazione comunale, l'organizzazione del comune, il sindaco, il consiglio ecc. mentre le informazioni sugli uffici comunali non sono presenti. 
-* Per riflettere riguardo la scarsa disposizione delle informazioni, prendiamo in esempio la sezione "`Servizi`" presente nella "`Home Page`": quanto emerso dai test ci conferma che sarebbe stato più efficace creare una pagina a se stante (come fatto con "`Aree Tematiche`") invece di includerla all'interno di una pagina già complessa infatti, molti tester, tendevano proprio ad ignorare tale sezione basandosi principalmente sulla navabar principale. 
+* Molte label sono ambigue come, ad esempio, "`Settori, Servizi e Uffici
+  comunali`". Questa pagina da l'idea di trovare gli uffici comunali, di poter
+  visionare i settori degli uffici e di mostrare i servizi offerti dal comune.
+  Tutto ciò non è presente una volta aperta la pagina, infatti la stessa mostra un
+  grafico rappresentante il consiglio comunale.
 
-Il comportamento della maggior parte degli utenti dimostra che le parti più importanti del sito sono state ignorate dai progettisti dando più spazio a zone meno utili per l'utente finale, confermando i punti descritti nella "`Tabella di valutazione euristica`" (<<tab-valutazione-euristica>>) e gli esempi riportati sopra. Questa grave pecca comporta una scarsa qualità del sito e una navigabilità molto più complessa per chi lo utilizza per la prima volta. Inoltre, la navigazione da parte di utenti meno esperti porta a utilizzare lo strumento di ricerca del sito che, come riconosciuto da alcuni test preliminari effettuati dal team, è poco accurato e molto grossolano causando la perdita di informazioni che sono presenti ma che vengono involontariamente nascoste all'utente.
+*  Molti link non rispecchiano ciò che contengono come, ad esempio,
+  "`Amministrazione e Uffici`" che si trova nella navbar presente nell'header di
+  tutte le pagine. Una volta cliccato, veniamo a scoprire che il nome non
+  rispecchia ciò che promette perché troviamo informazioni riguardo
+  l'amministrazione comunale, l'organizzazione del comune, il sindaco, il
+  consiglio ecc. mentre le informazioni sugli uffici comunali non sono presenti.
+  
+* Per riflettere riguardo la scarsa disposizione delle informazioni, prendiamo
+  in esempio la sezione "`Servizi`" presente nella "`Home page`": quanto emerso
+  dai test ci conferma che sarebbe stato più efficace creare una pagina a se
+  stante (come fatto con "`Aree Tematiche`") invece di includerla all'interno di
+  una pagina già complessa infatti, molti tester, tendevano proprio ad ignorare
+  tale sezione basandosi principalmente sulla navbar principale. 
+
+Il comportamento della maggior parte degli utenti dimostra che le parti più
+importanti del sito sono state ignorate dai progettisti dando più spazio a zone
+meno utili per l'utente finale, confermando i punti descritti nella "`Tabella di
+valutazione euristica`" (<<tab-valutazione-euristica>>) e gli esempi riportati
+sopra. Questa grave pecca comporta una scarsa qualità del sito e una
+navigabilità molto più complessa per chi lo utilizza per la prima volta.
+Inoltre, la navigazione da parte di utenti meno esperti porta a utilizzare lo
+strumento di ricerca del sito che, come riconosciuto da alcuni test preliminari
+effettuati dal team, è poco accurato e molto grossolano causando la perdita di
+informazioni che sono presenti ma che vengono involontariamente nascoste
+all'utente.
 
 === Metodologie utilizzate

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A vertical 2D box plot showing median, min, and max in the US population distribution of age groups in 2000.",
+  "width": 200,
+  "height": 200,
+  "data": {
+    "values":[
+      {"mark":2},{"mark":7},{"mark":4},{"mark":3},{"mark":6},{"mark":2}
+    ]
+  },
+  "mark": {
+    "type": "boxplot",
+    "extent": 1.5,
+    "median": {"color": "red"},
+    "ticks": true
+  },
+  "encoding": {
+    "y": {
+      "field": "mark",
+      "type": "quantitative",
+      "axis": {"title": "NPS"}
+    },
+    "size": {"value":40}
+  }
+}

@@ -1,8 +1,9 @@
 module.exports.chartsToSVG = function () {
     const vega = require('vega');
     const path = require('path');
+    const vegaLite = require('vega-lite');
     const fs = require('fs');
-    
+
     const directoryPath = path.join(__dirname, 'src/graphs');
 
     fs.readdir(directoryPath, function (err, files) {
@@ -13,6 +14,9 @@ module.exports.chartsToSVG = function () {
         files.forEach(function (file) {
             let rawdata = fs.readFileSync(path.join(directoryPath, file));
             let spec = JSON.parse(String(rawdata));
+            if (spec['$schema'] === "https://vega.github.io/schema/vega-lite/v4.json") {
+                spec = vegaLite.compile(spec).spec;
+            }
             let view = new vega.View(vega.parse(spec), {renderer: 'none'});
 
             view.toSVG()

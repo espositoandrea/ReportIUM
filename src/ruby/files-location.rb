@@ -16,11 +16,33 @@ module ReportFiles
   end
 
   module Heuristic
-    ALESSANDRO = ReportFiles.relative_path '../valutazione-euristica/alessandro.yml'
-    ANDREA = ReportFiles.relative_path '../valutazione-euristica/andrea.yml'
-    TOTAL = ReportFiles.relative_path '../valutazione-euristica/complessiva.yml'
-    DAVIDE = ReportFiles.relative_path '../valutazione-euristica/davide.yml'
-    GRAZIANO = ReportFiles.relative_path '../valutazione-euristica/graziano.yml'
-    REGINA = ReportFiles.relative_path '../valutazione-euristica/regina.yml'
+    BASE_FOLDER = ReportFiles.relative_path '../heuristic'
+
+    ALESSANDRO = File.join BASE_FOLDER, 'alessandro.yml'
+    ANDREA = File.join BASE_FOLDER, 'andrea.yml'
+    TOTAL = File.join BASE_FOLDER, 'complessiva.yml'
+    DAVIDE = File.join BASE_FOLDER, 'davide.yml'
+    GRAZIANO = File.join BASE_FOLDER, 'graziano.yml'
+    REGINA = File.join BASE_FOLDER, 'regina.yml'
+
+    TEMPLATE = File.join BASE_FOLDER, '_master/main.adoc'
+
+    def self.get_folder(author)
+      File.join BASE_FOLDER, author
+    end
+
+    module Generated
+      def self.get_comments(author)
+        File.join(ReportFiles::Heuristic.get_folder(author), 'comments.adoc')
+      end
+
+      def self.get_table(author)
+        File.join(ReportFiles::Heuristic.get_folder(author), 'table.adoc')
+      end
+
+      def self.get_main(author)
+        File.join(ReportFiles::Heuristic.get_folder(author), "#{author}.adoc")
+      end
+    end
   end
 end

@@ -1,0 +1,5 @@
+.Risultato System Usability Scale
+***************
+[.lead.text-center]
+29.17
+***************

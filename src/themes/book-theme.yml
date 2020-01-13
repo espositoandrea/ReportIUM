@@ -19,6 +19,9 @@ toc:
 blockquote:
   font-size: $base-font-size
 
+caption:
+  align: center
+
 header:
   height: 1.5cm
   padding: [15, 0, 0, 0]

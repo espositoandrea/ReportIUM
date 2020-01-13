@@ -27,9 +27,21 @@ appartenenti al gruppo di valutazione.
 Lo svolgimento delle attività previste dalle metodologie precedentemente citate
 prevede l'assunzione di ruoli specifici:
 
-•	Facilitatore: è presente dal momento in cui il tester si accomoda fino ai saluti finali; ha il compito di introdurre e guidare il tester nelle attività di valutazione, di definire le regole da far rispettare durante lo svolgimento dei compiti; è inoltre disponibile per offrire chiarimenti su dubbi da parte del tester;
+Facilitatore:: È presente dal momento in cui il tester si accomoda fino ai
+saluti finali; ha il compito di introdurre e guidare il tester nelle attività di
+valutazione, di definire le regole da far rispettare durante lo svolgimento dei
+compiti; è inoltre disponibile per offrire chiarimenti su dubbi da parte del
+tester;
 
-•	Osservatore: è presente durante l’intervista e non partecipa attivamente all’attività di valutazione, in quanto non interagisce con il partecipante; l'osservatore ha il compito di prendere nota dei comportamenti del tester durante l’uso del sito e degli effetti del suo modo di interagire con questo durante lo svolgimento dei compiti proposti;
+Osservatore:: È presente durante l'intervista e non partecipa attivamente
+all'attività di valutazione, in quanto non interagisce con il partecipante;
+l'osservatore ha il compito di prendere nota dei comportamenti del tester
+durante l'uso del sito e degli effetti del suo modo di interagire con questo
+durante lo svolgimento dei compiti proposti;
 
-Nello svolgimento delle attività di test, tutti membri del gruppo hanno svolto a rotazione sia il compito di facilitatore che di osservatore.
-
+Nello svolgimento delle attività di test, tutti membri del gruppo hanno svolto a
+rotazione sia il compito di facilitatore che di osservatore. Inoltre, tutti i
+membri del team hanno svolto un'attività di valutazione euristica del sito web,
+che ha portato alla generazione di alcune tabelle di valutazione. Tali tabelle
+sono poi state condensate nella tabella di valutazione euristica complessiva
+(<<tab-valutazione-euristica>>).

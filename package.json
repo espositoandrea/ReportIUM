@@ -19,6 +19,7 @@
   "homepage": "https://github.com/espositoandrea/ReportIUM#readme",
   "dependencies": {
     "vega": "^5.9.0",
-    "vega-cli": "^5.9.0"
+    "vega-cli": "^5.9.0",
+    "vega-lite": "^4.0.2"
   }
 }

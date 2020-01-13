@@ -8,7 +8,7 @@ v1.0.0, 10 gennaio 2019: Stesura del documento "README"
 :sectnumsdepth: 5
 :xrefstyle: short
 :media: prepress
-include::./locale/attributes.adoc[]
+include::./src/locale/attributes.adoc[]
 
 == Informazioni di base
 
@@ -18,6 +18,15 @@ Corso di Laurea:: Informatica e Comunicazione Digitale
 Corso:: Interazione Uomo Macchina
 Anno Accademico:: 2019/2020
 Contatti del referente:: {author} <{email}>
+
+WARNING: Il team ha notato durante le varie sessioni di valutazione che il sito
+web in oggetto subiva frequenti variazioni e modifiche. Per questo motivo, lo
+stato del sito nel momento in cui si legge questo documento potrebbe essere
+diverso da quello che il team ha valutato. Per questo motivo tutte le
+segnalazioni e le valutazioni descritte sono da intendersi valide solo per il
+sito nello stato in cui era alla data della valutazione stessa (tale data è
+quindi riportata se necessaria).
+
 
 == Il gruppo di lavoro
 

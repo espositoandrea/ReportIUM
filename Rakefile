@@ -20,38 +20,38 @@ end
 namespace :euristica do
   desc 'Genera la tabella di valutazione di Andrea'
   task :andrea do
-    generate_euristic 'src/valutazione-euristica/andrea.yml', 'Andrea Esposito'
-    Asciidoctor.convert_file 'src/valutazione-euristica/andrea/andrea.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
+    generate_euristic ReportFiles::Heuristic::ANDREA, 'Andrea Esposito'
+    Asciidoctor.convert_file ReportFiles::Heuristic::Generated.get_main('andrea'), backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione di Alessandro'
   task :alessandro do
-    generate_euristic 'src/valutazione-euristica/alessandro.yml', 'Alessandro Annese'
-    Asciidoctor.convert_file 'src/valutazione-euristica/alessandro/alessandro.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
+    generate_euristic ReportFiles::Heuristic::ALESSANDRO, 'Alessandro Annese'
+    Asciidoctor.convert_file ReportFiles::Heuristic::Generated.get_main('alessandro'), backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione di Davide'
   task :davide do
-    generate_euristic 'src/valutazione-euristica/davide.yml', 'Davide De Salvo'
-    Asciidoctor.convert_file 'src/valutazione-euristica/davide/davide.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
+    generate_euristic ReportFiles::Heuristic::DAVIDE, 'Davide De Salvo'
+    Asciidoctor.convert_file ReportFiles::Heuristic::Generated.get_main('davide'), backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione di Graziano'
   task :graziano do
-    generate_euristic 'src/valutazione-euristica/graziano.yml', 'Graziano Montanaro'
-    Asciidoctor.convert_file 'src/valutazione-euristica/graziano/graziano.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
+    generate_euristic ReportFiles::Heuristic::GRAZIANO, 'Graziano Montanaro'
+    Asciidoctor.convert_file ReportFiles::Heuristic::Generated.get_main('graziano'), backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione di Regina'
   task :regina do
-    generate_euristic 'src/valutazione-euristica/regina.yml', 'Regina Zaccaria'
-    Asciidoctor.convert_file 'src/valutazione-euristica/regina/regina.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
+    generate_euristic ReportFiles::Heuristic::REGINA, 'Regina Zaccaria'
+    Asciidoctor.convert_file ReportFiles::Heuristic::Generated.get_main('regina'), backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 
   desc 'Genera la tabella di valutazione complessiva'
   task :complessiva do
-    generate_euristic 'src/valutazione-euristica/complessiva.yml'
-    Asciidoctor.convert_file 'src/valutazione-euristica/complessiva/complessiva.adoc', backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
+    generate_euristic ReportFiles::Heuristic::TOTAL
+    Asciidoctor.convert_file ReportFiles::Heuristic::Generated.get_main('complessiva'), backend: 'pdf', safe: :unsafe, to_dir: 'out/', attributes: {'lang' => 'it', 'pdf-theme' => 'article', 'pdf-themesdir' => './src/themes'}, mkdirs: true
   end
 end
 
@@ -203,10 +203,21 @@ namespace :parziale do
     (0..questions.size - 1).each do |i|
       table += "|#{i + 1}|#{questions[i]}|#{average_answers[i]}|#{average_ratings[i]}\n"
     end
-    table += "3+h|Valutazione totale ^.^h|#{((results.map { |x| x[:total] }).sum.to_f / results.size).round(2)}\n"
+    sus_score = ((results.map { |x| x[:total] }).sum.to_f / results.size).round(2)
+    table += "3+h|Valutazione totale ^.^h|#{sus_score}\n"
     table += "3+h|Deviazione standard ^.^h|#{standard_deviation(results.map { |x| x[:total] }).round(2)}\n"
     table += "|===\n"
     File.write path, table
+
+    score = <<~EOS
+  .Risultato System Usability Scale
+  ***************
+  [.lead.text-center]
+  #{sus_score}
+  ***************
+    EOS
+
+    File.write File.join(dirname, 'documentazione/tables/sus-score.adoc'), score
   end
 end
 

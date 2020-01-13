@@ -1,6 +1,6 @@
 == Valutazione euristica
 
-include::../../valutazione-euristica/complessiva/table.adoc[]
+include::../../heuristic/complessiva/table.adoc[]
 
 == Metodologia thinking aloud
 
@@ -72,30 +72,27 @@ include::tasks/successo.adoc[]
 
 ==== Risultati Net Promoter Score
 
-ifndef::backend-pdf[]
-[[fig-risultati-nps]]
-.I risultati del NPS
-image::images/fig-risultati-nps.svg[role=right]
-
-Si riporta in <<fig-risultati-nps>> Un riepilogo dei risultati del questionario
-_Net Promoter Score (NPS)_. È evidente dall'assenza totale di utenti promotori
-del sito che sono state riscontrate diverse difficoltà nel suo utilizzo: sono
-evidentemente preponderanti, infatti, gli utenti detrattori del sito.
-endif::[]
-ifdef::backend-pdf[]
-[cols="<.<, >.^", frame=none, grid=none]
+[cols="<.^, >.^", frame=none, grid=none]
 |===
-a|Si riporta in <<fig-risultati-nps>> Un riepilogo dei risultati del questionario
-_Net Promoter Score (NPS)_. È evidente dall'assenza totale di utenti promotori
-del sito che sono state riscontrate diverse difficoltà nel suo utilizzo: sono
-evidentemente preponderanti, infatti, gli utenti detrattori del sito.
-
 a|
 [[fig-risultati-nps]]
-.I risultati del NPS
-image::images/fig-risultati-nps.svg[role=right]
+.Un diagramma a torta rappresentante la suddivisione dell'utenza nelle classi "`Promotori`", "`Neutri`" o "`Detrattori`" derivante dai questionari NPS
+image::./images/fig-risultati-nps.svg[role=right]
+
+a|
+[[fig-risultati-nps-boxplot]]
+.Un _box plot_ rappresentante la disposizione delle valutazioni del questionario NPS
+image::./images/fig-risultati-nps-boxplot.svg[role=right]
 |===
-endif::[]
+
+Si riporta in <<fig-risultati-nps>> e in <<fig-risultati-nps-boxplot>> un
+riepilogo dei risultati del questionario _Net Promoter Score (NPS)_. È evidente
+dall'assenza totale di utenti promotori del sito che sono state riscontrate
+diverse difficoltà nel suo utilizzo: sono evidentemente preponderanti, infatti,
+gli utenti detrattori del sito.
+
+include::../tables/nps-score.adoc[]
+
 
 ==== Risultati del System Usability Scale
 
@@ -120,8 +117,11 @@ valutazioni SUS ricevute.
 
 include::../tables/sus/complessiva.adoc[]
 
+include::../tables/sus-score.adoc[]
+
 Il punteggio complessivo è di *29.17*, un punteggio molto basso che sottolinea
 una scarsa usabilità del sito. Questo risultato è in linea con le previsioni che
 è possibile fare guardando solo la tabella di valutazione euristica
 (<<tab-valutazione-euristica>>), dove quasi tutti i problemi riscontrati sono
 caratterizzati da una gravità alta.
+

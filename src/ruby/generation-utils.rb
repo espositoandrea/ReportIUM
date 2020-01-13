@@ -17,16 +17,16 @@ end
 
 def generate_euristic(input, author = 'FSC -- Five Students of Computer Science')
   data = YAML.load_file input
-  template = File.read File.join(dirname, 'valutazione-euristica/_master/main.adoc')
+  template = File.read ReportFiles::Heuristic::TEMPLATE
 
   template.gsub!(/~~AUTHOR~~/, author)
   template.gsub!(/~~DATE~~/, data['data'])
 
   base_name = File.basename(input, File.extname(input))
-  File.write File.join(dirname, 'valutazione-euristica/', base_name, base_name + '.adoc'), template
+  File.write ReportFiles::Heuristic::Generated.get_main(base_name), template
 
   process_string = lambda do |string|
-    string = string[1].to_s unless string.kind_of? String
+    string = string[1].to_s unless string.is_a? String
     string.gsub!(/([^a-zA-Z])['‘](.*?)['’]/, '\1\'`\2`\'')
     string.gsub!(/["“](.*?)["”]/, '"`\1`"')
     string.gsub!(/``(.*?)''/, '"`\1`"')
@@ -45,13 +45,13 @@ def generate_euristic(input, author = 'FSC -- Five Students of Computer Science'
   end
   table += "|===\n"
 
-  File.write File.join(dirname, 'valutazione-euristica/', base_name, 'table.adoc'), table
+  File.write ReportFiles::Heuristic::Generated.get_table(base_name), table
 
   return unless data['commenti']
 
   comments = ''
   data['commenti'].each { |comment| comments += "* #{process_string.call comment}\n" }
-  File.write File.join(dirname, 'valutazione-euristica/', base_name, 'comments.adoc'), comments
+  File.write ReportFiles::Heuristic::Generated.get_comments(base_name), comments
 end
 
 def create_table_from_survey(entries)
@@ -189,10 +189,53 @@ def create_nps_from_excel(column)
 
   File.write File.join(dirname, 'graphs/fig-risultati-nps.json'), graph
 
+  data = ""
+  ratings.each { |x| data += "{\"mark\":#{x}}," }
+  data.delete_suffix! ','
+  graph = <<~EOS
+    {
+      "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+      "description": "A vertical 2D box plot showing median, min, and max in the US population distribution of age groups in 2000.",
+      "width": 200,
+      "height": 200,
+      "data": {
+        "values":[
+          #{data}
+        ]
+      },
+      "mark": {
+        "type": "boxplot",
+        "extent": 1.5,
+        "median": {"color": "red"},
+        "ticks": true
+      },
+      "encoding": {
+        "y": {
+          "field": "mark",
+          "type": "quantitative",
+          "axis": {"title": "NPS"}
+        },
+        "size": {"value":40}
+      }
+    }
+  EOS
+
+  File.write File.join(dirname, 'graphs/fig-risultati-nps-boxplot.json'), graph
+
+  score = <<~EOS
+  .Net Promoter Score
+  ***************
+  [.lead.text-center]
+  #{nps_results[:score]}
+  ***************
+  EOS
+
+  File.write File.join(dirname, 'documentazione/tables/nps-score.adoc'), score
+
 end
 
 def standard_deviation(array)
   mean = array.sum / array.size
-  sum = array.inject(0) { |accum, i| accum + ((i - mean)**2) }
+  sum = array.inject(0) { |accum, i| accum + ((i - mean) ** 2) }
   Math.sqrt(sum / array.size.to_f)
 end
