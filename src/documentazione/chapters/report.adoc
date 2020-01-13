@@ -1,6 +1,52 @@
 == Valutazione euristica
 
+Nelle seguenti tabelle di valutazione, la gravità è espressa in una scala di
+interi nell'intervallo +[1, 5]+, dove 1 indica un problema lieve e 5 un problema
+grave.
+
+=== Tabelle di valutazione parziali
+
+Di seguito si riportano le tabelle parziali dei valutatori. Ogni tabella è
+seguita da ulteriori commenti forniti dal membro del team (se presenti).
+
+==== Tabella di {author_2}
+
+include::../../heuristic/alessandro/table.adoc[]
+
+===== Commenti
+
+include::../../heuristic/alessandro/comments.adoc[]
+
+==== Tabella di {author_3}
+
+include::../../heuristic/davide/table.adoc[]
+
+==== Tabella di {author}
+
+include::../../heuristic/andrea/table.adoc[]
+
+===== Commenti
+
+include::../../heuristic/andrea/comments.adoc[]
+
+==== Tabella di {author_4}
+
+include::../../heuristic/graziano/table.adoc[]
+
+==== Tabella di {author_5}
+
+include::../../heuristic/regina/table.adoc[]
+
+=== Tabella di valutazione complessiva
+
+Si riporta nella <<tab-valutazione-euristica>> la tabella di valutazione
+euristica complessiva che il team ha prodotto in seguito a una discussione interna.
+
 include::../../heuristic/complessiva/table.adoc[]
+
+==== Commenti
+
+include::../../heuristic/complessiva/comments.adoc[]
 
 == Metodologia thinking aloud
 
@@ -72,7 +118,7 @@ include::tasks/successo.adoc[]
 
 ==== Risultati Net Promoter Score
 
-[cols="<.^, >.^", frame=none, grid=none]
+[cols="^.^, ^.^", frame=none, grid=none]
 |===
 a|
 [[fig-risultati-nps]]

@@ -2,7 +2,7 @@
 .Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da FSC -- Five Students of Computer Science.
 [cols="^.^1h,^.^2,^.^3,^.^2,^.^3,^.^2", options="header"]
 |===
-| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
+| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità
 | 1 | _Diverse pagine_ | Alcuni bottoni non sono realmente bottoni ma link | Visibilità dello stato del sistema | Rendere il bottone cliccabile rimuovendo l'hyperlink contenuto al suo interno | 4 
 | 2 | Home page | La sezione "`In primo piano`" (che mostra una carrellata delle ultime notizie, sezione ritenuta fondamentale) non è raggiungibile senza effettuare un scroll | Visibilità dello stato del sistema | Ridurre la dimensione del banner e della navbar del sito _o_ spostare la sezione in una sidebar _o_ più in alto nella pagina (per esempio, affiancandola al carosello di immagini) | 4 
 | 3 | Home page | Effettuando uno scroll dopo aver attivato il tooltip del calendario, effettuando uno scroll della pagina verso il basso, questo si sovrappone alla navbar. Lo stesso problema si verifica con gli indicatori del carosello di notizie (sezioni "`In primo piano`" e "`In evidenza`") | Visibilità dello stato del sistema | Ridurre la durata del tooltip o impostare esplicitamente un ordine degli elementi sull'asse `Z` | 2 

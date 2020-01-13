@@ -37,7 +37,7 @@ def generate_euristic(input, author = 'FSC -- Five Students of Computer Science'
   table = author != 'FSC -- Five Students of Computer Science' ? "[[tab-valutazione-euristica-#{author.gsub(" ", "")}]]\n" : "[[tab-valutazione-euristica]]\n"
   table += ".Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da #{author}.\n"
   table += "[cols=\"^.^1h,^.^2,^.^3,^.^2,^.^3,^.^2\", options=\"header\"]\n|===\n"
-  table += "| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]\n"
+  table += "| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità\n"
   data['problemi'].each_with_index do |row, i|
     table += "| #{i + 1} "
     row.each { |column| table += "| #{process_string.call column} " }

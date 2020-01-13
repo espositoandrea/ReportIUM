@@ -2,7 +2,7 @@
 .Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da Andrea Esposito.
 [cols="^.^1h,^.^2,^.^3,^.^2,^.^3,^.^2", options="header"]
 |===
-| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
+| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità
 | 1 | Home page | I bottoni presenti nella sezione "`Servizi`" non sono realmente bottoni ma link | Visibilità dello stato del sistema | Trasformare i link in bottoni, rendendo cliccabile anche il loro sfondo | 4 
 | 2 | Home page | Nella sezione "`Servizi`", alcuni bottoni sono in realtà dei link doppi, ovvero aventi target differenti in base alla zona cliccata. | Visibilità dello stato del sistema | Suddividere i due link in due bottoni differenti | 5 
 | 3 | Pagina "`Bandi di concorso`" | Il link per accedere ai bandi precedenti al 28/11/2019 fa uscire l'utente dal sito senza alcun avvertimento | Riconoscimento piuttosto di memorizzazione | Variare l'icona del link o introdurre un messaggio pop-up che avvisi l'utente | 3 

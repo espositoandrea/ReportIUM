@@ -212,6 +212,8 @@ namespace :parziale do
     score = <<~EOS
   .Risultato System Usability Scale
   ***************
+  image::./images/grafico_sus_complessivo.png[]
+
   [.lead.text-center]
   #{sus_score}
   ***************
@@ -282,7 +284,11 @@ namespace :dist do
 end
 
 desc 'Crea ZIP per la consegna'
-task dist: ['dist:zip']
+task dist: ['dist:zip', 'html']
+
+task :html do
+  Asciidoctor.convert_file ReportFiles::REPORT, backend: 'html', safe: :unsafe, to_dir: 'docs/', attributes: {'lang' => 'it'}, mkdirs: true
+end
 
 task :install do
   sh 'bundle install'

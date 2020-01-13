@@ -1,5 +1,7 @@
 .Risultato System Usability Scale
 ***************
+image::./images/grafico_sus_complessivo.png[]
+
 [.lead.text-center]
 29.17
 ***************

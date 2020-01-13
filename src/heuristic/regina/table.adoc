@@ -2,7 +2,7 @@
 .Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da Regina Zaccaria.
 [cols="^.^1h,^.^2,^.^3,^.^2,^.^3,^.^2", options="header"]
 |===
-| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
+| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità
 | 1 | Home | Se il cursone punta a un evento il tooltip che compare andando a scorrere verso il basso si sovrappone alla navbar | Visibilità dello stato di sistema | Ridurre la durata della comparsa del tooltip | 3 
 | 2 | Sezione Servizi | Presenza di bottoni che in realtà hanno degli hyperlink all'interno | Visibilità dello stato del sistema | Rimuovere l'hyperlink e rendere il bottone cliccabile | 5 
 | 3 | Sezione Servizi | Presenza di hyperlink che sembrano essere due ma in realtà è uno solo | Visibilità dello stato del sistema | Rimuovere l'hyperlink e rendere il bottone cliccabile | 5 

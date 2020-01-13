@@ -11,3 +11,4 @@ gem 'asciidoctor-pdf'
 gem 'roo', '~> 2.8.0'
 gem 'ruby-progressbar'
 gem 'rubyzip'
+gem "rake", "~> 13.0"

@@ -22,6 +22,9 @@ endif::[]
 
 == Tabella dei risultati
 
+La gravità è espressa in una scala di interi nell'intervallo +[1, 5]+, dove 1
+indica un problema lieve e 5 un problema grave.
+
 include::table.adoc[]
 
 == Ulteriori commenti

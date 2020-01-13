@@ -27,6 +27,8 @@ GEM
     mini_portile2 (2.4.0)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.7-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
     pdf-core (0.7.0)
     pdf-reader (2.4.0)
       Ascii85 (~> 1.0.0)
@@ -49,6 +51,7 @@ GEM
       pdf-reader (~> 2.0)
       prawn (~> 2.2)
     public_suffix (4.0.3)
+    rake (13.0.1)
     roo (2.8.2)
       nokogiri (~> 1)
       rubyzip (>= 1.2.1, < 2.0.0)
@@ -63,14 +66,16 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   asciidoctor
   asciidoctor-diagram
   asciidoctor-pdf
+  rake (~> 13.0)
   roo (~> 2.8.0)
   ruby-progressbar
   rubyzip
 
 BUNDLED WITH
-   2.1.1
+   2.1.4

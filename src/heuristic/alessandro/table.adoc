@@ -2,7 +2,7 @@
 .Tabella dei risultati della valutazione euristica condotta sul sito del comune di Taranto da Alessandro Annese.
 [cols="^.^1h,^.^2,^.^3,^.^2,^.^3,^.^2", options="header"]
 |===
-| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità{blank}footnote:[Scala +[1, 5]+, dove 1 indica un problema lieve e 5 un problema grave]
+| N.ro | Locazione | Problema | Euristica violata | Possibile soluzione | Grado di severità
 | 1 | Home Page | I bottoni presenti nella sezione "`Servizi`" sono in realtà contenitori di link. | Visibilità dello stato del sistema | Rendere il bottone cliccabile (con i relativi cambi di stato) rimuovendone il link | 4 
 | 2 | Home Page | La sezione "`In primo piano`", che mostra una carrellata delle ultime news del comune, è mostrata in modo integrale effettuando lo scroll della pagina. | Visibilità dello stato del sistema | Spostare la sezione in una parte più alta della pagina affiancandola, ad esempio, al carosello di immagini. | 5 
 | 3 | Home Page | Nella sezione "`Servizi`" alcuni bottoni hanno, al loro interno, dei link doppi che puntano a due pagine differenti. | Visibilità dello stato del sistema | Dividere i link in due bottoni differenti | 5 
