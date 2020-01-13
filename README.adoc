@@ -19,6 +19,11 @@ Corso:: Interazione Uomo Macchina
 Anno Accademico:: 2019/2020
 Contatti del referente:: {author} <{email}>
 
+Una versione HTML online del report è disponibile al seguente link:
+https://espositoandrea.github.io/ReportIUM/[espositoandrea.github.io/ReportIUM].
+Si noti che tale sito web sarà chiuso poco dopo l'appello d'esame e ha il solo
+scopo di rendere più leggibile la documentazione.
+
 WARNING: Il team ha notato durante le varie sessioni di valutazione che il sito
 web in oggetto subiva frequenti variazioni e modifiche. Per questo motivo, lo
 stato del sito nel momento in cui si legge questo documento potrebbe essere
