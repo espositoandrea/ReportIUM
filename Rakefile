@@ -266,7 +266,7 @@ namespace :dist do
     # TODO: Implement
     Asciidoctor.convert_file ' README.adoc ', backend: ' html ', safe: :unsafe, attributes: {' lang ' => ' it '}, mkdirs: true
     file_list = {
-        ' README.html ' => ' README.html ',
+        'README.html' => 'README.html',
         'report/ReportIUM.pdf' => 'out/ReportIUM.pdf',
         'report/euristica/alessandro.pdf' => 'out/alessandro.pdf',
         'report/euristica/andrea.pdf' => 'out/andrea.pdf',

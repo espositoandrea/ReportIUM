@@ -200,5 +200,3 @@ strumento di ricerca del sito che, come riconosciuto da alcuni test preliminari
 effettuati dal team, è poco accurato e molto grossolano causando la perdita di
 informazioni che sono presenti ma che vengono involontariamente nascoste
 all'utente.
-
-=== Metodologie utilizzate
