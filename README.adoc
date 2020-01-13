@@ -51,10 +51,10 @@ in ordine alfabetico).
 
 == Lo ZIP consegnato
 
-Lo ZIP consegnato contiene un'unica cartella (oltre il presente file e la
-presentazione PowerPoint): la cartella `report/`, contenente tutto il materiale
-prodotto dal team. Si riporta di seguito una descrizione di tutti i file
-consegnati.
+Lo ZIP consegnato contiene due cartelle (oltre il presente file): la cartella
+`report/`, contenente tutto il materiale prodotto dal team, e la cartella
+`slides/`, contenente la presentazione del progetto. Si riporta di seguito una
+descrizione di tutti i file consegnati.
 
 `report/`::
     Questa cartella rappresenta la consegna del team.
@@ -80,8 +80,15 @@ consegnati.
     `report/ReportIUM.pdf`::: 
         Questo documento è la relazione del test prodotta dal team.
 
-`Presentazione.pptx`::
-    La presentazione PowerPoint mostrata durante la prova orale.
+`slides/`::
+    Questa cartella contiene la presentazione PowerPoint mostrata durante
+    l'esame orale.
+    
+    `slides/Presentazione.pptx`:::
+        La presentazione PowerPoint mostrata durante la prova orale.
+    `slides/Presentazione.pdf`:::
+        La presentazione PowerPoint mostrata durante la prova orale (in formato
+        PDF).
 
 `README.html`:: Questo file.
 

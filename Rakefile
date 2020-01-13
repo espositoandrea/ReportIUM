@@ -276,7 +276,8 @@ namespace :dist do
         'report/euristica/davide.pdf' => 'out/davide.pdf',
         'report/euristica/graziano.pdf' => 'out/graziano.pdf',
         'report/euristica/regina.pdf' => 'out/regina.pdf',
-        'Presentazione.pptx' => 'presentation/Presentazione IUM.pptx'
+        'slides/Presentazione.pptx' => 'presentation/Presentazione IUM.pptx',
+        'slides/Presentazione.pdf' => 'presentation/Presentazione IUM.pdf'
     }
     create_zip_file 'out/fsc.zip', file_list
     File.delete 'README.html'
