@@ -287,6 +287,7 @@ desc 'Crea ZIP per la consegna'
 task dist: ['dist:zip', 'html']
 
 task :html do
+  FileUtils.copy_entry 'src/documentazione/images', 'docs/images'
   Asciidoctor.convert_file ReportFiles::REPORT, backend: 'html', safe: :unsafe, to_dir: 'docs/', attributes: {'lang' => 'it'}, to_file: 'index.html', mkdirs: true
 end
 
