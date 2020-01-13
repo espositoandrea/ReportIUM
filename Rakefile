@@ -252,11 +252,11 @@ namespace :dist do
   task euristica: ['euristica'] do
     file_list = {
         'alessandro.pdf' => 'out/ alessandro.pdf ',
-        ' andrea.pdf ' => ' out / andrea.pdf ',
-        ' complessiva.pdf ' => ' out / complessiva.pdf ',
-        ' davide.pdf ' => ' out / davide.pdf ',
-        ' graziano.pdf ' => ' out / graziano.pdf ',
-        ' regina.pdf ' => ' out / regina.pdf '
+        'andrea.pdf' => 'out/andrea.pdf',
+        'complessiva.pdf' => 'out/complessiva.pdf',
+        'davide.pdf' => 'out/davide.pdf',
+        'graziano.pdf' => 'out/graziano.pdf',
+        'regina.pdf' => 'out/regina.pdf'
     }
     create_zip_file ' out / euristica.zip ', file_list
   end
@@ -273,7 +273,8 @@ namespace :dist do
         'report/euristica/complessiva.pdf' => 'out/complessiva.pdf',
         'report/euristica/davide.pdf' => 'out/davide.pdf',
         'report/euristica/graziano.pdf' => 'out/graziano.pdf',
-        'report/euristica/regina.pdf' => 'out/regina.pdf'
+        'report/euristica/regina.pdf' => 'out/regina.pdf',
+        'Presentazione.pptx' => 'presentation/Presentazione IUM.pptx'
     }
     create_zip_file 'out/fsc.zip ', file_list
     File.delete ' README.html '
