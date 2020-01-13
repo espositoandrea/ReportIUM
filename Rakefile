@@ -261,10 +261,10 @@ namespace :dist do
     create_zip_file ' out / euristica.zip ', file_list
   end
 
-  desc ' Crea ZIP per la consegna '
-  task zip: [' documentazione '] do
+  desc 'Crea ZIP per la consegna'
+  task zip: ['documentazione'] do
     # TODO: Implement
-    Asciidoctor.convert_file ' README.adoc ', backend: ' html ', safe: :unsafe, attributes: {' lang ' => ' it '}, mkdirs: true
+    Asciidoctor.convert_file 'README.adoc', backend: 'html', safe: :unsafe, attributes: {'lang' => 'it'}, mkdirs: true
     file_list = {
         'README.html' => 'README.html',
         'report/ReportIUM.pdf' => 'out/ReportIUM.pdf',
@@ -276,16 +276,15 @@ namespace :dist do
         'report/euristica/regina.pdf' => 'out/regina.pdf',
         'Presentazione.pptx' => 'presentation/Presentazione IUM.pptx'
     }
-    create_zip_file 'out/fsc.zip ', file_list
-    File.delete ' README.html '
-    puts ' NOT YET IMPLEMENTED '
+    create_zip_file 'out/fsc.zip', file_list
+    File.delete 'README.html'
   end
 end
 
-desc ' Crea ZIP per la consegna '
-task dist: [' dist : zip ']
+desc 'Crea ZIP per la consegna'
+task dist: ['dist:zip']
 
 task :install do
-  sh ' bundle install '
-  sh ' npm install '
+  sh 'bundle install'
+  sh 'npm install'
 end

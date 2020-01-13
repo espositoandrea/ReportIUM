@@ -68,7 +68,7 @@ def create_zip_file(zip_name, file_list)
   Zip.continue_on_exists_proc = true
   Zip::File.open(zip_name, Zip::File::CREATE) do |zipfile|
     file_list.each do |zip_filename, filename|
-      zipfile.add zip_filename, File.join(File.dirname(__FILE__), filename)
+      zipfile.add zip_filename, filename
     end
   end
 end
