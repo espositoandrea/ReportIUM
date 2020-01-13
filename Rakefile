@@ -260,7 +260,7 @@ namespace :dist do
         'graziano.pdf' => 'out/graziano.pdf',
         'regina.pdf' => 'out/regina.pdf'
     }
-    create_zip_file ' out / euristica.zip ', file_list
+    create_zip_file 'out/euristica.zip', file_list
   end
 
   desc 'Crea ZIP per la consegna'
@@ -287,7 +287,7 @@ desc 'Crea ZIP per la consegna'
 task dist: ['dist:zip', 'html']
 
 task :html do
-  Asciidoctor.convert_file ReportFiles::REPORT, backend: 'html', safe: :unsafe, to_dir: 'docs/', attributes: {'lang' => 'it'}, mkdirs: true
+  Asciidoctor.convert_file ReportFiles::REPORT, backend: 'html', safe: :unsafe, to_dir: 'docs/', attributes: {'lang' => 'it'}, to_file: 'index.html', mkdirs: true
 end
 
 task :install do
